@@ -1,7 +1,7 @@
 # seosaw.bitbucket.io - the SEOSAW website
 
+This is the website for SEOSAW.
 
 
 
-
-Jekyll-Pithy is a theme for Jekyll. The code follows MIT License.
+This website uses the Jekyll-Pithy theme for Jekyll. The code follows MIT License.
