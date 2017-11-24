@@ -19,4 +19,4 @@ pipelines:
             - bundler --version
             - bundle install
             - bundle exec jekyll build
-            - git push https://$githubtoken@github.com/johngodlee/seosaw.bitbucket.io.git master
+            - git push -f https://$githubtoken@github.com/johngodlee/seosaw.bitbucket.io.git master
