@@ -8,7 +8,7 @@ html,body {
 .header {
     padding: 50px 20px 40px;
     //background-color: #104c3a;
-		 background-image: url("/images/miombo_banner.jpg");
+		 background-image: url("{{ site.baseurl }}/images/miombo_banner.jpg");
 }
 
 .header-container {
