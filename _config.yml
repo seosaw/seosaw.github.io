@@ -5,7 +5,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   A Socio-Ecological Observatory for Southern African Woodlands
 baseurl: "/seosaw.bitbucket.io" # the subpath of your site, e.g. /blog/
-url: "http://johngodlee.github.io" # the base hostname - THIS WILL CHANGE
+url: "http://seosaw.github.io" # the base hostname - THIS WILL CHANGE
 bitbucket_username: miombo
 bitbucket_repo: seosaw
 
