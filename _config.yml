@@ -3,13 +3,11 @@ title: SEOSAW
 motto: A Socio-Ecological Observatory for Southern African Woodlands
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A Socio-Ecological Observatory for Southern African Woodlands
 baseurl: "/seosaw.bitbucket.io" # the subpath of your site, e.g. /blog/
-url: "http://johngodlee.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+url: "http://johngodlee.github.io" # the base hostname - THIS WILL CHANGE
+bitbucket_username: miombo
+bitbucket_repo: seosaw
 
 # Build settings
 markdown: kramdown
