@@ -4,8 +4,8 @@ motto: A Socio-Ecological Observatory for Southern African Woodlands
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   A Socio-Ecological Observatory for Southern African Woodlands
-baseurl: "/seosaw.bitbucket.io" # the subpath of your site, e.g. /blog/
 url: "http://seosaw.github.io" # the base hostname - THIS WILL CHANGE
+baseurl: "" # the subpath of your site, e.g. /blog/
 bitbucket_username: miombo
 bitbucket_repo: seosaw
 
