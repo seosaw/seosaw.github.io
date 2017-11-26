@@ -156,12 +156,14 @@ pre {
  * Wrapper
  */
 .wrapper {
+    min-height: 100%;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-bottom: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -222,6 +224,7 @@ body {
     line-height: 18px;
     color: #737373;
     background-color: white;
+    height: 100%;
 }
 
 /**
@@ -234,7 +237,7 @@ table {
 
 .people {
 	table-layout: fixed;
-	width: 1000px;
+	width: 100%;
 }
 
 td {
@@ -392,11 +395,3 @@ sup {
     }
 }
 
-/**
- * Floating images and text
- */
-
-.main-content img {
-   float: left;
-   padding: 0 20px 20px 0;
-}
