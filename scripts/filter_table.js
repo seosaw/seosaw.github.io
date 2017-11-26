@@ -1,4 +1,4 @@
-function searchTable() {
+function filterTable() {
 		var input, filter, found, table, tr, td, i, j;
 		input = document.getElementById("myInput");
 		filter = input.value.toUpperCase();
@@ -19,3 +19,4 @@ function searchTable() {
 				}
 		}
 }
+

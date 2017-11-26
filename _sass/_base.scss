@@ -43,8 +43,6 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
-		padding-top: 50px;
-		padding-bottom: 50 px;
 }
 
 
@@ -239,7 +237,7 @@ table {
 	width: 1000px;
 }
 
-td,th {
+td {
     padding: 3px 10px;
 }
 
@@ -256,8 +254,31 @@ th {
 	border-bottom: 1px solid #ddd;
 }
 .paper_year {
+	width: 50px;
 	border-bottom: 1px solid #ddd;
 }
+
+table.tablesorter thead tr .headerSortNone {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url('../images/table_arrow/bg.gif');
+    padding-right: 5px;
+
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url('../images/table_arrow/asc.gif');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+}
+
+table.tablesorter thead tr .headerSortDown {
+    background-image: url('../images/table_arrow/desc.gif');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+}
+
 
 a {
     color: #0069d6;
@@ -280,7 +301,7 @@ h5,
 h6 {
     color: #404040;
     line-height: 36px;
-		padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 h1 {
     margin-bottom: 18px;

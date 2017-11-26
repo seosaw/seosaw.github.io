@@ -7,12 +7,13 @@ html,body {
  */
 .header {
     padding: 50px 20px 40px;
-    background-color: #33C2E6;
-		 //background-image: url("{{ site.baseurl }}/images/miombo_banner.jpg");
+    //background-color: #33C2E6;
+    background-image: url("../images/miombo_banner.jpg");
+    background-size: cover;
 }
 
 .header-container {
-    max-width: 700px;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin: 0px auto;
 }
 
@@ -77,8 +78,15 @@ li {
     color: #FFF;
 }
 
+.nav-bar-title { 
+    font-size: 50px;
+    color: #FFF;
+    margin-left: -2px;
+    padding-top: 20px;
+}
+
 .description {
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 12px;
     line-height: 1.5em;
     color: #EEE;
@@ -183,18 +191,17 @@ li {
  * Footer
  */
 .footer {
-    font-size: 11px;
-    text-align: center;
-	color: #666;
+    //background-image: url("../images/footer_banner.jpg");
+    background-color: #89b0f1;
 }
 
-#gotop {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 15px;
-    font-size: 20px;
-    background: #515865;
-    color: white;
-    cursor: pointer;
+.partner-logo li {
+    display: inline-block;
+    padding-left: 20px;
 }
+
+.partner-logo img {
+    width: 50px;
+    padding-top: 20px;
+}
+

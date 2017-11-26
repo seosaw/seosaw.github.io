@@ -1,19 +1,29 @@
 ---
 layout: default
 ---
-<script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 
+<script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
+<script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
+<script>
+    $(function(){
+      $("#myTable").tablesorter({ sortList: [[0,0]],
+     		headerTemplate: '{content}{icon}' });
+    });
+</script>
 <h2>People</h2>
 
-<input id='myInput' onkeyup='searchTable()' type='text', placeholder="Filter...">
+<input id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
 
- <table class="people" id="myTable">
-	 <tr id='tableHeader'>
+<table class="people tablesorter" id="myTable">
+	<thead> 
+	<tr id='tableHeader'>
 		 <th>Name</th>
 		 <th>Insitution</th>
 		 <th>Location</th>
 		 <th>Email</th>
 	 </tr>
+	</thead>
+	<tbody id='tableBody'>
 	 <tr>
 		 <td>John Godlee</td>
 		 <td>University of Edinburgh</td>
@@ -22,9 +32,10 @@ layout: default
 
 	 </tr>
 	 <tr>
-		 <td>Paris specialites</td>
-		 <td>France</td>
-		 <td>test_text</td>
-		 <td>France_2</td>
+		 <td>Casey Ryan</td>
+		 <td>University of Edinburgh</td>
+		 <td>United Kingdom</td>
+		 <td>casey.ryan@ed.ac.uk</td>
 	 </tr>
+	</tbody>
  </table>
