@@ -74,7 +74,7 @@ li {
 }
 
 .title li a:hover {
-    opacity: 1;
+    opacity: 0.5;
     color: #FFF;
 }
 
@@ -108,11 +108,12 @@ li {
 }
 
 .social-links a:active {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 
 .social-links a:hover {
-	opacity: 0.8;
+    opacity: 0.8;
+    transition: all 0.15s linear 0s;
 }
 
 
@@ -143,6 +144,12 @@ li {
 #line {
 	opacity: 0.2;
 	color: #000;
+}
+
+.inst_float { 
+	float: left;
+	max-width: 200px;
+	max-height:200px;
 }
 
 /**
@@ -209,13 +216,23 @@ li {
     min-height: 100px;
 }
 
+.footer-logo li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    padding-top: 20px;
+}
+
 .partner-logo li {
     display: inline-block;
     padding-left: 20px;
 }
 
 .partner-logo img {
-    width: 50px;
+    max-width: 200px;
     padding-top: 20px;
 }
 
