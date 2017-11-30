@@ -1,127 +1,127 @@
-html,body {
+body,
+html {
 	-moz-osx-font-smoothing: grayscale;
 }
-
 /**
  * Header
  */
 .header {
-    padding: 50px 20px 40px;
-    //background-color: #33C2E6;
-    background-image: url("../images/miombo_banner.jpg");
-    background-size: cover;
+	padding: 50px 20px 40px;
+	//background-color: #33C2E6;
+	background-image: url("../images/miombo_banner.jpg");
+	background-size: cover;
 }
 
 .header-container {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin: 0px auto;
+	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+	margin: 0 auto;
 }
 
 .nav {
 	color: #707070;
 	text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: "Montserrat",sans-serif;
-    display:inline;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "Montserrat",sans-serif;
+	display: inline;
 }
 
 .nav li {
-    padding-right: 20px;
-    display: inline-block;
-    line-height: 1;
+	padding-right: 20px;
+	display: inline-block;
+	line-height: 1;
 }
 
 li {
-    margin-left: 0px;
-    line-height: 1.7em;
+	margin-left: 0;
+	line-height: 1.7em;
 }
 
 .nav a {
-    color: #959BA6;
+	color: #959BA6;
 }
 
 .nav a:link {
-    opacity: 1;
-    transition: all 0.15s linear 0s;
-    text-decoration: none;
+	opacity: 1;
+	transition: all 0.15s linear 0s;
+	text-decoration: none;
 }
 
 .nav li a:visited {
-    opacity: 1;
-    transition: all 0.15s linear 0s;
-    text-decoration: none;
+	opacity: 1;
+	transition: all 0.15s linear 0s;
+	text-decoration: none;
 }
 
 .nav li a:hover {
-    opacity: 0.6;
-    cursor: pointer;
-    text-decoration: none;
+	opacity: 0.6;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .title li a {
-    color: #FFF;
+	color: #FFF;
 }
 
 .title li a:link {
-    color: #FFF;
+	color: #FFF;
 }
 
 .title li a:visited {
-    opacity: 1;
-    transition: all 0.15s linear 0s;
-    text-decoration: none;
+	opacity: 1;
+	transition: all 0.15s linear 0s;
+	text-decoration: none;
 }
 
 .title li a:hover {
-    opacity: 0.7;
-    color: #FFF;
+	opacity: 0.7;
+	color: #FFF;
 }
 
-.nav-bar-title { 
-    font-size: 50px;
-    color: #FFF;
-    margin-left: -2px;
-    padding-top: 20px;
+.nav-bar-title {
+	font-size: 50px;
+	color: #FFF;
+	margin-left: -2px;
+	padding-top: 20px;
 }
 
 .description {
-    padding-top: 20px;
-    font-size: 12px;
-    line-height: 1.5em;
-    color: #EEE;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #EEE;
 }
 
 .social-links {
-    padding-top: 10px;
-	margin-left: 0px;
+	padding-top: 10px;
+	margin-left: 0;
 }
 
 .social-links li {
-    display: inline;
-    padding-right: 10px;
-    line-height: 0;
+	display: inline;
+	padding-right: 10px;
+	line-height: 0;
 }
 
 .social-links a {
-    color: #959BA6;
+	color: #959BA6;
 }
 
 .social-links a:active {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 .social-links a:hover {
-    opacity: 0.8;
-    transition: all 0.15s linear 0s;
+	opacity: 0.8;
+	transition: all 0.15s linear 0s;
 }
-
 
 .post-meta {
 	color: #666;
 	font-size: 12px;
-	margin-left: 0px;
+	margin-left: 0;
 }
+
 .content {
 	margin-top: 20px;
 	color: #666;
@@ -129,7 +129,7 @@ li {
 }
 
 .post-list {
-	list-style:none;
+	list-style: none;
 }
 
 .post-list li h3 {
@@ -146,12 +146,11 @@ li {
 	color: #000;
 }
 
-.inst_float { 
+.inst_float {
 	float: left;
 	max-width: 200px;
-	max-height:200px;
+	max-height: 200px;
 }
-
 /**
  * Artist
  */
@@ -163,26 +162,23 @@ li {
 .well ul {
 	color: #AAA;
 	font-size: 14px;
-	list-style:none;
+	list-style: none;
 }
 
 .well ul a {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .well ul a:hover {
 	color: #000;
 }
-
 /**
  * Category
  */
- .category-box {
-	font-weight:bold;
+.category-box {
+	font-weight: bold;
 	font-size: 16px;
- }
-
-
+}
 /**
  * About
  */
@@ -191,48 +187,111 @@ li {
 }
 
 .main-container {
-    position: relative;
-    min-height: 100vh; 
-    overflow: hidden;
-    display: block;
-    padding-bottom: 100px; /* height of footer */
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	padding-bottom: 100px;
+	/* height of footer */
 }
 
 .landing-img {
-   float: left;
-   padding-right: 20px;
-   padding-bottom: 20px
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
-
 /**
  * Footer
  */
 .footer {
-    //background-image: url("../images/footer_banner.jpg");
-    background-color: #89b0f1;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
+	//background-image: url("../images/footer_banner.jpg");
+	background-color: #89b0f1;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
 }
 
 .footer-logo li {
-    display: inline-block;
-    padding-left: 20px;
+	display: inline-block;
+	padding-left: 20px;
 }
 
 .footer-logo img {
-    max-height: 40px;
-    padding-top: 5px; 
+	max-height: 40px;
+	padding-top: 5px;
 }
 
 .partner-logo li {
-    display: inline-block;
-    padding-left: 20px;
+	display: inline-block;
+	padding-left: 20px;
 }
 
 .partner-logo img {
-    max-width: 200px;
-    padding-top: 20px;
+	max-width: 200px;
+	padding-top: 20px;
+}
+/**
+ *
+ * Masonry grid
+ */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
 }
 
+.grid-item {
+	height: 130px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	line-height: 125px;
+	border: 2px solid #333;
+	border-color: hsla(0, 0%, 0%, 0.5);
+	border-radius: 5px;
+}
+
+.grid-item img {
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.hovereffect {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.hovereffect img {
+	position: relative;
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.hovereffect:hover > img {
+	opacity: 0.2;
+	transition: all 0.2s ease-in-out;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.overlay h2 {
+	text-transform: uppercase;
+	position: absolute;
+	top: 20%;
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.overlay:hover > h2 {
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}

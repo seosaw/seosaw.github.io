@@ -4,6 +4,8 @@ layout: default
 
 <script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 <script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
+<script src="{{ site.baseurl }}/scripts/masonry.pkgd.min.js"></script>
+
 <script>
     $(function(){
       $("#myTable").tablesorter({ sortList: [[0,0]],
@@ -11,12 +13,21 @@ layout: default
     });
 </script>
 
+<script>
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+	percentPosition: true,
+	columnWidth: '.grid-sizer'
+});
+</script>
+
 <h2>People</h2>
 
 <input id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
 
 <table class="people tablesorter" id="myTable">
-	<thead> 
+	<thead>
 	<tr id='tableHeader'>
 		 <th>Name</th>
 		 <th>Insitution</th>
@@ -41,40 +52,28 @@ layout: default
 	</tbody>
  </table>
 
- <ul class="partner-logo">
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/uoe.png" alt="UoE">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/usda.png" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/sasscal.png" alt="UoE">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/uga.png" alt="UoE">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/uham.png" alt="UoE">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/uz.jpg" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/wits.png" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/makeni.png" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/isced.png" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/luanar.png" alt="USDA">
-    </li>
-    <li>
-        <img src="{{ site.baseurl }}/images/inst_logos/saeon.jpg" alt="USDA">
-    </li>
 
+<div class="grid">
+  <div class="grid-item">
+		<div class="hovereffect">
+      <img src="{{ site.baseurl }}/images/inst_logos/uoe.png" alt=""/>
+      <div class="overlay">
+			  <h2>The University of Edinburgh</h2>
+  	  </div>
+    </div>
+  </div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/usda.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/sasscal.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/uga.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/uham.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/uz.jpg" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/wits.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/makeni.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/isced.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/luanar.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/saeon.jpg" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/glp.png" alt=""/></div>
+<div class="grid-item"><img src="{{ site.baseurl }}/images/inst_logos/uem.jpg" alt=""/></div>
+</div>
 
-
+<div class="overlay"><h2>fndjsafd</h2></div>
