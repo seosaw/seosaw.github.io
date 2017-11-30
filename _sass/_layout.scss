@@ -235,6 +235,7 @@ li {
  *
  * Masonry grid
  */
+
 .grid:after {
 	content: '';
 	display: block;
@@ -243,13 +244,14 @@ li {
 
 .grid-item {
 	height: 130px;
-	width: 30%;
+	width: 28%;
 	float: left;
 	text-align: center;
 	line-height: 125px;
-	border: 2px solid #333;
-	border-color: hsla(0, 0%, 0%, 0.5);
-	border-radius: 5px;
+	//border: 1px solid #333;
+	//border-color: hsla(0, 0%, 0%, 0.5);
+	//border-radius: 0px;
+	padding: 17px;
 }
 
 .grid-item img {
