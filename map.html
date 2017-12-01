@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
 
-<h2>Study Sites</h2>		    
+<h2>Study Sites</h2>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19141450.52431762!2d29.083862536456177!3d-20.983447794448757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1510404570043" align="middle" width="800" height="450"  style="border:0" allowfullscreen></iframe>
+<div id="leaf-map"></div>
+
+<script src="{{ site.baseurl }}/scripts/plot_loc.js"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+	integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+	crossorigin=""></script>
+<script src="{{ site.baseurl }}/scripts/leaf-map.js"></script>
+<script src="{{ site.baseurl }}/scripts/leaflet.markercluster-src.js"></script>
