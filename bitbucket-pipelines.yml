@@ -9,14 +9,12 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - bundler --version
           - bundle install
           - bundle exec jekyll build
   branches:
     master:
       - step:
           script:
-            - bundler --version
             - bundle install
             - bundle exec jekyll build
             - git push -f https://$githubtoken@github.com/seosaw/seosaw.github.io.git master
