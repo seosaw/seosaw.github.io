@@ -1,3 +1,4 @@
+
 body,
 html {
 	-moz-osx-font-smoothing: grayscale;
@@ -313,3 +314,61 @@ li {
 #leaf-map {
 	 height: 500px;
  }
+
+/**
+ *
+ * Contact form
+ */
+
+#contact-form .block {
+       float: left;
+       width: 45%;
+       padding: 15px;
+}       
+
+#contact-form .block form .form-group {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#contact-form .block form .form-group .form-control {
+  background: #F6F8FA;
+  height: 35px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+  padding-left: 10px;
+}
+#contact-form .block form .form-group-2 {
+  margin: 0px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+#contact-form .block form .form-group-2 textarea {
+  box-sizing: border-box;
+  background: #F6F8FA;
+  height: 90px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#contact-form .block button {
+  width: 100%;
+  height: 35px;
+  background: #89b0f1;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.filter {
+  background: #F6F8FA;
+  height: 30px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 200px;
+  padding-left: 10px;
+}
+
+
