@@ -216,11 +216,15 @@ li {
 .footer-logo li {
 	display: inline-block;
 	padding-left: 20px;
+	padding-top: 5px;
 }
 
 .footer-logo img {
 	max-height: 40px;
-	padding-top: 5px;
+}
+
+.footer-logo a { 
+	vertical-align: middle;
 }
 
 .partner-logo li {
@@ -232,6 +236,8 @@ li {
 	max-width: 200px;
 	padding-top: 20px;
 }
+
+
 /**
  *
  * Masonry grid
