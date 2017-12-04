@@ -207,6 +207,7 @@ li {
  */
 .footer {
 	//background-image: url("../images/footer_banner.jpg");
+	display: inline-block;
 	background-color: #89b0f1;
 	position: absolute;
 	bottom: 0;
@@ -216,6 +217,7 @@ li {
 
 .footer-logo li {
 	display: inline-block;
+	float: left;
 	padding-left: 20px;
 	padding-top: 5px;
 }
@@ -226,6 +228,11 @@ li {
 
 .footer-logo a { 
 	vertical-align: middle;
+}
+
+.contact-link { 
+	position: absolute;
+	left: 50%;
 }
 
 .partner-logo li {
