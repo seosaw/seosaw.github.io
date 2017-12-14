@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!--- scripts --->
 <script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 <script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
 <script>
@@ -11,8 +12,9 @@ layout: default
     });
 </script>
 
-<h2>Publications</h2>
+<h1>Publications</h1>
 
+<!--- table starts --->
 <input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
 
  <table class="publications tablesorter" id="myTable">

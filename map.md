@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
 
-## Study Sites
+# Study Sites
 
 <div id="leaf-map"></div>
 
