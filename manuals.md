@@ -14,9 +14,9 @@ The following protocols are in the works, after we agreed at the first meeting t
 3.	Understory plants, Caroline Lehmann (in prep)
 4.	[Soil, Mathew Williams (in prep)][3]
 5.	Traits:
-	*.	[Trees, Carla Staver (currently out for consultation)][4]
-	*.	Grasses, to be developed
-	*.	[Seedlings, Ricardo Holdo (currently out for consultation)][2]
+  1. [Trees, Carla Staver (currently out for consultation)][4]
+  2. Grasses, to be developed
+  3. [Seedlings, Ricardo Holdo (currently out for consultation)][2]
 
 They are all living documents, and we welcome input and suggestions from all. Please use Google Docs to comment on the protocols, following the links above.
 
