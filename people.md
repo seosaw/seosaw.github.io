@@ -8,24 +8,24 @@ layout: default
 <script src="{{ site.baseurl }}/scripts/masonry.pkgd.min.js"></script>
 
 <script>
-    $(function(){
-      $("#myTable").tablesorter({ sortList: [[0,0]],
-     		headerTemplate: '{content}{icon}' });
-    });
+$(function(){
+$("#myTable").tablesorter({ sortList: [[0,0]],
+headerTemplate: '{content}{icon}' });
+});
 </script>
 
 <script>
 $('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-	percentPosition: true,
-	columnWidth: '.grid-sizer'
+// options
+itemSelector: '.grid-item',
+percentPosition: true,
+columnWidth: '.grid-sizer'
 });
 </script>
 
 # People
 
-<span><input class="filter" id="myInput" onkeyup="filterTable()" "type="text" placeholder="Filter..." /></span>
+<input class="filter" id="myInput" onkeyup=filterTable() type="text" placeholder="Filter..."/>
 
 <table class="people tablesorter" id="myTable">
 	<thead>
