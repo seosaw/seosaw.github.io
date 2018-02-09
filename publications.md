@@ -12,10 +12,10 @@ layout: default
     });
 </script>
 
-<h1>Publications</h1>
+# Publications
 
 <!--- table starts --->
-<input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
+<input class="filter" id='myInput' onkeyup='filterTable()' type='text' placeholder="Filter...">
 
  <table class="publications tablesorter" id="myTable">
 	 <thead>
