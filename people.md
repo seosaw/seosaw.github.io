@@ -98,7 +98,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="http://www.climate.be/modx/index.php?id=96" target=_blank>Patrick Meyfroidt</a></td>
+<td><a href="http://www.climate.be/modx/index.php?id=96" target="_blank">Patrick Meyfroidt</a></td>
 <td>Global Land Project</td>
 <td>Belgium</td>
 </tr>
@@ -148,7 +148,7 @@ $('.grid').masonry({
 <td>Belgium</td>
 </tr>
 <tr>
-<td><a href="https://www.researchgate.net/profile/Francisco_Goncalves10?ev=hdr_xprf" target=_blank>Francisco Maiato Pedroi Gonçalves</a></td>
+<td><a href="https://www.researchgate.net/profile/Francisco_Goncalves10?ev=hdr_xprf" target="_blank">Francisco Maiato Pedroi Gonçalves</a></td>
 <td>Herbarium of Lubango</td>
 <td>Angola</td>
 </tr>
@@ -188,7 +188,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/a/sallyarchibaldwitsacza/" target=_blank>Sally Archibald</a></td>
+<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/a/sallyarchibaldwitsacza/" target="_blank">Sally Archibald</a></td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -198,7 +198,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="http://staverlab.yale.edu/" target=_blank>Carla Staver</a></td>
+<td><a href="http://staverlab.yale.edu/" target="_blank">Carla Staver</a></td>
 <td>Yale University</td>
 <td>USA</td>
 </tr>
