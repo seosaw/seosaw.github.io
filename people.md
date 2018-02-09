@@ -22,7 +22,7 @@ $('.grid').masonry({
 });
 </script>
 
-<h1>People</h1>
+# People
 
 <input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
 
