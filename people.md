@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
