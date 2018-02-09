@@ -76,7 +76,7 @@ $('.grid').masonry({
 		 <td>United Kingdom</td>
 	 </tr>
 	 <tr>
-		 <td><a href="http://www.linkedin.com/in/nicholasberry" target=_blank>Nicholas Berry</a></td>
+		 <td><a href="https://www.linkedin.com/in/nicholasberry" target=_blank>Nicholas Berry</a></td>
 		 <td>The Landscapes and Livelihoods Group</td>
 		 <td>Mozambique</td>
 	 </tr>
