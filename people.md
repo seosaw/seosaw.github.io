@@ -2,29 +2,30 @@
 layout: default
 ---
 
+
 <script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 <script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
 <script src="{{ site.baseurl }}/scripts/masonry.pkgd.min.js"></script>
 
 <script>
-    $(function(){
-      $("#myTable").tablesorter({ sortList: [[0,0]],
-     		headerTemplate: '{content}{icon}' });
-    });
+$(function(){
+$("#myTable").tablesorter({ sortList: [[0,0]],
+headerTemplate: '{content}{icon}' });
+});
 </script>
 
 <script>
 $('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-	percentPosition: true,
-	columnWidth: '.grid-sizer'
+// options
+itemSelector: '.grid-item',
+percentPosition: true,
+columnWidth: '.grid-sizer'
 });
 </script>
 
-<h1>People</h1>
+# People
 
-<input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
+<input class="filter" id="myInput" onkeyup=filterTable() type="text" placeholder="Filter..."/>
 
 <table class="people tablesorter" id="myTable">
 	<thead>
@@ -76,7 +77,7 @@ $('.grid').masonry({
 		 <td>United Kingdom</td>
 	 </tr>
 	 <tr>
-		 <td><a href="http://www.linkedin.com/in/nicholasberry" target=_blank>Nicholas Berry</a></td>
+		 <td><a href="https://www.linkedin.com/in/nicholasberry" target=_blank>Nicholas Berry</a></td>
 		 <td>The Landscapes and Livelihoods Group</td>
 		 <td>Mozambique</td>
 	 </tr>
