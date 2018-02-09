@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 ---
 
-<input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
+<input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter..."/>
 
 <script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 <script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
