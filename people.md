@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<div markdown="0"><input class='filter' id='myInput' onkeyup='filterTable()' type='text', placeholder='Filter...'></input></div>
 
 <script src="{{ site.baseurl }}/scripts/filter_table.js"></script>
 <script src="{{ site.baseurl }}/scripts/jquery.tablesorter.js"></script>
@@ -26,6 +25,7 @@ $('.grid').masonry({
 
 # People
 
+<span><input class='filter' id='myInput' onkeyup='filterTable()' type='text', placeholder='Filter...' /></span>
 
 <table class="people tablesorter" id="myTable">
 	<thead>
