@@ -24,11 +24,9 @@ $('.grid').masonry({
 
 <h1>People</h1>
 
-<input type="text" id="name" />
 
 <input class="filter" id='myInput' onkeyup='filterTable()' type='text' placeholder="Filter...">
 
-<input type="text" id="name" />
 
 <table class="people tablesorter" id="myTable">
 	<thead>
