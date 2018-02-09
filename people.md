@@ -26,7 +26,7 @@ $('.grid').masonry({
 
 <input type="text" id="name" />
 
-<input class="filter" id='myInput' onkeyup='filterTable()' type='text', placeholder="Filter...">
+<input class="filter" id='myInput' onkeyup='filterTable()' type='text' placeholder="Filter...">
 
 <input type="text" id="name" />
 
