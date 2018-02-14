@@ -23,4 +23,3 @@ If you are interested in being involved in data synthesis activities and have da
 	crossorigin=""></script>
 <script src="{{ site.baseurl }}/scripts/leaf-map.js"></script>
 <script src="{{ site.baseurl }}/scripts/leaflet.markercluster-src.js"></script>
-
