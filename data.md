@@ -2,27 +2,24 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
+
+# The SEOSAW network
+The SEOSAW partnership holds plot data from across the woodlands and savannas of southern Africa. A major activity of SEOSAW is collating these data and conducting regional analyses of the structure and function of the region's vegetation.
+
+The map below shows the location of the main data sets the partnership holds. This map is still being updated as we add new data sets.
+
 # Data
+Once the synthesis is done, the data will be stored in [ForestPlots.net](https://www.forestplots.net/) for those members of the partnership who wish to make their data, or just their meta data, public. As part of the SEOSAW project, [ForestPlots.net](https://www.forestplots.net/) is being adapted to allow it to handle data from savannas and woodlands more easily. This part of SEOSAW is being led by Prof. Simon Lewis at Leeds / UCL.
 
-CONTENTLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod ullamcorper quam, tristique condimentum lectus aliquam ac. Aenean lobortis nunc vitae leo eleifend, nec lobortis diam hendrerit. Praesent varius rutrum turpis at faucibus. Sed at consequat nibh, sed pretium enim. Vestibulum lacinia sit amet justo non iaculis. Nunc sit amet dolor efficitur, vestibulum felis finibus, tempor risus. Praesent non vulputate nisl. Pellentesque aliquet porttitor felis, vitae facilisis ante tristique ac. Nullam in augue mattis, dictum risus sit amet, congue nunc. Ut porta eu tellus quis elementum. Praesent vel facilisis erat, eu auctor felis. Mauris ligula metus, finibus ac egestas a, tempor vel neque. Donec porta ultrices odio sed ornare.
+If you are interested in being involved in data synthesis activities and have data you would like to contribute, please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk)
 
-Quisque ac ante ultricies, mollis purus a, eleifend ligula. In tempor posuere molestie. Quisque commodo justo a mi egestas vulputate non a turpis. In efficitur auctor justo eget cursus. Quisque ac sagittis enim. Ut eget ultrices dolor. Proin massa turpis, porta a molestie et, sagittis in urna. Quisque velit est, tristique sed aliquam sit amet, maximus sagittis arcu. Vivamus lacinia, lectus ut ullamcorper sodales, ipsum urna fermentum nibh, ac laoreet erat est vitae leo. Donec dictum ipsum tellus, sed posuere velit congue egestas. Morbi aliquet risus a urna posuere, at lacinia enim rhoncus. In hac habitasse platea dictumst. Pellentesque condimentum ipsum tempus, molestie massa nec, tristique tellus. Mauris lacinia ex eu elit vestibulum, in mollis mi bibendum. Ut a libero a erat tincidunt eleifend. Duis congue convallis blandit.
+<div id="leaf-map"></div>
 
-Morbi maximus augue non nisl lacinia, a faucibus risus ultricies. Cras sit amet viverra turpis. Curabitur convallis, lacus ut eleifend scelerisque, ante libero aliquet nisl, in dignissim justo erat ut odio. Pellentesque scelerisque sodales lorem, vel scelerisque urna molestie ut. Suspendisse ut tortor erat. Sed congue diam quis sem scelerisque elementum. Etiam lobortis, tortor quis efficitur ornare, nisl erat pretium metus, ut bibendum sapien felis ut libero. Quisque non tempus libero. Aenean fringilla turpis quis purus vulputate pellentesque. Sed urna ligula, tincidunt vel consequat et, pharetra vel nulla. Donec facilisis ut lorem vel maximus. Aliquam dapibus quis tortor et vehicula. Mauris condimentum, nisi et tempor imperdiet, nisi dui consectetur odio, vel fringilla ex velit et lectus. Phasellus vel libero in dolor ultrices suscipit ac id enim. Aenean eu porttitor tortor.
-
-Sed vel malesuada nisi, sagittis feugiat urna. Phasellus convallis in diam nec iaculis. Aenean facilisis malesuada eros, non lobortis neque aliquet nec. Proin interdum, sem vitae fermentum hendrerit, elit nisi euismod nunc, in elementum erat tellus et urna. Aenean id luctus lectus. Curabitur id dapibus est, nec congue augue. Praesent pulvinar, metus eget tincidunt lacinia, ante felis convallis erat, nec cursus nunc nisl non nulla. Maecenas convallis turpis metus, sit amet molestie orci pulvinar sed. Proin dapibus, lectus ut consequat gravida, dolor nunc elementum dui, vel malesuada sapien lectus non felis. Proin vel leo congue mi volutpat aliquam vel in risus. Praesent pulvinar fringilla orci, vel lobortis erat eleifend nec. Donec vitae est tincidunt, pulvinar odio non, interdum purus. Maecenas dictum eros nec placerat interdum. Mauris gravida malesuada turpis a aliquam. Donec luctus malesuada lorem. Nunc accumsan odio nisl, sed feugiat elit auctor eget.
-
-Etiam neque erat, euismod id eleifend vulputate, porta sed quam. Quisque vitae maximus elit. Aliquam sagittis congue orci ut accumsan. Nunc rhoncus purus condimentum laoreet ultricies. Vestibulum vestibulum a orci porttitor tempus. Sed vel imperdiet ex. Phasellus tincidunt nulla et volutpat dictum. Aenean non ullamcorper elit.
-
-In hendrerit massa tincidunt suscipit venenatis. Sed convallis, purus eget finibus facilisis, nisl elit tincidunt lectus, a egestas neque ligula sed ante. Etiam vitae bibendum nisl. Sed interdum quam ac leo tincidunt molestie. In convallis nunc mi, eu lobortis tortor ornare vitae. Nullam ut suscipit nisi. Aliquam congue sem eu lectus mattis, gravida vestibulum metus aliquam. Nullam nec lobortis purus. Cras eu eleifend nisi, sit amet vehicula nibh. Cras tincidunt enim sed mi venenatis suscipit. Aenean dolor velit, lacinia a eros sit amet, pellentesque consequat ipsum. In aliquam laoreet lorem, placerat bibendum ipsum accumsan sed. Suspendisse vitae risus facilisis libero imperdiet vehicula vitae et sem. Etiam interdum sagittis ligula vitae gravida. Phasellus dictum, nibh ut varius placerat, arcu enim auctor ligula, eget facilisis purus tellus ut elit.
-
-Quisque convallis purus ac feugiat convallis. Morbi ac nisi lectus. Aliquam lacinia tellus erat, in auctor erat laoreet nec. Nullam convallis orci massa, et bibendum dolor rhoncus ultricies. Duis tempor mollis mi, sit amet vulputate turpis accumsan a. Nam ultrices ante erat, ac venenatis justo ullamcorper in. Quisque a lacus ac nisi finibus varius vel nec mauris. Curabitur feugiat sapien et felis aliquet dapibus. Etiam tincidunt venenatis vulputate. Aliquam erat volutpat. Morbi varius vulputate urna, vel fermentum mi bibendum eget. In hendrerit mattis odio, ac malesuada nisl pharetra in. Sed egestas quam fermentum lectus feugiat, at ornare orci accumsan. Ut pharetra turpis vitae arcu feugiat fringilla. In malesuada commodo dui vitae aliquam. Ut at dolor mauris.
-
-Proin non neque ipsum. Phasellus ultricies pulvinar eros, vel porttitor nulla venenatis et. Ut vel convallis neque, et faucibus eros. Morbi mattis pharetra justo eget euismod. Sed tempor mauris eu interdum vehicula. Donec sit amet gravida risus. Proin rutrum ultrices auctor. Sed enim sem, aliquam eu leo egestas, interdum fermentum ex. Nunc auctor pulvinar tortor non pellentesque. Praesent malesuada faucibus purus sed laoreet. Curabitur elit lectus, suscipit et consequat sed, congue quis dui. Nullam eget est quis ex placerat euismod non vitae urna.
-
-Duis sit amet nibh non elit ultrices suscipit. Quisque semper facilisis lectus, sit amet mollis nisl congue in. Suspendisse sodales tellus in urna fringilla viverra. Nunc ut tortor ultrices, ullamcorper diam quis, imperdiet ligula. Integer quis dignissim mauris. Cras quis erat quis velit elementum bibendum at sit amet ipsum. Fusce ut ultrices mi. Proin sit amet nunc hendrerit, mattis turpis et, rutrum odio. Sed et elit id tortor malesuada lacinia eget a dui. Phasellus tincidunt libero nec tellus condimentum, semper tincidunt magna malesuada. Morbi ut purus at velit rutrum vestibulum. Nullam pellentesque gravida ligula et condimentum. Nullam tempor ex a ligula blandit, sit amet rhoncus odio dapibus. Aenean nunc elit, mollis eu pulvinar ut, congue et neque.
-
-
-
-</div>
-
+<script src="{{ site.baseurl }}/scripts/plot_loc.js"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+	integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+	crossorigin=""></script>
+<script src="{{ site.baseurl }}/scripts/leaf-map.js"></script>
+<script src="{{ site.baseurl }}/scripts/leaflet.markercluster-src.js"></script>

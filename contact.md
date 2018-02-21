@@ -5,7 +5,9 @@ layout: default
 <!-- contact form start -->
 <section id="contact-form">
 <div class="container">
-<h1>Send SEOSAW an email:</h1>
+
+# Send SEOSAW an email:
+
 <div class="row">
 	<div class="block">
 	    <form>
