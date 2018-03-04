@@ -29,7 +29,7 @@ layout: default
 	 <tbody id='tableBody'>
 	 <tr>
 		 <td class="paper_authors_title">  </td>
-		 <td class="paper_authors_title"  </td>
+		 <td class="paper_authors_title">  </td>
 		 <td class="paper_journal">  </td>
 		 <td class="paper_year"> </td>
 	 </tr>
