@@ -6,7 +6,7 @@ layout: default
 <section id="contact-form">
 <div class="container">
 
-# Send SEOSAW an email:
+<h1>Send SEOSAW an email:</h1>
 
 <div class="row">
 	<div class="block">
