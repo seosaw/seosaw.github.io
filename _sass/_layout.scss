@@ -383,4 +383,25 @@ li {
   padding-left: 10px;
 }
 
+/**
+ *
+ * Counter  
+ */
+
+.count span {
+	display: block;
+	left: 50%;
+	text-align: center;
+}
+
+.count li { 
+  list-style: none;
+  display: inline-block;
+  text-align: center;	
+  width: 175px;
+}
+
+.count span {
+  font-size: 20px;
+  }
 

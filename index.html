@@ -2,24 +2,20 @@
 layout: default
 ---
 
-
-<script>
-$('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-</script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
 
 <h1>About SEOSAW: an activity of the Miombo Network</h1>
 
-<span class="count">2269</span>
+
+
+
 
 <p>
     <img class="landing-img" src="{{ site.baseurl }}/images/miombo.jpg" alt="Woodland" width="500px">
@@ -38,8 +34,43 @@ These woodlands are the largest savanna in the world (3M km2, ref 1) and support
 
 <p> SEOSAW will address this by synthesising data from across the region, and making it easily accessible for regional analyses and modelling efforts. It will also develop a set of standardised methodologies and new collaborations to improve future observations. It will do so by creating a novel partnership of >18 research groups, currently working on 2269 plots spread across the region, and developing the intellectual infrastructure to support collaborative research for the long term. </p>
 
+<center>
+<div class="count">
+<ul>
+    <li>
+      <div>
+        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/plot.png" width="50px">
+	<span class="counter">2269</span>
+	<span class="counter-desc">Woodland plots</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/africa.png" width="50px">
+	<span class="counter">11</span>
+	<span class="counter-desc">Countries</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/trees.png" width="50px">
+	<span class="counter">276712</span>
+	<span class="counter-desc">Trees recorded<span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/specs.png" width="50px">
+	<span class="counter">43</span>
+	<span class="counter-desc">Researchers</span>
+      </div>
+    </li>
+  </ul>
+</div>
+</center>
 
 <h1>THIS SITE IS UNDER CONSTRUCTION<h1>
 
 
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/jquery.counterup.min.js"></script>
