@@ -2,7 +2,20 @@
 layout: default
 ---
 
+
+<script>
+jQuery(document).ready(function($) {
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/jquery.counterup.min.js"></script>
+
 <h1>About SEOSAW: an activity of the Miombo Network</h1>
+
+<span class="counter">2269</span>
 
 <p>
     <img class="landing-img" src="{{ site.baseurl }}/images/miombo.jpg" alt="Woodland" width="500px">
@@ -23,3 +36,6 @@ These woodlands are the largest savanna in the world (3M km2, ref 1) and support
 
 
 <h1>THIS SITE IS UNDER CONSTRUCTION<h1>
+
+
+
