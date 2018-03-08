@@ -357,4 +357,12 @@ $('.grid').masonry({
 			</div>
 		</div>
 	</div>
+	<div class="grid-item">
+		<div class="hovereffect">
+			<img src="{{ site.baseurl }}/images/inst_logos/nmbu.png" alt=""/>
+			<div class="overlay">
+				<h2>Norwegian University of Life Sciences</h2>
+			</div>
+		</div>
+	</div>
 </div>
