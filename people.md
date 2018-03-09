@@ -101,7 +101,7 @@ $('.grid').masonry({
 <td>Belgium</td>
 </tr>
 <tr>
-<td>Davidson Gumbo</td>
+<td>Davison Gumbo</td>
 <td>CIFOR</td>
 <td>Zambia</td>
 </tr>
