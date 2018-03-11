@@ -89,7 +89,7 @@ li {
 
 .description {
 	padding-top: 20px;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5em;
 	color: #EEE;
 }
@@ -197,11 +197,23 @@ li {
 	/* height of footer */
 }
 
-.landing-img {
+.landing-top {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.landing-top img {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	width: 500px;
 }
+
+.landing-body {
+    margin-top: 50px; 
+}
+
+
 /**
  * Footer
  */
@@ -388,10 +400,12 @@ li {
  * Counter  
  */
 
+
 .count span {
-	display: block;
-	left: 50%;
-	text-align: center;
+  display: block;
+  left: 50%;
+  text-align: center;
+  font-size: 20px;
 }
 
 .count li { 
@@ -400,8 +414,3 @@ li {
   text-align: center;	
   width: 175px;
 }
-
-.count span {
-  font-size: 20px;
-  }
-

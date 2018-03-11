@@ -2,7 +2,8 @@
 layout: default
 ---
 
-## Measurement protocols suitable for African woodlands and savannas
+# Measurement protocols for African woodlands and savannas
+
 We are developing a set of linked protocols that will allow for data collected across the region to be compared, whilst retaining flexibility to suit the many different objectives of researchers in the region.
 
 The following protocols are in the works, after we agreed at the first meeting to prioritise the following:
@@ -25,7 +26,8 @@ The intention is to refine the protocols throughout 2018 and then publish them.
 [3]: https://docs.google.com/document/d/1Qey7TWfjBZL1dhtD_sioguj_2wIcJvVlGgqsFaWdZmE/edit?usp=sharing
 [4]: https://docs.google.com/document/d/1IJkM_PNHHl3qVFlZqxKvaq2JNt0RB8bZlstCSpc4Rgc/edit?usp=sharing
 
-## Purpose of the protocols
+<h2 class="h-inline">Purpose of the protocols</h2>
+
 * Not to suggest novel methods, but to borrow from elsewhere, and present methods that have been tried and tested by the partners in tropical savannas and woodlands
 * To share experience about what works and what does not, to avoid mistakes being repeated
 * To allow data to be collected in a way that makes it easy to integrate with others in the SEOSAW network, and gives confidence is comparisons across the network
