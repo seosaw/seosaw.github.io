@@ -365,4 +365,12 @@ $('.grid').masonry({
 			</div>
 		</div>
 	</div>
+	<div class="grid-item">
+		<div class="hovereffect">
+			<img src="{{ site.baseurl }}/images/inst_logos/copperbelt.png" alt=""/>
+			<div class="overlay">
+				<h2>Copperbelt University</h2>
+			</div>
+		</div>
+	</div>
 </div>
