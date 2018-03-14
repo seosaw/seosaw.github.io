@@ -1,4 +1,4 @@
-var locations = [{
+var locations = [
 { "type": "Feature", "id": 1, "properties": { "name": "Kruger Skukuza - SSM-001", "country": "South Africa", "area_of_plot": 40000.0, "lon": 31.4970563, "lat": -25.0197541 }, "geometry": { "type": "Point", "coordinates": [ 31.4970563, -25.0197541 ] } },
 { "type": "Feature", "id": 2, "properties": { "name": "Hwange-Farm41 - ZHH-001", "country": "Zimbabwe", "area_of_plot": 1000.0, "lon": 27.90663333, "lat": -18.62653333 }, "geometry": { "type": "Point", "coordinates": [ 27.90663333, -18.62653333 ] } },
 { "type": "Feature", "id": 3, "properties": { "name": "Hwange-Farm41 - ZHH-002", "country": "Zimbabwe", "area_of_plot": 1000.0, "lon": 27.91296667, "lat": -18.63278333 }, "geometry": { "type": "Point", "coordinates": [ 27.91296667, -18.63278333 ] } },
