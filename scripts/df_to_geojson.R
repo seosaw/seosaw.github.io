@@ -29,7 +29,7 @@ plots_export <- plots %>%
 	mutate(name = paste(name, "-", plotcode),
 				 lon = as.numeric(as.character(longitude_of_centre)),
 				 lat = as.numeric(as.character(latitude_of_centre)),
-				 area_of_plot = as.numeric(area_of_plot) * 10000) %>%
+				 area_of_plot = round(as.numeric(area_of_plot) * 10000, digits = 2)) %>%
 	select(name, country, 
 				 area_of_plot, 
 				 lon, lat) %>%
