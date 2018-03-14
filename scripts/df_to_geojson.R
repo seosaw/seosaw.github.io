@@ -1,6 +1,7 @@
 # Creating a csv file for conversion to geoJSON for seosaw.github.io
 # John Godlee (johngodlee@gmail.com)
 # 2017_12_03
+# 2018_03_14
 
 # Packages ----
 library(dplyr)
