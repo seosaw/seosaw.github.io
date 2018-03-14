@@ -1,5 +1,5 @@
 
-var_locations = [{ "type": "Feature", "id": 1, "properties": { "name": "Kruger Skukuza - SSM-001", "country": "South Africa", "area_of_plot": 40000.0, "lon": 1182.0, "lat": 1891.0 }, "geometry": { "type": "Point", "coordinates": [ 1182.0, 1891.0 ] } },
+var locations = [{ "type": "Feature", "id": 1, "properties": { "name": "Kruger Skukuza - SSM-001", "country": "South Africa", "area_of_plot": 40000.0, "lon": 1182.0, "lat": 1891.0 }, "geometry": { "type": "Point", "coordinates": [ 1182.0, 1891.0 ] } },
 { "type": "Feature", "id": 2, "properties": { "name": "Hwange-Farm41 - ZHH-001", "country": "Zimbabwe", "area_of_plot": 1000.0, "lon": 645.0, "lat": 1360.0 }, "geometry": { "type": "Point", "coordinates": [ 645.0, 1360.0 ] } },
 { "type": "Feature", "id": 3, "properties": { "name": "Hwange-Farm41 - ZHH-002", "country": "Zimbabwe", "area_of_plot": 1000.0, "lon": 648.0, "lat": 1363.0 }, "geometry": { "type": "Point", "coordinates": [ 648.0, 1363.0 ] } },
 { "type": "Feature", "id": 4, "properties": { "name": "Hwange-Farm41 - ZHH-003", "country": "Zimbabwe", "area_of_plot": 1000.0, "lon": 654.0, "lat": 1367.0 }, "geometry": { "type": "Point", "coordinates": [ 654.0, 1367.0 ] } },
