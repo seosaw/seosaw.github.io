@@ -15,7 +15,7 @@ The map below shows the location of the main data sets the partnership holds. Th
 
 The data collated by SEOSAW will eventually be stored in [ForestPlots.net](https://www.forestplots.net/) for those members of the partnership who wish to make their data, or just their meta data, public. As part of the SEOSAW project, the [ForestPlots.net](https://www.forestplots.net/) database is being adapted to allow it to handle data from savannas and woodlands more easily. This part of SEOSAW is being led by Prof. Simon Lewis at the University of Leeds / UCL.
 
-If you are interested in being involved in data synthesis activities and have data you would like to contribute, please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk)
+If you are interested in being involved in data synthesis activities and have data you would like to contribute, please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk).
 
 <div id="leaf-map"></div>
 
