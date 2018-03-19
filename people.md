@@ -373,4 +373,12 @@ $('.grid').masonry({
 			</div>
 		</div>
 	</div>
+	<div class="grid-item">
+		<div class="hovereffect">
+			<img src="{{ site.baseurl }}/images/inst_logos/leeds.png" alt=""/>
+			<div class="overlay">
+				<h2>University of Leeds</h2>
+			</div>
+		</div>
+	</div>
 </div>
