@@ -9,7 +9,7 @@ layout: default
 
 The SEOSAW partnership holds plot data from across the woodlands and savannas of southern Africa. A major activity of SEOSAW is collating these data and conducting regional analyses of the structure and function of the region's vegetation.
 
-The map below shows the location of the main data sets the partnership holds. This map is still being updated as we add new data sets.
+The map below shows the location of the main data sets the partnership holds, along with the distribution of savannas and woodlands in Africa. This map is still being updated as we add new data sets.
 
 <h2 class="h-inline">Data</h2>
 
@@ -20,6 +20,7 @@ If you are interested in being involved in data synthesis activities and have da
 <div id="leaf-map"></div>
 
 <script src="{{ site.baseurl }}/scripts/plot_loc.js"></script>
+<script src="{{ site.baseurl }}/scripts/miombo_po.js"></script>
 <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
 	integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
 	crossorigin=""></script>

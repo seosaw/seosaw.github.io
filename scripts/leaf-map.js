@@ -5,15 +5,28 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
   id: 'mapbox.streets'
 }).addTo(mymap);
 
-var geojsonMarkerOptions = {
-  fillOpacity: 0.2,
-	weight: 1,
-	radius: 5,
+var plotLocOptions = {
+  fillOpacity: 0.5,
+  weight: 0.2,
+  radius: 5,
+  fillColor: "#7A0099",
+  color: "#7A0099"
 };
+
+function miomboOptions(feature) {
+  return { 
+    fillOpacity: 0.9,
+    fillColor: "#179600",
+    color: "#179600",
+    weight: 0.1
+};
+}
+
+L.geoJSON(miombo, {style: miomboOptions}).addTo(mymap);
 
 L.geoJSON(locations, {
   pointToLayer: function(feature, latlng) {
-    return L.circleMarker(latlng, geojsonMarkerOptions);
+    return L.circleMarker(latlng, plotLocOptions);
   },
 	onEachFeature: function(feature, layer){
 		layer.bindPopup("Name: " + feature.properties.name + "<br>" +
@@ -21,3 +34,4 @@ L.geoJSON(locations, {
 	  "Plot Area: " + feature.properties.area_of_plot + " m<sup>2</sup>");
 	}
 }).addTo(mymap);
+
