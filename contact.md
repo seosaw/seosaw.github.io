@@ -8,30 +8,24 @@ layout: default
 
 <h1>Send SEOSAW an email:</h1>
 
-<div class="row">
-	<div class="block">
-	    <form>
+	    <form action="https://getsimpleform.com/messages?form_api_token=c6baac8c11d563256e784a811567b6d7" class="contact" method="post">
 		<div class="form-group">
-		    <input type="text" class="form-control" placeholder="Your Name">
+         	  <div class="form-item">
+		    <input type="text" class="form-control" name="name" placeholder="Your Name">
+		  </div>
+         	  <div class="form-item">
+		    <input type="text" class="form-control" name="email" placeholder="Email Address" required>
+		  </div>
+         	  <div class="form-item">
+		    <input type="text" class="form-control" name="subject" placeholder="Subject">
+		  </div>
 		</div>
 		<div class="form-group">
-		    <input type="text" class="form-control" placeholder="Email Address">
-		</div>
-		<div class="form-group">
-		    <input type="text" class="form-control" placeholder="Subject">
+         	  <div class="form-item">
+		    <textarea class="form-text" rows="3" name="content" placeholder="Your Message" required></textarea>
+		  </div>
+		    <button class="btn btn-default" type="submit">Send Message</button>
 		</div>
 	    </form>
-    </div>
-	<div class="block">
-	    <form>
-		<div class="form-group-2">
-		    <textarea class="form-control" rows="2" placeholder="Your Message"></textarea>
-		</div>
-		<div class="form-group-2">
-		<button class="btn btn-default" type="submit">Send Message</button>
-		</div>
-	    </form>
-	</div>
-</div>
 </div>
 </section>
