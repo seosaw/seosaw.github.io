@@ -111,7 +111,7 @@ $('.grid').masonry({
 <td>Mozambique</td>
 </tr>
 <tr>
-<td><a href="https://www.researchgate.net/profile/Almeida_Sitoe" target="_blank">Almida Sitoe</a></td>
+<td><a href="https://www.researchgate.net/profile/Almeida_Sitoe" target="_blank">Almeida Sitoe</a></td>
 <td>Universidade Eduardo Mondlane</td>
 <td>Mozambique</td>
 </tr>
@@ -146,12 +146,12 @@ $('.grid').masonry({
 <td>Belgium</td>
 </tr>
 <tr>
-<td><a href="https://www.researchgate.net/profile/Francisco_Goncalves10?ev=hdr_xprf" target="_blank">Francisco Maiato Pedroi Gonçalves</a></td>
+<td><a href="https://www.researchgate.net/profile/Francisco_Goncalves10?ev=hdr_xprf" target="_blank">Francisco Maiato Pedro Gonçalves</a></td>
 <td>Herbarium of Lubango</td>
 <td>Angola</td>
 </tr>
 <tr>
-<td>Valter Chisingui</td>
+<td>António Valter Chisingui</td>
 <td>Herbarium of Lubango</td>
 <td>Angola</td>
 </tr>
