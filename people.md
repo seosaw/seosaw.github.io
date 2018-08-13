@@ -225,6 +225,11 @@ $('.grid').masonry({
 <td>Umeå University</td>
 <td>Sweden</td>
 </tr>
+<tr>
+<td><a href="https://www.geos.ed.ac.uk/people/person.html?indv=4064" target="_blank">Iain McNicol</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
 </tbody>
 </table>
 

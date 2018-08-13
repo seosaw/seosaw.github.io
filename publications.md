@@ -28,10 +28,16 @@ layout: default
 	 </thead>
 	 <tbody id='tableBody'>
 	 <tr>
-		 <td class="paper_authors_title">  </td>
-		 <td class="paper_authors_title">  </td>
-		 <td class="paper_journal">  </td>
-		 <td class="paper_year"> </td>
+		 <td class="paper_authors_title">Iain M. McNicol, Casey M. Ryan & Edward T. A. Mitchard</td>
+		 <td class="paper_authors_title">a href="https://www.nature.com/articles/s41467-018-05386-z" target="_blank">Carbon losses from deforestation and widespread degradation offset by extensive growth in African woodlands</a></td>
+		 <td class="paper_journal">Nature Communications</td>
+		 <td class="paper_year">2018</td>
+	 </tr>
+	 <tr>
+		 <td class="paper_authors_title"></td>
+		 <td class="paper_authors_title"></td>
+		 <td class="paper_journal"></td>
+		 <td class="paper_year"></td>
 	 </tr>
 	 </tbody>
  </table>
