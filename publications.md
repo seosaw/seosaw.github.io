@@ -34,6 +34,12 @@ layout: default
 		 <td class="paper_year">2018</td>
 	 </tr>
 	 <tr>
+		 <td class="paper_authors_title">Paula Nieto-Quintano, Edward T. A. Mitchard, Roland Odende, Marcelle A. Batsa Mouwembe, Tim Rayden & Casey M. Ryan</td>
+		 <td class="paper_authors_title"><a href="https://doi.org/10.5061/dryad.2122768" target="_blank">The mesic savannas of the Bateke Plateau: carbon stocks and floristic composition</a></td>
+		 <td class="paper_journal">Biotropica</td>
+		 <td class="paper_year">2018</td>
+	 </tr>
+	 <tr>
 		 <td class="paper_authors_title"></td>
 		 <td class="paper_authors_title"></td>
 		 <td class="paper_journal"></td>
