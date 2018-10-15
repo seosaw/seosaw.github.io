@@ -9,7 +9,7 @@ layout: default
 <h1>Send SEOSAW an email:</h1>
 
 	    <form action="https://getsimpleform.com/messages?form_api_token=c6baac8c11d563256e784a811567b6d7" class="contact" method="post">
-            <input type='hidden' name='redirect_to' value='{{ site.url }}/success' />
+            <input type='hidden' name='redirect_to' value='{{ site.baseurl }}/success' />
 		<div class="form-group">
          	  <div class="form-item">
 		    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
