@@ -126,7 +126,7 @@ $('.grid').masonry({
 <td>Zimbabwe</td>
 </tr>
 <tr>
-<td><a href="http://www.ecology.uga.edu/facultyMember.php?Holdo-611/" target="_blank">Ricardo Holdo</a></td>
+<td><a href="http://holdo.ecology.uga.edu" target="_blank">Ricardo Holdo</a></td>
 <td>University of Georgia</td>
 <td>USA</td>
 </tr>
