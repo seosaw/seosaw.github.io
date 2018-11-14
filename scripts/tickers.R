@@ -39,10 +39,13 @@ names(n_measurement) <- "n_measurment"
 
 # Compile
 tickers <- c(n_plot, 
-						 n_country, 
-						 n_measurement, 
-						 n_researcher)
+    n_country, 
+    n_measurement, 
+    n_researcher)
 
-tickers
+tickers_vec <- as.character(unname(tickers))
+tickers_vec
+
+writeLines(tickers_vec, con = "~/git_proj/seosaw_website/scripts/tickers.txt")
 
 
