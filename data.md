@@ -9,7 +9,7 @@ layout: default
 
 The SEOSAW partnership holds plot data from across the woodlands and savannas of southern Africa. A major activity of SEOSAW is collating these data and conducting regional analyses of the structure and function of the region's vegetation.
 
-The map below shows the location of the main data sets the partnership holds, along with the distribution of savannas and woodlands in Africa. This map is still being updated as we add new data sets.
+The map below shows the location of the main data sets the partnership holds, along with the distribution of savannas and woodlands in Africa (green). Sites with multiple survey years are yellow. This map is still being updated as we add new data sets.
 
 <h2 class="h-inline">Data</h2>
 
