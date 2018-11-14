@@ -3,28 +3,20 @@
 # 2017_12_03
 # 2018_03_14
 
+# Clear env.
+rm(list=ls())
+
 # Packages ----
 library(dplyr)
 library(geojsonio)
 library(readr)
 
-# Directory paths ----
-# Define in and out directory paths from bascule
-in_dir <- "/Volumes/csce/geos/groups/bascule/seosaw_data_out/plots/"
-out_dir <- "~/git_proj/seosaw_website"
-
-# Import merged plot level data from bascule ----
-# List potential files 
-plots_file <- list.files(pattern = "s_all*", path = paste(in_dir, sep = ""))
-
-# Create file paths from potential files
-plots_path <- paste(in_dir, plots_file, sep = "")
-
-# Read in most recent file
-plots <- read.csv(tail(plots_path, n = 1))
+# Directory paths and data ----
+load("~/git_proj/seosaw/clean_data_sets/seosaw_plot_summary24Sept_v1.Rdata")
+out_dir <- "~/git_proj/seosaw_website/scripts/"
 
 # Create intermediate data frame ----
-plots_export <- plots %>%
+plots_export <- ssaw7$plotInfoFull %>%
 	filter(!is.na(longitude_of_centre) & !is.na(latitude_of_centre)) %>%
 	mutate(name = paste(name, "-", plotcode),
 				 lon = as.numeric(as.character(longitude_of_centre)),
@@ -39,5 +31,5 @@ plots_export <- plots %>%
 geojson_write(input = plots_export,
 						 lat = "lat",
 						 lon = "lon",
-						 file = paste(out_dir, "/", "scripts", "/", "plot_loc", sep = ""))
+						 file = paste0(out_dir, "plot_loc"))
 
