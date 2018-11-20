@@ -29,7 +29,8 @@ function genLabels(feature, layer){
 		layer.bindPopup("Name: " + feature.properties.name + "<br>" +
 				"Country: " + feature.properties.country + "<br>" +
 				"Plot Area: " + feature.properties.area_of_plot + " m<sup>2</sup>" + "<br>" + 
-				"Times surveyed: " + feature.properties.n_censuses);
+				"Times surveyed: " + feature.properties.n_censuses + "<br>" + 
+				"Plots in cluster: " + feature.properties.n_plots);
 	}
 
 function miomboOptions(feature) {

@@ -56,7 +56,7 @@ zambia_mdist <- distm(zambia_spat)
 # Cluster
 hc <- hclust(as.dist(zambia_mdist), method="complete")
 
-zambia_spat$clust <- cutree(hc, h = 1000)
+zambia_spat$clust <- cutree(hc, h =  100000)
 
 # Transform back to dataframe and clean
 zambia_agg <- data.frame(zambia_spat) %>%
@@ -68,7 +68,8 @@ zambia_agg <- data.frame(zambia_spat) %>%
 		lon = mean(lon),
 		lat = mean(lat),
 		single_multi = first(single_multi),
-		n_censuses = min(n_censuses)
+		n_censuses = min(n_censuses),
+		n_plots = n()
 		) %>%
 	select(-clust) %>%
 	filter(!is.na(lon), !is.na(lat))
@@ -79,6 +80,7 @@ plots_export <- plots_inter %>%
 	select(name, country, 
 				 area_of_plot, 
 				 lon, lat, single_multi, n_censuses) %>%
+	mutate(n_plots = 1) %>%
 	filter(!is.na(lon), !is.na(lat)) %>%
 	bind_rows(.,zambia_agg) 
 	
