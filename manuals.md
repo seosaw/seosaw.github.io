@@ -8,18 +8,15 @@ We are developing a set of linked protocols that will allow for data collected a
 
 The following protocols are in the works, after we agreed at the first meeting to prioritise the following:
 
-* [Plot design, coordinated by Casey Ryan (currently out for consultation)][1]
-* [Tree stem measurements, including deadwood and saplings, Casey Ryan (currently out for consultation)][1]
-* Understory plants, Caroline Lehmann (in prep)
-* [Soil, Mathew Williams (in prep)][3]
+* [Plot design and tree measurements, including deadwood and saplings. Latest version here[1]
+* Understory plants, Caroline Lehmann. Draft availble.
+* Soil, Mathew Williams and Iain McNicol
 * Traits:
-  * [Trees, Carla Staver (currently out for consultation)][4]
+  * [Trees, Carla Staver][4]
   * Grasses (in prep)
-  * [Seedlings, Ricardo Holdo (currently out for consultation)][2]
+  * [Seedlings, Ricardo Holdo][2]
 
-All the protocols are 'living documents', and we welcome input and suggestions from all. Please use Google Docs to comment on the protocols, following the links above.
-
-The intention is to refine the protocols throughout 2018 and then publish them.
+All the protocols are 'living documents', and we welcome input and suggestions from all.
 
 [1]: https://docs.google.com/document/d/1jl0BHBqwDlbfrdP34U2P_PZzRfIT5X7L43Jert0dx4o/edit#
 [2]: https://docs.google.com/document/d/1sGfGbFFpfUllkqes7iBFTdUtCPiFC3vvyIrefblmbyI/edit
