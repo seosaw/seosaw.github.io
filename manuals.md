@@ -8,17 +8,15 @@ We are developing a set of linked protocols that will allow for data collected a
 
 The following protocols are in the works, after we agreed at the first meeting to prioritise the following:
 
-* [Plot design and tree measurements, including deadwood and saplings. Latest version here[1]
-* Understory plants, Caroline Lehmann. Draft availble.
-* Soil, Mathew Williams and Iain McNicol
-* Traits:
-  * [Trees, Carla Staver][4]
-  * Grasses (in prep)
-  * [Seedlings, Ricardo Holdo][2]
+* Plot design and tree measurements, including deadwood and saplings. [Latest version here][1]
+* Understory plants, Caroline Lehmann. Draft in progress.
+* Soil, Mathew Williams and Iain McNicol. Draft in progress.
+* [Trees traits, Carla Staver][4]
+* [Seedling traits, Ricardo Holdo][2]
 
 All the protocols are 'living documents', and we welcome input and suggestions from all.
 
-[1]: https://docs.google.com/document/d/1jl0BHBqwDlbfrdP34U2P_PZzRfIT5X7L43Jert0dx4o/edit#
+[1]: ./resources/SEOSAW_FieldManual_v3_2018.pdf
 [2]: https://docs.google.com/document/d/1sGfGbFFpfUllkqes7iBFTdUtCPiFC3vvyIrefblmbyI/edit
 [3]: https://docs.google.com/document/d/1Qey7TWfjBZL1dhtD_sioguj_2wIcJvVlGgqsFaWdZmE/edit?usp=sharing
 [4]: https://docs.google.com/document/d/1IJkM_PNHHl3qVFlZqxKvaq2JNt0RB8bZlstCSpc4Rgc/edit?usp=sharing
