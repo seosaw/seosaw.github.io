@@ -230,15 +230,42 @@ $('.grid').masonry({
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
+<tr>
+<td><a href="" target="_blank">Anderson Muchawona</a></td>
+<td>Zimbabwe Forestry Commission</td>
+<td>Zimbabwe</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Josiah_Katani" target="_blank">Josiah Zephania Katani</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Benard_Guedes2" target="_blank">Benard Guedes</a></td>
+<td>Universidade Eduardo Mondlane</td>
+<td>Mozambique</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Wilson_Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+</tr>
 </tbody>
 </table>
-
 <div class="grid">
   <div class="grid-item">
 		<div class="hovereffect">
       <img src="{{ site.baseurl }}/images/inst_logos/uoe.png" alt=""/>
       <div class="overlay">
 			  <h2>The University of Edinburgh</h2>
+  	  </div>
+    </div>
+  </div>
+  <div class="grid-item">
+		<div class="hovereffect">
+      <img src="{{ site.baseurl }}/images/inst_logos/nerc.png" alt=""/>
+      <div class="overlay">
+			  <h2>Natural Environment Research Council</h2>
   	  </div>
     </div>
   </div>
@@ -386,4 +413,12 @@ $('.grid').masonry({
 			</div>
 		</div>
 	</div>
+    <div class="grid-item">
+		<div class="hovereffect">
+            <img src="{{ site.baseurl }}/images/inst_logos/ukri.png" alt=""/>
+            <div class="overlay">
+			  <h2>UK Research and Innovation</h2>
+  	  </div>
+    </div>
+  </div>
 </div>
