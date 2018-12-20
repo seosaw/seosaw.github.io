@@ -28,15 +28,21 @@ layout: default
 	 </thead>
 	 <tbody id='tableBody'>
 	 <tr>
-		 <td class="paper_authors_title">Iain M. McNicol, Casey M. Ryan & Edward T. A. Mitchard</td>
+		 <td class="paper_authors_title">McNicol I. M., Ryan C. M. & Mitchard E. T. A.</td>
 		 <td class="paper_authors_title"><a href="https://www.nature.com/articles/s41467-018-05386-z" target="_blank">Carbon losses from deforestation and widespread degradation offset by extensive growth in African woodlands</a></td>
 		 <td class="paper_journal">Nature Communications</td>
 		 <td class="paper_year">2018</td>
 	 </tr>
 	 <tr>
-		 <td class="paper_authors_title">Paula Nieto-Quintano, Edward T. A. Mitchard, Roland Odende, Marcelle A. Batsa Mouwembe, Tim Rayden & Casey M. Ryan</td>
+		 <td class="paper_authors_title">Nieto-Quintano P., Mitchard E. T. A, Odende R., Mouwembe M. A. B., Rayden T. & Ryan C. M.</td>
 		 <td class="paper_authors_title"><a href="https://doi.org/10.5061/dryad.2122768" target="_blank">The mesic savannas of the Bateke Plateau: carbon stocks and floristic composition</a></td>
 		 <td class="paper_journal">Biotropica</td>
+		 <td class="paper_year">2018</td>
+	 </tr>
+	 <tr>
+		 <td class="paper_authors_title">Fayolle A., Swaine M. D., Aleman J., Azihou A. F., Bauman D., te Beest M., Chidumayo E. N., Cromsigt J. P. G. M., Dessard H., Finckh M., Gonçalves F. M. P., Gillet J., Gorel A., Hick A., Holdo R., Kirunda B., Mahy G., McNicol I., Ryan C. M., Revermann R., Plumptre A., Pritchard R., Nieto-Quintano P., Schmitt C. B., Seghieri J., Swemmer A. , Talila H. & Woollen E.</td> 
+		 <td class="paper_authors_title"><a href="https://doi.org/10.1111/jbi.13475" target="_blank">A sharp floristic discontinuity revealed by the biogeographic regionalization of African savannas</a></td>
+		 <td class="paper_journal">Journal of Biogeography</td>
 		 <td class="paper_year">2018</td>
 	 </tr>
 	 <tr>
