@@ -255,6 +255,11 @@ $('.grid').masonry({
 <td>University of Liege</td>
 <td>Belgium</td>
 </tr>
+<tr>
+<td><a href="https://www.slu.se/en/cv/joris-cromsigt/" target="_blank">Joris Cromsigt </a></td>
+<td>Swedish University of Agricultural Sciences</td>
+<td>Sweden</td>
+</tr>
 </tbody>
 </table>
 <div class="grid">
