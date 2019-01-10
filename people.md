@@ -250,6 +250,11 @@ $('.grid').masonry({
 <td>Sokoine University of Agriculture</td>
 <td>Tanzania</td>
 </tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Adeline_Fayolle" target="_blank">Adeline Fayolle</a></td>
+<td>University of Liege</td>
+<td>Belgium</td>
+</tr>
 </tbody>
 </table>
 <div class="grid">
