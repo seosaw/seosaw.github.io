@@ -6,7 +6,7 @@ layout: default
 <link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
 
 # The SEOSAW training school
-## Training in long term field observations to understand how African savannas and woodlands are changing
+## Long term field observations to understand how African savannas and woodlands are changing
 
 ### 28 July - 4 August 2019, Sokoine University of Agriculture, Morogoro, Tanzania
 
