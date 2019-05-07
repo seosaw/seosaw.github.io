@@ -256,9 +256,14 @@ $('.grid').masonry({
 <td>Belgium</td>
 </tr>
 <tr>
-<td><a href="https://www.slu.se/en/cv/joris-cromsigt/" target="_blank">Joris Cromsigt </a></td>
+<td><a href="https://www.slu.se/en/cv/joris-cromsigt/" target="_blank">Joris Cromsigt</a></td>
 <td>Swedish University of Agricultural Sciences</td>
 <td>Sweden</td>
+</tr>
+<tr>
+<td><a href="https://uk.linkedin.com/in/paula-nieto-quintano" target="_blank">Paula Nieto Quintano</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
 </tr>
 </tbody>
 </table>
