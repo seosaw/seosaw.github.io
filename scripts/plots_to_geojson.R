@@ -22,10 +22,11 @@ out_dir <- "~/git_proj/seosaw_website/scripts/"
 plots_inter <- ssaw8$plotInfoFull %>%
 	filter(!is.na(longitude_of_centre) & !is.na(latitude_of_centre)) %>%
 	mutate(n_censuses = as.numeric(n_censuses)) %>%
-	mutate(name = paste(name, "-", plotcode),
+	mutate(name_long = paste(name, "-", plotcode),
 		lon = as.numeric(as.character(longitude_of_centre)),
 		lat = as.numeric(as.character(latitude_of_centre)),
-		area_of_plot = round(as.numeric(area_of_plot) * 10000, digits = 2),
+		area_of_plot = round(as.numeric(area_of_plot) * 10000, digits = 2)) %>%
+	mutate(
 		single_multi = case_when(
 			n_censuses > 1 ~ "multi",
 			name %in% c("angola_bicuar_godlee_maiato", "Beteke Fire Experiment", "Kruger Skukuza") ~ "multi",
@@ -46,7 +47,7 @@ zambia_spat <- SpatialPointsDataFrame(
 	data.frame(group = plots_zambia_fc$plot_group,
 		subset = plots_zambia_fc$plot_subset,
 		code = plots_zambia_fc$plotcode,
-		name = plots_zambia_fc$name,
+		name = plots_zambia_fc$name_long,
 		area_of_plot = plots_zambia_fc$area_of_plot,
 		lon = plots_zambia_fc$lon,
 		lat = plots_zambia_fc$lat,
