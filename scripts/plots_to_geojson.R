@@ -15,11 +15,11 @@ library(geosphere)
 library(rgdal)
 
 # Directory paths and data ----
-load("~/git_proj/seosaw/clean_data_sets/seosaw_plot_summary24Sept_v1.Rdata")
+load("~/git_proj/seosaw/clean_data_sets/seosaw_plot_summary5Apr2019.Rdata")
 out_dir <- "~/git_proj/seosaw_website/scripts/"
 
 # Create intermediate data frame
-plots_inter <- ssaw7$plotInfoFull %>%
+plots_inter <- ssaw8$plotInfoFull %>%
 	filter(!is.na(longitude_of_centre) & !is.na(latitude_of_centre)) %>%
 	mutate(n_censuses = as.numeric(n_censuses)) %>%
 	mutate(name = paste(name, "-", plotcode),
@@ -28,7 +28,11 @@ plots_inter <- ssaw7$plotInfoFull %>%
 		area_of_plot = round(as.numeric(area_of_plot) * 10000, digits = 2),
 		single_multi = case_when(
 			n_censuses > 1 ~ "multi",
+			name %in% c("angola_bicuar_godlee_maiato", "Beteke Fire Experiment", "Kruger Skukuza") ~ "multi",
 			TRUE ~ "single"))
+
+##' in theory stems in the database will have a tag id if they are tagged and stem ID if not. I'm not sure that is what happened though.
+##' AFAIK the only sites that are suitable for measurement but do not yet have repeat data are yours, Congo, and Sally's in Kruger.
 
 # Isolate Zambian forestry commission plots
 plots_zambia_fc <- plots_inter %>%
