@@ -7,7 +7,14 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 
 function getColor(d) { 
 	return d == 'single' ? '#08868AFE' :
-	'#D6C107FE'; 
+		   d == 'multi'  ? '#D6C107FE': 
+						   '#D6C107FE';
+}
+
+function getDescrip(d){
+	return d == 'single' ? 'Single census' : 
+		   d == 'multi'  ? 'Permanent plot' :
+						   '';
 }
 
 function plotOptions(feature) {
@@ -51,3 +58,40 @@ L.geoJSON(locations, {
 
 
 
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (mymap) {
+    var div = L.DomUtil.create('div', 'legend');
+    	categories = ['single','multi'];
+    	labels = ['<strong>Plot type</strong>']
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < categories.length; i++) {
+        div.innerHTML += 
+        	labels.push(
+        	'<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' + (getDescrip(categories[i]) ? getDescrip(categories[i]) : '+'));
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+};
+
+legend.addTo(mymap);
+
+var legend_miombo = L.control({position: 'bottomright'});
+
+legend_miombo.onAdd = function (mymap) {
+    var div = L.DomUtil.create('div', 'legend');
+    	categories = ['savanna'];
+    	labels = []
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < categories.length; i++) {
+        div.innerHTML += 
+        	labels.push(
+        	'<i style="background:#179600"></i> ' + 'Savanna');
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+};
+
+legend_miombo.addTo(mymap);
