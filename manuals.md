@@ -12,7 +12,7 @@ The following protocols are in the works, after we agreed at the first meeting t
 * Understory plants, Caroline Lehmann. [Latest version here][2]
 * Soil, Mathew Williams and Iain McNicol. Draft in progress.
 * [Trees traits, Carla Staver][4]
-* [Seedling traits, Ricardo Holdo][2]
+* Seedling traits, Ricardo Holdo
 
 All the protocols are 'living documents', and we welcome input and suggestions from all.
 
