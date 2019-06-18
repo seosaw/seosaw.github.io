@@ -42,7 +42,7 @@ function genLabels(feature, layer){
 
 function miomboOptions(feature) {
   return { 
-    fillOpacity: 0.9,
+    fillOpacity: 0.6,
     fillColor: "#179600",
     color: "#179600",
     weight: 0.1
