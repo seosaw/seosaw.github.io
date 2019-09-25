@@ -6,7 +6,7 @@ layout: default
 <link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
 
 # The SEOSAW Training School
-## How to study how African savannas and woodlands are changing
+## Studying how African savannas and woodlands are changing
 
 ### 19 January - 25 January 2020, Sokoine University of Agriculture, Morogoro, Tanzania
 
