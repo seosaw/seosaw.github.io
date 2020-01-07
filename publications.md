@@ -35,7 +35,7 @@ layout: default
 	 </tr>
 	 <tr>
 		 <td class="paper_authors_title">Nieto-Quintano P., Mitchard E. T. A, Odende R., Mouwembe M. A. B., Rayden T. & Ryan C. M.</td>
-		 <td class="paper_authors_title"><a href="https://doi.org/10.5061/dryad.2122768" target="_blank">The mesic savannas of the Bateke Plateau: carbon stocks and floristic composition</a></td>
+		 <td class="paper_authors_title"><a href="https://doi.org/10.1111/btp.12606" target="_blank">The mesic savannas of the Bateke Plateau: carbon stocks and floristic composition</a></td>
 		 <td class="paper_journal">Biotropica</td>
 		 <td class="paper_year">2018</td>
 	 </tr>
