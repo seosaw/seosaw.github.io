@@ -28,6 +28,12 @@ layout: default
 	 </thead>
 	 <tbody id='tableBody'>
 	 <tr>
+		 <td class="paper_authors_title">Godlee J. L., Gonçalves F. M., Tchamba J. J., Chisingui A. V., Muledi J. I., Shutcha M. N., Ryan C. M., Brade T. K. & Dexter K. G.</td>
+		 <td class="paper_authors_title"><a href="https://dx.doi.org/10.3390/d12040140" target="_blank">Diversity and structure of an arid woodland in southwest Angola, with comparison to the wider miombo ecoregion</a></td>
+		 <td class="paper_journal">Diversity</td>
+		 <td class="paper_year">2020</td>
+	 </tr>
+	 <tr>
 		 <td class="paper_authors_title">McNicol I. M., Ryan C. M. & Mitchard E. T. A.</td>
 		 <td class="paper_authors_title"><a href="https://www.nature.com/articles/s41467-018-05386-z" target="_blank">Carbon losses from deforestation and widespread degradation offset by extensive growth in African woodlands</a></td>
 		 <td class="paper_journal">Nature Communications</td>
