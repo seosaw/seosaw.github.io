@@ -2,15 +2,6 @@
 layout: default
 ---
 
-    <script>
-        jQuery(document).ready(function($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        });
-    </script>
-
 <h1>About SEOSAW: an activity of the Miombo Network</h1>
 
 
@@ -19,28 +10,28 @@ layout: default
 <ul>
     <li>
       <div>
-        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/plot.png" width="50px">
+      	  <a href="{{ site.baseurl }}/data"><img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/plot.png"></a>
 	<span class="counter">5385</span>
 	<span class="counter-desc">Woodland plots</span>
       </div>
     </li>
     <li>
       <div>
-        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/africa.png" width="50px">
+      	  <a href="{{ site.baseurl }}/data"><img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/africa.png"></a>
 	<span class="counter">12</span>
 	<span class="counter-desc">Countries</span>
       </div>
     </li>
     <li>
       <div>
-        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/trees.png" width="50px">
+      	  <a href="{{ site.baseurl }}/data"><img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/trees.png"></a>
 	<span class="counter">248323</span>
 	<span class="counter-desc">Tree measurements<span>
       </div>
     </li>
     <li>
       <div>
-        <img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/specs.png" width="50px">
+      	  <a href="{{ site.baseurl }}/people"><img class="counter-img" src="{{ site.baseurl }}/images/counter_icon/specs.png"></a>
 	<span class="counter">39</span>
 	<span class="counter-desc">Researchers</span>
       </div>
@@ -49,10 +40,7 @@ layout: default
 </div>
 </center>
 
-<div class="landing-top">
-<img src="{{ site.baseurl }}/images/miombo-land.jpg" alt="Woodland">
-
-<h4> Latest news </h4>
+<h2> Latest news </h2>
 <ul>
 <li> Sept 2019: National Geographic Foundation support long term plot re-measurement in Kilwa, Tanzania. </li>
 <li> April 2019: <a href = "https://www.geos.ed.ac.uk/homes/cryan/CyclEx.html"> New NERC funding for long term plots in Mozambique</a>, to assess impact of Cyclone Idai.</li>
@@ -63,17 +51,19 @@ layout: default
 <li> Aug 2018: Francisco Maiato (Herbarium of Lubango) wins National Geographic Foundation support to establish new plots in Angola. This fills a large gap in the network of long term plots.</li>
 </ul>
 
-<h4>What is SEOSAW?</h4>
+<img src="{{ site.baseurl }}/images/miombo-land.jpg" alt="Woodland">
+
+
+<h2>What is SEOSAW?</h2>
 
 The long-term goal of SEOSAW is to understand the response of southern African woodlands to global change.
+
 <h4>Key outputs:</h4>
 <p>1.	Novel analyses of the determinants of ecosystem structure and function for the southern Africa region, based on a synthesis of plot data.</p>
 <p>2.	Standardised methods for plot design and measurement, tailored to the socio-ecology of African woodlands.</p>
 <p>3.	A long-term regional plan for plot remeasurement.</p>
-</div>
 
-<div class="landing-body">
-<h4>Rationale</h4>
+<h2>Rationale</h2>
 
 	<p> The woodlands of southern Africa are the largest savanna in the world at ~3 million km<sup>2</sup> (<a href="https://books.google.co.uk/books/about/World_Savannas.html?id=b0mDBAAAQBAJ&redir_esc=y" target="_blank">Mistry et al. 2000</a>) and support the livelihoods of >150 million people (<a href="http://rstb.royalsocietypublishing.org/content/371/1703/20150312" target="_blank">Ryan et al. 2016</a>, but key ecological and social processes are not well understood. This knowledge gap arises because existing data have not been synthesised, nor analysed with state of the art methods. As a result, we currently have no reliable way to understand how this ecosystem will respond to global change.</p>
 
@@ -81,15 +71,13 @@ The long-term goal of SEOSAW is to understand the response of southern African w
 
 <p> SEOSAW will address this by synthesising data from across the region, and making it easily accessible for regional analyses and modelling efforts. It will also develop a set of standardised methodologies and new collaborations to improve future observations. It will do so by creating a novel partnership of research groups, and developing the intellectual infrastructure to support collaborative research for the long term. </p>
 
-<h4> Get involved </h4>
+<h2> Get involved </h2>
 
 <p> SEOSAW is an open network - we welcome anyone who is interested in using the data or contributing new data. Please get in touch via the link below. </p>
 
 <form action="{{ site.url }}/contact.html">
   <button class="landing-btn" type="submit">Contact SEOSAW</button>
 </form>
-</div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="{{ site.baseurl }}/scripts/jquery.counterup.min.js"></script>
 

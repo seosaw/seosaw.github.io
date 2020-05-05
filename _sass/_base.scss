@@ -21,6 +21,8 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    background-color: $background-color;
+    height: 100vh;
 }
 
 /**
@@ -187,7 +189,6 @@ pre {
 }
 
 
-
 /**
  * Icons
  */
@@ -203,26 +204,6 @@ pre {
             fill: $grey-color;
         }
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    height: 100vh;
 }
 
 /**
@@ -306,13 +287,13 @@ h5,
 h6 {
     color: #404040;
     line-height: 36px;
-    padding-bottom: 25px;
 }
 h1 {
     margin-bottom: 5px;
     font-size: 30px;
 }
 h2 {
+    margin-top: 20px;
     font-size: 24px;
 }
 h3 {
@@ -320,6 +301,7 @@ h3 {
 }
 h4 {
     font-size: 16px;
+	padding-bottom: 2px;
 }
 h5 {
     font-size: 14px;
@@ -395,10 +377,6 @@ sup {
     table, pre {
         page-break-inside: avoid;
     }
-}
-
-h4 {
-	padding-bottom: 2px;
 }
 
 .h-inline {

@@ -1,0 +1,24 @@
+---
+title: "SEOSAW Code of Conduct Plain Language Summary"
+version: 2.1
+date: 2020-05-04
+---
+
+This document is a plain language summary of the SEOSAW Code of Conduct, outlining key points. This document is not a replacement for the full Code of Conduct, which should be consulted before engaging in SEOSAW activities, contributing data to SEOSAW, or using SEOSAW data.
+
+Definitions:
+
+* Data originator - The owner(s) of a dataset contributed to the SEOSAW database. 
+* SEOSAW partners - All participants in the SEOSAW project, including data originators and researchers who use the data.
+* Publication - Any report, or article, whether peer-reviewed or otherwise, which is made available to others.
+
+Key points:
+
+* Ownership of data remains with the data originator when data are contributed to SEOSAW.
+* SEOSAW partners must inform all other SEOSAW partners of their intention to use SEOSAW data before conducting any data analysis
+* Data originators of data used in a publication will be offered the opportunity for both meaningful participation in the research and co-authorship.
+* All SEOSAW partners who make a meaningful contribution to a publication should be offered co-authorship.
+* Data originators reserve the right to deny use of their data in research.
+* The SEOSAW platform must be cited in all publications which make use of SEOSAW data.
+* Data originators should ensure their data meets the SEOSAW minimum data requirements before data is contributed to SEOSAW
+* SEOSAW partners are encouraged to contribute to the continued running of the SEOSAW network, including contributing new data and providing funding for plot network expansion, database management, training, and supervision of research students.

@@ -61,6 +61,7 @@ li {
 	text-decoration: none;
 }
 
+
 .title li a {
 	color: #FFF;
 }
@@ -81,10 +82,10 @@ li {
 }
 
 .nav-bar-title {
+	font-family: "Montserrat",sans-serif;
 	font-size: 50px;
 	color: #FFF;
-	margin-left: -2px;
-	padding-top: 20px;
+	margin: 0px 0px -20px -2px;
 }
 
 .description {
@@ -196,23 +197,6 @@ li {
 	padding-bottom: 100px;
 	/* height of footer */
 }
-
-.landing-top {
-    padding-top: 20px;
-    font-size: 14px;
-}
-
-.landing-top img {
-	float: left;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	width: 500px;
-}
-
-.landing-body {
-    margin-top: 50px; 
-}
-
 
 /**
  * Footer
@@ -425,4 +409,8 @@ li {
   display: inline-block;
   text-align: center;	
   width: 175px;
+}
+
+.counter-img {
+	width: 50px;
 }
