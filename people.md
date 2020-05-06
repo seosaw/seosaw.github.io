@@ -352,7 +352,7 @@ $('.grid').masonry({
 		<div class="hovereffect">
       <img src="{{ site.baseurl }}/images/inst_logos/isced.png" alt=""/>
       <div class="overlay">
-			  <h2>Huila Institute of Science</h2>
+			  <h2>Institutio Superior de Ciencias de Educacao, Huila</h2>
   	  </div>
     </div>
   </div>
