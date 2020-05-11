@@ -1,5 +1,5 @@
 // Reset basic elements
-body, h1, h2, h3, h4, h5, h6,
+html, body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
@@ -119,24 +119,24 @@ img {
 }
 
 // Footer
-.footer hr {
-	max-width: 90%;
-	margin-left: 5%;
+.footer {
+	margin: 10px 10px 0px 10px;
 }
 
-.footer-logo li {
-	display: inline-block;
+.footer-text {
 	float: left;
-	margin-left: 5%;
-	line-height: 40px;
+	margin: 10px;
+
 }
 
-.footer-logo img {
+.footer-img { 
+	float: right;
+}
+
+.footer-img img {
+	display: inline-block;
 	max-height: 40px;
-}
-
-.footer-logo p {
-	vertical-align: middle;
+	margin: 5px;
 }
 
 // Lists
