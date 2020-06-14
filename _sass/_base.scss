@@ -188,30 +188,23 @@ table {
     margin: 10px 0 15px 0;
     border-collapse: collapse;
     padding-bottom: 20px;
+	border: 1px solid $brand-color;
 	table-layout: fixed;
 	width: 100%;
 }
+
 td {
     padding: 3px 10px;
+	border-bottom: 1px solid $brand-color;
 }
+
 th {
     padding: 5px 10px;
     background: $brand-color;
     font-weight: bold;
     color: $background-color;
 }
-.paper_authors_title {
-	width: 300px;
-	border-bottom: 1px solid #ddd;
-}
-.paper_journal {
-	width: 150px;
-	border-bottom: 1px solid #ddd;
-}
-.paper_year {
-	width: 50px;
-	border-bottom: 1px solid #ddd;
-}
+
 table.tablesorter thead tr .headerSortNone {
     background-position: right center;
     background-repeat: no-repeat;
@@ -219,18 +212,39 @@ table.tablesorter thead tr .headerSortNone {
     padding-right: 5px;
 
 }
+
 table.tablesorter thead tr .headerSortUp {
     background-image: url('../images/table_arrow/asc.gif');
     background-position: right center;
     background-repeat: no-repeat;
     padding-right: 5px;
 }
+
 table.tablesorter thead tr .headerSortDown {
     background-image: url('../images/table_arrow/desc.gif');
     background-position: right center;
     background-repeat: no-repeat;
     padding-right: 5px;
 }
+
+th.colname {
+	width: 20%;
+}
+
+th.colclass, th.colunit, {
+	width: 10%;
+}
+
+th.colby {
+	width: 15%;
+}
+
+th.coldesc {
+	width: 30%;
+}
+
+//th.coldesc, th.colunit
+
 
 // Leaflet map
 #leaf-map {
