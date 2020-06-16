@@ -23,7 +23,7 @@ Example field data sheets will be added here shortly, and an ODK Android tablet 
 [3]: https://docs.google.com/document/d/1Qey7TWfjBZL1dhtD_sioguj_2wIcJvVlGgqsFaWdZmE/edit?usp=sharing
 [4]: https://docs.google.com/document/d/1IJkM_PNHHl3qVFlZqxKvaq2JNt0RB8bZlstCSpc4Rgc/edit?usp=sharing
 
-<h2 class="h-inline">Purpose of the protocols</h2>
+## Purpose of the protocols
 
 * Not to suggest novel methods, but to borrow from elsewhere, and present methods that have been tried and tested by the partners in tropical savannas and woodlands.
 * To share experience about what works and what does not, to avoid mistakes being repeated.
@@ -35,3 +35,10 @@ Example field data sheets will be added here shortly, and an ODK Android tablet 
 * To minimise effort by allowing the use of the SEOSAW data tables, code, database, and tablets for data collection, and the use of [ForestPlots.net](https://www.forestplots.net) for long term, secure storage.
 * To suggest methods aimed at long term permanent plots that are to be remeasured approximately every 2-5 years to study changes in ecosystem structure, diversity, carbon storage, mortality and growth. 
 * To provide a flexible approach suited for the many-small-plots paradigm and also the few-large-plots approach which has come to dominate research in the wet tropics.
+
+## SEOSAW dataset columns
+
+The SEOSAW dataset uses two tables to organise the data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
+
+* [Stem table columns]({{ site.baseurl }}/stem_columns)
+* [Plot table columns]({{ site.baseurl }}/plot_columns)
