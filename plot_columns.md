@@ -149,6 +149,45 @@ $('.grid').masonry({
     <td></td>
   </tr>
   <tr>
+    <td>subplot_n</td>
+    <td>int</td>
+    <td>Number of subplots within the larger plot.</td>
+    <td>n</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>subplot_shape</td>
+    <td>fct</td>
+    <td>The shape of the subplots. Possible values are the same as
+    `plot_shape`</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>subplot_length</td>
+    <td>int</td>
+    <td>If `subplot_shape` == "rectangle", the longest side length,
+    in metres to the nearest metre</td>
+    <td>m</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>subplot_width</td>
+    <td>int</td>
+    <td>If `subplot_shape` == "rectangle", the shorter side length,
+    in metres to the nearest metre</td>
+    <td>m</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>subplot_diameter</td>
+    <td>int</td>
+    <td>If subplot_shape` == "circle", the diameter of the plot,
+    measured in metres to the nearest metre</td>
+    <td>m</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>min_diam_thresh</td>
     <td>int</td>
     <td>The minimum stem diameter value considered within this
@@ -456,18 +495,6 @@ $('.grid').masonry({
     calculate this. Measured in decimal degrees, WGS84
     EPSG:4326</td>
     <td>decimal degrees</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>elevation</td>
-    <td>num</td>
-    <td>The elevation of the plot. Measured in metres above
-    International Mean sea level to 1 decimal place (nearest 10
-    cm). In order of preference: 1) Average of GPS readings across
-    the plot, 2) a single GPS reading, 3) Manual lookup on
-    topographic map, 4) NA (we can query SRTM for missing
-    values)</td>
-    <td>m</td>
     <td></td>
   </tr>
   <tr>
@@ -927,11 +954,415 @@ $('.grid').masonry({
     <td>plotTableGen()</td>
   </tr>
   <tr>
+    <td>subplot_area</td>
+    <td>num</td>
+    <td>The flat area of the subplots, in hectares</td>
+    <td>ha</td>
+    <td>plotExtraColGen()</td>
+  </tr>
+  <tr>
     <td>plot_perimeter</td>
     <td>num</td>
     <td>The perimeter of the plot, in metres</td>
     <td>m</td>
     <td>plotTableGen()</td>
+  </tr>
+  <tr>
+    <td>bio1</td>
+    <td>num</td>
+    <td>WorldClim - Mean Annual Temperature</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio2</td>
+    <td>num</td>
+    <td>WorldClim - Mean Diurnal Range (mean monthly max. temp. -
+    min. temp.)</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio3</td>
+    <td>num</td>
+    <td>WorldClim - Isothermality (bio2 / bio7)</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio4</td>
+    <td>num</td>
+    <td>WorldClim - Temperature Seasonality (standard deviation of
+    bio1)</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio5</td>
+    <td>num</td>
+    <td>WorldClim - Max Temperature of Warmest Month</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio6</td>
+    <td>num</td>
+    <td>WorldClim - Min Temperature of Coldest Month</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio7</td>
+    <td>num</td>
+    <td>WorldClim - Temperature Annual Range (mean of annual bio5 -
+    bio6)</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio8</td>
+    <td>num</td>
+    <td>WorldClim - Mean Temperature of Wettest Quarter</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio9</td>
+    <td>num</td>
+    <td>WorldClim - Mean Temperature of Driest Quarter</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio10</td>
+    <td>num</td>
+    <td>WorldClim - Mean Temperature of Warmest Quarter</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio11</td>
+    <td>num</td>
+    <td>WorldClim - Mean Temperature of Coldest Quarter</td>
+    <td>degC</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio12</td>
+    <td>num</td>
+    <td>WorldClim - Mean Annual Precipitation</td>
+    <td>mm y^-1</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio13</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Wettest Month</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio14</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Driest Month</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio15</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation Seasonality (Coefficient of
+    Variation of bio12)</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio16</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Wettest Quarter</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio17</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Driest Quarter</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio18</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Warmest Quarter</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>bio19</td>
+    <td>num</td>
+    <td>WorldClim - Precipitation of Coldest Quarter</td>
+    <td>mm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>Average_VI</td>
+    <td>num</td>
+    <td>MODIS VIPPHEN - Mean annual EVI (Enhanced Vegetation
+    Index)</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>Cumulative_VI</td>
+    <td>num</td>
+    <td>MODIS VIPPHEN - Cumulative annual EVI (Enhanced Vegetation
+    Index)</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>Day_of_Peak_Season_1</td>
+    <td>num</td>
+    <td>MODIS VIPPHEN - Mean day of year of peak EVI of growing
+    season 1 (missing value -1)</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>Day_of_Peak_Season_2</td>
+    <td>num</td>
+    <td>MODIS VIPPHEN - Mean day of year of peak EVI of growing
+    season 2 (missing value -1)</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>Day_of_Peak_Season_3</td>
+    <td>num</td>
+    <td>MODIS VIPPHEN - Mean day of year of peak EVI of growing
+    season 3 (missing value -1)</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>total_herbivory</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total herbivore
+    biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>SNSBr</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total Small non-social
+    browsers biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>MSMix</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total Medium-sized
+    social mixed herbivore biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>LBr</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total Large browser
+    biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>WDGr</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total Water-dependent
+    grazers biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>NRum</td>
+    <td>num</td>
+    <td>Hempson et al. 2017 herbivory - Mean total Non-ruminants
+    biomass</td>
+    <td>kg km^-2</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>elevation</td>
+    <td>num</td>
+    <td>The elevation of the plot. Measured in metres above
+    International Mean sea level to 1 decimal place (nearest 10
+    cm). In order of preference: 1) Average of GPS readings across
+    the plot, 2) a single GPS reading, 3) Manual lookup on
+    topographic map, 4) NA (we can query SRTM for missing
+    values)</td>
+    <td>m asl</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>TPI</td>
+    <td>num</td>
+    <td>Topographic Position Index - difference between cell
+    elevation and mean value of 8 surrounding cells</td>
+    <td>m asl</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>TRI</td>
+    <td>num</td>
+    <td>Terrain Ruggedness Index - mean of absolute difference
+    between cell elevation and value of 8 surrounding cells</td>
+    <td>m asl</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>roughness</td>
+    <td>num</td>
+    <td>Topographic Roughness Index - difference between maximum
+    and minimum cell elevation and its 8 surrounding cells</td>
+    <td>m asl</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>chr</td>
+    <td>Administrative area at level 1 according to rnaturalearth
+    data</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>depth</td>
+    <td>chr</td>
+    <td>Depth range over which soil attributes have been
+    averaged</td>
+    <td>cm</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>BLDFIE</td>
+    <td>num</td>
+    <td>Bulk density of soil (fine earth)</td>
+    <td>kg m^-3</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>CECSOL</td>
+    <td>num</td>
+    <td>Cation Exchange Capacity of soil</td>
+    <td>cmolc kg^-1</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>CLYPPT</td>
+    <td>num</td>
+    <td>Clay content of soil (0-2 um) mass fraction</td>
+    <td>proportion</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>SNDPPT</td>
+    <td>num</td>
+    <td>Sand content of soil (50-2000 um) mass fraction</td>
+    <td>proportion</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>SLTPPT</td>
+    <td>num</td>
+    <td>Silt content of soil (2-50 um) mass fraction</td>
+    <td>proportion</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>CRFVOL</td>
+    <td>num</td>
+    <td>Coarse fragments volumetric in soil</td>
+    <td>proportion</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>PHIHOX</td>
+    <td>num</td>
+    <td>Soil pH x 10 in H2O</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>PHIKCL</td>
+    <td>num</td>
+    <td>Soil pH x 10 in KCl</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>OCSTHA</td>
+    <td>num</td>
+    <td>Soil organic carbon stock</td>
+    <td>Mg ha^-1</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>OCDENS</td>
+    <td>num</td>
+    <td>Soil organic carbon density</td>
+    <td>kg m^-3</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>ORCDRC</td>
+    <td>num</td>
+    <td>Soil organic carbon content (fine earth fraction)</td>
+    <td>g kg^-1</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>ECO_NAME</td>
+    <td>chr</td>
+    <td>Dinerstein et al. 2017 - Terrestrial Ecoregion</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>REALM</td>
+    <td>chr</td>
+    <td>Dinerstein et al. 2017 - Terrestrial Realm</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>BIOME_NAME</td>
+    <td>chr</td>
+    <td>Dinerstein et al. 2017 - Terrestrial Biome</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>frost_days</td>
+    <td>num</td>
+    <td>Mean annual number of frosty days</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>firecount_2001_2018</td>
+    <td>int</td>
+    <td>MODIS burned area - Number of fires between 2001 and
+    2018</td>
+    <td>n</td>
+    <td>spatialDefaultsQuery()</td>
+  </tr>
+  <tr>
+    <td>AFfrpmean_2001_2018</td>
+    <td>num</td>
+    <td>MODIS active fires product</td>
+    <td></td>
+    <td>spatialDefaultsQuery()</td>
   </tr>
   <tr>
     <td>diam_max</td>
@@ -1049,10 +1480,17 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
+    <td>n_diam</td>
+    <td>num</td>
+    <td>The number of stems for which diameter was measured</td>
+    <td>n</td>
+    <td>plotStemColumnGen()</td>
+  </tr>
+  <tr>
     <td>n_height</td>
     <td>num</td>
     <td>The number of stems for which height was measured</td>
-    <td>cm</td>
+    <td>n</td>
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
@@ -1235,20 +1673,6 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>stem_vol_mean</td>
-    <td>num</td>
-    <td>Mean stem volume, in m^3</td>
-    <td>m^3</td>
-    <td>plotStemColumnGen()</td>
-  </tr>
-  <tr>
-    <td>stem_vol_sd</td>
-    <td>num</td>
-    <td>Standard deviation of stem volumes</td>
-    <td>m^3</td>
-    <td>plotStemColumnGen()</td>
-  </tr>
-  <tr>
     <td>n_determ_genus</td>
     <td>num</td>
     <td>Number of stems where genera successfully identified</td>
@@ -1299,7 +1723,7 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>per_1</td>
+    <td>prop_1</td>
     <td>num</td>
     <td>Proportional abundance of the most dominant species in the
     plot</td>
@@ -1307,7 +1731,7 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>per_2</td>
+    <td>prop_2</td>
     <td>num</td>
     <td>Proportional abundance of the second most dominant species
     in the plot</td>
@@ -1315,7 +1739,7 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>per_3</td>
+    <td>prop_3</td>
     <td>num</td>
     <td>Proportional abundance of the third most dominant species
     in the plot</td>
@@ -1323,7 +1747,7 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>per_4</td>
+    <td>prop_4</td>
     <td>num</td>
     <td>Proportional abundance of the fourth most dominant species
     in the plot</td>
@@ -1331,7 +1755,7 @@ $('.grid').masonry({
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
-    <td>per_5</td>
+    <td>prop_5</td>
     <td>num</td>
     <td>Proportional abundance of the fifth most dominant species
     in the plot</td>
@@ -1343,6 +1767,13 @@ $('.grid').masonry({
     <td>num</td>
     <td>Species richness of plot</td>
     <td>n</td>
+    <td>plotStemColumnGen()</td>
+  </tr>
+  <tr>
+    <td>rarefy</td>
+    <td>num</td>
+    <td>Rarefied species richness at 25 individuals</td>
+    <td></td>
     <td>plotStemColumnGen()</td>
   </tr>
   <tr>
@@ -1407,6 +1838,13 @@ $('.grid').masonry({
     <td>Aboveground woody biomass per hectare</td>
     <td>tC ha^-1</td>
     <td>plotStemColumnGen()</td>
+  </tr>
+  <tr>
+    <td>ma_city</td>
+    <td>num</td>
+    <td>Malaria Atlas Project, travel time to cities</td>
+    <td>min</td>
+    <td></td>
   </tr>
   </tbody>
 </table>
