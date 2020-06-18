@@ -36,9 +36,11 @@ Example field data sheets will be added here shortly, and an ODK Android tablet 
 * To suggest methods aimed at long term permanent plots that are to be remeasured approximately every 2-5 years to study changes in ecosystem structure, diversity, carbon storage, mortality and growth. 
 * To provide a flexible approach suited for the many-small-plots paradigm and also the few-large-plots approach which has come to dominate research in the wet tropics.
 
-## SEOSAW dataset columns
+## SEOSAW dataset usage
 
-The SEOSAW dataset uses two tables to organise the data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
+The SEOSAW dataset uses two tables to organise data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
 
 * [Stem table columns]({{ site.baseurl }}/stem_columns)
 * [Plot table columns]({{ site.baseurl }}/plot_columns)
+
+Additionally, refer to the [seosawr package vignette]({{ site.baseurl }}/vignette) for more information on how the SEOSAW dataset is cleaned and how you can format your own data in a SEOSAW friendly way. [See here for further description of the SEOSAW dataset]({{ site.baseurl }}/description).
