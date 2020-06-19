@@ -12,7 +12,6 @@ library(maps)
 library(rgdal)
 library(rgeos)
 library(ggplot2)
-library(ggmap)
 library(geojsonio)
 library(dplyr)
 

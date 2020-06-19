@@ -4,7 +4,7 @@
 Rscript "plots_to_geojson.R"
 
 
-Rscript "savanna_shp_to_geojson.R" 
+#Rscript "savanna_shp_to_geojson.R" 
 
 
 ## Change plot_loc.geojson to a new plot_loc.js
