@@ -45,7 +45,7 @@ $('.grid').masonry({
     Bicuar National Park (B), by John Godlee (G), would be referred
     to as ABG_1.</td>
     <td></td>
-    <td></td>
+    <td>data entry</td>
   </tr>
   <tr>
     <td>subplot_id</td>

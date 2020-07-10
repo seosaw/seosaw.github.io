@@ -47,7 +47,7 @@ $('.grid').masonry({
     dataset, i.e. a group of plots owned by a particular
     researcher.</td>
     <td></td>
-    <td></td>
+    <td>data entry</td>
   </tr>
   <tr>
     <td>plot_cluster</td>
