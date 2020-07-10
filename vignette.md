@@ -177,10 +177,10 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <p>The SEOSAW dataset also contains a column at the plot level which allows data originators to suggest their own local allometry, though these allometries aren’t available as functions in the SEOSAW package as they are numerous and varied. Table 3 contains information on the available biomass allometries and their original publication.</p>
 <table>
 <colgroup>
-<col width="28%"></col>
-<col width="21%"></col>
-<col width="17%"></col>
-<col width="32%"></col>
+<col width="28%">
+<col width="21%">
+<col width="17%">
+<col width="32%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -321,9 +321,9 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <p>The SEOSAW package provides slim wrappers around existing functions in the <code>vegan</code> package to calculate biodiversity metrics at the plot level. Diversity metrics are calculated with <code>diversityGen()</code>. Possible diversity metrics are:</p>
 <table>
 <colgroup>
-<col width="12%"></col>
-<col width="18%"></col>
-<col width="69%"></col>
+<col width="12%">
+<col width="18%">
+<col width="69%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -454,9 +454,9 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <p>The SEOSAW package contains generic functions for extracting plot level data from arbitrary raster and vector spatial objects. There are also functions to extract data from a number of default spatial data layers, which are provided either through API interfaces or data objects within the SEOSAW package. The table below lists the functions available to extract from particular spatial data sources.</p>
 <table>
 <colgroup>
-<col width="16%"></col>
-<col width="33%"></col>
-<col width="50%"></col>
+<col width="16%">
+<col width="33%">
+<col width="50%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -734,12 +734,12 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <p>See the table below for an example of the changes <code>stemTreeIDClean()</code> makes. Note that <code>tag_id</code> should be reserved for physical tags that allow re-measurement of permanent plots.</p>
 <table>
 <colgroup>
-<col width="9%"></col>
-<col width="18%"></col>
-<col width="18%"></col>
-<col width="18%"></col>
-<col width="17%"></col>
-<col width="17%"></col>
+<col width="9%">
+<col width="18%">
+<col width="18%">
+<col width="18%">
+<col width="17%">
+<col width="17%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -826,7 +826,8 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <span id="cb70-3"><a href="#cb70-3"></a>  <span class="dt">new_stem_id =</span> <span class="st">&quot;stem_id&quot;</span>, <span class="dt">new_tag_id =</span> <span class="st">&quot;tag_id&quot;</span>,</span>
 <span id="cb70-4"><a href="#cb70-4"></a>  <span class="dt">old_plot_id =</span> <span class="st">&quot;plot_id&quot;</span>, <span class="dt">old_tree_id =</span> <span class="st">&quot;tree_id&quot;</span>,</span>
 <span id="cb70-5"><a href="#cb70-5"></a>  <span class="dt">old_stem_id =</span> <span class="st">&quot;stem_id&quot;</span>, <span class="dt">old_tag_id =</span> <span class="st">&quot;tag_id&quot;</span>)</span></code></pre></div>
-<p>Next, fix the species names. This can often be the most time consuming part of the cleaning process. First, run <code>speciesGen()</code> to try and catch any species not recognised by either the larger SEOSAW dataset, <code>taxize::gnr_resolve()</code>, or CJB. The lookup tables called by default by <code>speciesGen()</code> will try to correct as many genuine taxonomic synonymy issues as possible, but most often the data originator is the most knowledgeable on their species naming shorthand:</p>
+<p>Next, fix the species names. This can often be the most time consuming part of the cleaning process. Try to provide a precise species name if possible. If only the genus is known use "Genus indet" (e.g. "Brachystegia indet"). If only the family is known, use "family indet" (e.g. "Fabaceae indet").</p>
+<p>First, run <code>speciesGen()</code> to try and catch any species not recognised by either the larger SEOSAW dataset, <code>taxize::gnr_resolve()</code>, or CJB. The lookup tables called by default by <code>speciesGen()</code> will try to correct as many genuine taxonomic synonymy issues as possible, but most often the data originator is the most knowledgeable on their species naming shorthand:</p>
 <div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1"></a>stems_species &lt;-<span class="st"> </span><span class="kw">speciesGen</span>(stems_clean_check, </span>
 <span id="cb71-2"><a href="#cb71-2"></a>  <span class="dt">return_unknown =</span> <span class="ot">TRUE</span>, <span class="dt">return_unknown_cjb =</span> <span class="ot">TRUE</span>, <span class="dt">return_unknown_gnr =</span> <span class="ot">TRUE</span>) </span></code></pre></div>
 <pre><code>## Correcting taxonomy</code></pre>
@@ -876,13 +877,13 @@ Schematic diagram of nested plot, with subplot occupying 25% of total plot space
 <p>This function also re-creates <code>tree_id</code>, <code>stem_id</code> and <code>measurement_id</code> as uniquely identifying columns. See the table below for an example:</p>
 <table>
 <colgroup>
-<col width="7%"></col>
-<col width="15%"></col>
-<col width="15%"></col>
-<col width="17%"></col>
-<col width="15%"></col>
-<col width="14%"></col>
-<col width="14%"></col>
+<col width="7%">
+<col width="15%">
+<col width="15%">
+<col width="17%">
+<col width="15%">
+<col width="14%">
+<col width="14%">
 </colgroup>
 <thead>
 <tr class="header">
