@@ -213,7 +213,7 @@ $('.grid').masonry({
     <td></td>
   </tr>
   <tr>
-    <td>min_height_thresh</td>
+    <td>max_height_thresh</td>
     <td>num</td>
     <td>The maximum stem height value considered within this plot,
     in metres to the nearest 10 centimetres.</td>
