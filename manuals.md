@@ -8,10 +8,10 @@ We are developing a set of linked protocols that will allow for data collected a
 
 The following protocols are in the works, after we agreed at the first meeting to prioritise the following:
 
-* Plot design and tree measurements, including deadwood and saplings. [Latest version here][1]
-* Understory plants, Caroline Lehmann. [Latest version here][2]
+* [Plot design and tree measurements, including deadwood and saplings.][1] 
+* [Understory plants, Caroline Lehmann.][2]
+* [Trees traits, Carla Staver][3]
 * Soil, Mathew Williams and Iain McNicol. Draft in progress.
-* [Trees traits, Carla Staver][4]
 * Seedling traits, Ricardo Holdo
 
 All the protocols are 'living documents', and we welcome input and suggestions from all.
@@ -20,8 +20,8 @@ Example field data sheets will be added here shortly, and an ODK Android tablet 
 
 [1]: ./resources/SEOSAW_FieldManual_v3_2018.pdf
 [2]: ./resources/Grass_sampling_PSPs_May_2018.pdf
-[3]: https://docs.google.com/document/d/1Qey7TWfjBZL1dhtD_sioguj_2wIcJvVlGgqsFaWdZmE/edit?usp=sharing
-[4]: https://docs.google.com/document/d/1IJkM_PNHHl3qVFlZqxKvaq2JNt0RB8bZlstCSpc4Rgc/edit?usp=sharing
+[3]: https://docs.google.com/document/d/1IJkM_PNHHl3qVFlZqxKvaq2JNt0RB8bZlstCSpc4Rgc/edit?usp=sharing
+[4]: https://docs.google.com/document/d/1Qey7TWfjBZL1dhtD_sioguj_2wIcJvVlGgqsFaWdZmE/edit?usp=sharing
 
 ## Purpose of the protocols
 
