@@ -17,6 +17,7 @@ Plots with multiple censuses will eventually be provided to [ForestPlots.net](ht
 
 If you are interested in being involved in data synthesis activities and have data you would like to contribute, please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk).
 
+[See here for further description of the SEOSAW dataset]({{ site.baseurl }}/description).
 
 <div id="leaf-map"></div>
 
