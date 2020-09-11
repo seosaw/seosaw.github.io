@@ -6,14 +6,14 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 }).addTo(mymap);
 
 function getColor(d) { 
-	return d == false ? '#08868AFE' :
-		   d == true  ? '#D6C107FE': 
-						   '#D6C107FE';
+	return d === false ? '#08868AFE' :
+		   d === true  ? '#D6C107FE' : 
+						  '#D6C107FE';
 }
 
 function getDescrip(d){
-	return d == false ? 'Single census' : 
-		   d == true  ? 'Permanent plot' :
+	return d === false ? 'Single census' : 
+		   d === true  ? 'Permanent plot' :
 						   '';
 }
 
@@ -35,7 +35,7 @@ function genPoints(feature, latlng) {
 function genLabels(feature, layer){
 		layer.bindPopup(
 				"Country: " + feature.properties.country + "<br>" +
-				"Plot Area: " + feature.properties.plot_area + " m<sup>2</sup>" + "<br>" + 
+				"Plot Area: " + feature.properties.plot_area + " ha" + "<br>" + 
 				"Times surveyed: " + feature.properties.n_census);
 	}
 
