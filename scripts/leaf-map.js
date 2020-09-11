@@ -61,7 +61,7 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'legend');
-    	categories = ['FALSE','TRUE'];
+    	categories = [false,true];
     	labels = ['<strong>Plot type</strong>']
 
     // loop through our density intervals and generate a label with a colored square for each interval
