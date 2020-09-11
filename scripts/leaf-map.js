@@ -6,20 +6,20 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 }).addTo(mymap);
 
 function getColor(d) { 
-	return d == 'single' ? '#08868AFE' :
-		   d == 'multi'  ? '#D6C107FE': 
+	return d == 'FALSE' ? '#08868AFE' :
+		   d == 'TRUE'  ? '#D6C107FE': 
 						   '#D6C107FE';
 }
 
 function getDescrip(d){
-	return d == 'single' ? 'Single census' : 
-		   d == 'multi'  ? 'Permanent plot' :
+	return d == 'FALSE' ? 'Single census' : 
+		   d == 'TRUE'  ? 'Permanent plot' :
 						   '';
 }
 
 function plotOptions(feature) {
 	return { 
-		fillColor: getColor(feature.properties.single_multi),
+		fillColor: getColor(feature.properties.permanent),
 		fillOpacity: 0.6,
 		weight: 0.5,
 		radius: 5,
@@ -36,8 +36,7 @@ function genLabels(feature, layer){
 		layer.bindPopup(
 				"Country: " + feature.properties.country + "<br>" +
 				"Plot Area: " + feature.properties.plot_area + " m<sup>2</sup>" + "<br>" + 
-				"Times surveyed: " + feature.properties.n_censuses + "<br>" + 
-				"Plots in cluster: " + feature.properties.n_plots);
+				"Times surveyed: " + feature.properties.n_census);
 	}
 
 function miomboOptions(feature) {
@@ -62,7 +61,7 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'legend');
-    	categories = ['single','multi'];
+    	categories = ['FALSE','TRUE'];
     	labels = ['<strong>Plot type</strong>']
 
     // loop through our density intervals and generate a label with a colored square for each interval
