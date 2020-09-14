@@ -265,6 +265,11 @@ $('.grid').masonry({
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
+<tr>
+<td><a href="http://fnrss.nust.na/?q=agriculture-natural-resources-sciences/staff/vera-de-cauwer" target="_blank">Vera De Cauwer</a></td>
+<td>Namibian University of Science and Technology</td>
+<td>Namibia</td>
+</tr>
 </tbody>
 </table>
 <div class="grid">
@@ -441,6 +446,14 @@ $('.grid').masonry({
             <img src="{{ site.baseurl }}/images/inst_logos/gcrf.jpg" alt=""/>
             <div class="overlay">
 			  <h2>Global Challenges Research Fund</h2>
+  	  </div>
+    </div>
+  </div>
+    <div class="grid-item">
+		<div class="hovereffect">
+            <img src="{{ site.baseurl }}/images/inst_logos/nust.png" alt=""/>
+            <div class="overlay">
+			  <h2>Namibian University of Science and Technology</h2>
   	  </div>
     </div>
   </div>
