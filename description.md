@@ -383,7 +383,7 @@ summary {
 </div>
 
 
-<p>This document describes the SEOSAW dataset (v2.5).</p>
+<p>This document describes the SEOSAW dataset (v2.8).</p>
 <pre class="r"><code>library(seosawr)
 library(sf)
 library(raster)
