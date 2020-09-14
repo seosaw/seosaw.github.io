@@ -2963,7 +2963,7 @@ $('.grid').masonry({
   </tr>
 
   <tr>
-    <td>n_stems_ha</td>
+    <td>stocking_ha</td>
 
     <td>num</td>
 
@@ -2975,11 +2975,12 @@ $('.grid').masonry({
   </tr>
 
   <tr>
-    <td>n_stems_gt5_ha</td>
+    <td>stocking_gt5_ha</td>
 
     <td>num</td>
 
-    <td>Number of stems greater than 5 cm DBH per hectare</td>
+    <td>Number of stems greater than 5 cm DBH per hectare, adjusted
+    for nested sampling with `fpc`</td>
 
     <td>n ha^-1</td>
 
@@ -2987,11 +2988,12 @@ $('.grid').masonry({
   </tr>
 
   <tr>
-    <td>n_stems_gt10_ha</td>
+    <td>stocking_gt10_ha</td>
 
     <td>num</td>
 
-    <td>Number of stems greater than 10 cm DBH per hectare</td>
+    <td>Number of stems greater than 10 cm DBH per hectare,
+    adjusted for nested sampling with `fpc`</td>
 
     <td>n ha^-1</td>
 

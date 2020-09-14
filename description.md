@@ -378,7 +378,7 @@ summary {
 
 <h1 class="title toc-ignore">Description of the SEOSAW dataset</h1>
 <h4 class="author">John L. Godlee</h4>
-<h4 class="date">11 September, 2020</h4>
+<h4 class="date">14 September, 2020</h4>
 
 </div>
 
@@ -536,32 +536,30 @@ n_plots &lt;- plots %&gt;%
 
 site_summ %&gt;%
   left_join(.,n_plots, by = &quot;site&quot;) %&gt;%
-  dplyr::select(site, n_plots, n_stems, n_diam, n_height, height_mean, diam_mean, 
+  dplyr::select(site, n_plots, n_stems, n_height, height_mean, diam_mean, 
     diam_min, diam_max, n_determ_genus, n_determ_species) %&gt;%
   kable(row.names = FALSE, 
     digits = c(NA,0,0,0,0,1,1,1,1,0,0),
-    col.names = c(&quot;Dataset ID&quot;, &quot;Plots&quot;, &quot;Stems&quot;, &quot;Diameters&quot;, &quot;Heights&quot;, 
+    col.names = c(&quot;Dataset ID&quot;, &quot;Plots&quot;, &quot;Stems&quot;, &quot;Heights&quot;, 
       &quot;Mean height (m)&quot;, &quot;Mean diameter (cm)&quot;, &quot;Min. diameter (cm)&quot;, &quot;Max. diameter (cm)&quot;, &quot;Genera IDs&quot;, &quot;Species IDs&quot;))</code></pre>
 <table>
 <colgroup>
-<col width="7%" />
+<col width="8%" />
 <col width="4%" />
 <col width="5%" />
-<col width="7%" />
-<col width="5%" />
-<col width="11%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="7%" />
+<col width="6%" />
+<col width="12%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
 <col width="8%" />
+<col width="9%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="left">Dataset ID</th>
 <th align="right">Plots</th>
 <th align="right">Stems</th>
-<th align="right">Diameters</th>
 <th align="right">Heights</th>
 <th align="right">Mean height (m)</th>
 <th align="right">Mean diameter (cm)</th>
@@ -576,9 +574,8 @@ site_summ %&gt;%
 <td align="left">ABG</td>
 <td align="right">15</td>
 <td align="right">5618</td>
-<td align="right">5618</td>
 <td align="right">5591</td>
-<td align="right">6.4</td>
+<td align="right">6</td>
 <td align="right">12.0</td>
 <td align="right">3.6</td>
 <td align="right">88.0</td>
@@ -588,7 +585,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">ACM</td>
 <td align="right">60</td>
-<td align="right">5351</td>
 <td align="right">5351</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -601,7 +597,6 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">CBN</td>
 <td align="right">6</td>
-<td align="right">5204</td>
 <td align="right">4581</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -616,8 +611,7 @@ site_summ %&gt;%
 <td align="right">12</td>
 <td align="right">553</td>
 <td align="right">553</td>
-<td align="right">553</td>
-<td align="right">8.1</td>
+<td align="right">8</td>
 <td align="right">10.3</td>
 <td align="right">5.0</td>
 <td align="right">62.9</td>
@@ -627,7 +621,6 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">DKS</td>
 <td align="right">3</td>
-<td align="right">10878</td>
 <td align="right">10878</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -641,7 +634,6 @@ site_summ %&gt;%
 <td align="left">KLS</td>
 <td align="right">6</td>
 <td align="right">12216</td>
-<td align="right">12216</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
 <td align="right">2.2</td>
@@ -654,7 +646,6 @@ site_summ %&gt;%
 <td align="left">MAR</td>
 <td align="right">404</td>
 <td align="right">12606</td>
-<td align="right">12606</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
 <td align="right">10.0</td>
@@ -666,10 +657,9 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">MCF</td>
 <td align="right">93</td>
-<td align="right">1455</td>
 <td align="right">941</td>
 <td align="right">940</td>
-<td align="right">10.7</td>
+<td align="right">11</td>
 <td align="right">21.9</td>
 <td align="right">5.0</td>
 <td align="right">65.0</td>
@@ -679,7 +669,6 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">MCL</td>
 <td align="right">38</td>
-<td align="right">145</td>
 <td align="right">145</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -693,7 +682,6 @@ site_summ %&gt;%
 <td align="left">MGR</td>
 <td align="right">15</td>
 <td align="right">3526</td>
-<td align="right">3526</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
 <td align="right">12.2</td>
@@ -705,7 +693,6 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">MLC</td>
 <td align="right">51</td>
-<td align="right">1040</td>
 <td align="right">1040</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -719,7 +706,6 @@ site_summ %&gt;%
 <td align="left">MMB</td>
 <td align="right">10</td>
 <td align="right">5542</td>
-<td align="right">5542</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
 <td align="right">14.2</td>
@@ -731,10 +717,9 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">MNF</td>
 <td align="right">50</td>
-<td align="right">2007</td>
 <td align="right">960</td>
 <td align="right">946</td>
-<td align="right">12.6</td>
+<td align="right">13</td>
 <td align="right">20.7</td>
 <td align="right">5.0</td>
 <td align="right">107.0</td>
@@ -745,9 +730,8 @@ site_summ %&gt;%
 <td align="left">MNI</td>
 <td align="right">351</td>
 <td align="right">120613</td>
-<td align="right">120613</td>
 <td align="right">120612</td>
-<td align="right">8.4</td>
+<td align="right">8</td>
 <td align="right">16.2</td>
 <td align="right">5.0</td>
 <td align="right">158.2</td>
@@ -758,9 +742,8 @@ site_summ %&gt;%
 <td align="left">MNR</td>
 <td align="right">50</td>
 <td align="right">1889</td>
-<td align="right">1889</td>
 <td align="right">1883</td>
-<td align="right">8.8</td>
+<td align="right">9</td>
 <td align="right">13.5</td>
 <td align="right">5.0</td>
 <td align="right">63.0</td>
@@ -770,10 +753,9 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">NCC</td>
 <td align="right">217</td>
-<td align="right">5353</td>
 <td align="right">1358</td>
 <td align="right">1351</td>
-<td align="right">8.1</td>
+<td align="right">8</td>
 <td align="right">23.8</td>
 <td align="right">3.5</td>
 <td align="right">116.8</td>
@@ -785,8 +767,7 @@ site_summ %&gt;%
 <td align="right">55</td>
 <td align="right">605</td>
 <td align="right">605</td>
-<td align="right">605</td>
-<td align="right">3.2</td>
+<td align="right">3</td>
 <td align="right">6.5</td>
 <td align="right">4.1</td>
 <td align="right">40.9</td>
@@ -796,7 +777,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">SHD</td>
 <td align="right">175</td>
-<td align="right">58020</td>
 <td align="right">58020</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -811,8 +791,7 @@ site_summ %&gt;%
 <td align="right">202</td>
 <td align="right">1626</td>
 <td align="right">1626</td>
-<td align="right">1626</td>
-<td align="right">4.1</td>
+<td align="right">4</td>
 <td align="right">26.3</td>
 <td align="right">7.0</td>
 <td align="right">163.5</td>
@@ -823,9 +802,8 @@ site_summ %&gt;%
 <td align="left">SSM</td>
 <td align="right">1</td>
 <td align="right">145</td>
-<td align="right">145</td>
 <td align="right">143</td>
-<td align="right">5.6</td>
+<td align="right">6</td>
 <td align="right">17.9</td>
 <td align="right">2.0</td>
 <td align="right">45.0</td>
@@ -836,9 +814,8 @@ site_summ %&gt;%
 <td align="left">SST</td>
 <td align="right">153</td>
 <td align="right">511</td>
-<td align="right">511</td>
 <td align="right">510</td>
-<td align="right">2.0</td>
+<td align="right">2</td>
 <td align="right">6.0</td>
 <td align="right">2.4</td>
 <td align="right">63.4</td>
@@ -848,7 +825,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">TIM</td>
 <td align="right">45</td>
-<td align="right">1571</td>
 <td align="right">1571</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -862,7 +838,6 @@ site_summ %&gt;%
 <td align="left">TKW</td>
 <td align="right">25</td>
 <td align="right">1620</td>
-<td align="right">1620</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
 <td align="right">11.6</td>
@@ -875,9 +850,8 @@ site_summ %&gt;%
 <td align="left">TKX</td>
 <td align="right">14</td>
 <td align="right">1369</td>
-<td align="right">1369</td>
 <td align="right">1351</td>
-<td align="right">12.9</td>
+<td align="right">13</td>
 <td align="right">50.4</td>
 <td align="right">21.1</td>
 <td align="right">113.7</td>
@@ -889,8 +863,7 @@ site_summ %&gt;%
 <td align="right">293</td>
 <td align="right">90</td>
 <td align="right">90</td>
-<td align="right">90</td>
-<td align="right">6.8</td>
+<td align="right">7</td>
 <td align="right">14.7</td>
 <td align="right">9.5</td>
 <td align="right">61.6</td>
@@ -900,7 +873,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">ZCC</td>
 <td align="right">16</td>
-<td align="right">211</td>
 <td align="right">211</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -914,9 +886,8 @@ site_summ %&gt;%
 <td align="left">ZGF</td>
 <td align="right">71</td>
 <td align="right">1129</td>
-<td align="right">1129</td>
 <td align="right">1128</td>
-<td align="right">8.4</td>
+<td align="right">8</td>
 <td align="right">20.6</td>
 <td align="right">3.7</td>
 <td align="right">160.0</td>
@@ -926,7 +897,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">ZHF</td>
 <td align="right">7</td>
-<td align="right">413</td>
 <td align="right">413</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -939,7 +909,6 @@ site_summ %&gt;%
 <tr class="odd">
 <td align="left">ZHH</td>
 <td align="right">18</td>
-<td align="right">27108</td>
 <td align="right">6992</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
@@ -952,10 +921,9 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">ZIS</td>
 <td align="right">3886</td>
-<td align="right">127852</td>
 <td align="right">77972</td>
 <td align="right">67165</td>
-<td align="right">8.2</td>
+<td align="right">8</td>
 <td align="right">17.2</td>
 <td align="right">2.1</td>
 <td align="right">138.0</td>
@@ -967,8 +935,7 @@ site_summ %&gt;%
 <td align="right">33</td>
 <td align="right">1603</td>
 <td align="right">1603</td>
-<td align="right">1603</td>
-<td align="right">4.6</td>
+<td align="right">5</td>
 <td align="right">8.5</td>
 <td align="right">5.0</td>
 <td align="right">45.6</td>
@@ -980,8 +947,7 @@ site_summ %&gt;%
 <td align="right">178</td>
 <td align="right">2572</td>
 <td align="right">2572</td>
-<td align="right">2572</td>
-<td align="right">9.4</td>
+<td align="right">9</td>
 <td align="right">23.3</td>
 <td align="right">10.0</td>
 <td align="right">158.5</td>
@@ -993,8 +959,7 @@ site_summ %&gt;%
 <td align="right">135</td>
 <td align="right">1978</td>
 <td align="right">1978</td>
-<td align="right">1978</td>
-<td align="right">8.2</td>
+<td align="right">8</td>
 <td align="right">17.8</td>
 <td align="right">10.0</td>
 <td align="right">77.4</td>
@@ -1005,9 +970,8 @@ site_summ %&gt;%
 <td align="left">ZPF</td>
 <td align="right">15</td>
 <td align="right">82</td>
-<td align="right">82</td>
 <td align="right">80</td>
-<td align="right">10.7</td>
+<td align="right">11</td>
 <td align="right">25.8</td>
 <td align="right">5.5</td>
 <td align="right">118.5</td>
@@ -1019,8 +983,7 @@ site_summ %&gt;%
 <td align="right">35</td>
 <td align="right">1495</td>
 <td align="right">1495</td>
-<td align="right">1495</td>
-<td align="right">6.1</td>
+<td align="right">6</td>
 <td align="right">9.7</td>
 <td align="right">2.0</td>
 <td align="right">53.0</td>
@@ -1030,7 +993,6 @@ site_summ %&gt;%
 <tr class="even">
 <td align="left">ZWP</td>
 <td align="right">80</td>
-<td align="right">12322</td>
 <td align="right">12322</td>
 <td align="right">0</td>
 <td align="right">NaN</td>
