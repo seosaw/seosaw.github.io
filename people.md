@@ -266,7 +266,7 @@ $('.grid').masonry({
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td><a href="http://fnrss.nust.na/?q=agriculture-natural-resources-sciences/staff/vera-de-cauwer" target="_blank">Vera De Cauwer</a></td>
+<td><a href="https://www.researchgate.net/profile/Vera_De_Cauwer" target="_blank">Vera De Cauwer</a></td>
 <td>Namibian University of Science and Technology</td>
 <td>Namibia</td>
 </tr>
