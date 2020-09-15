@@ -35,6 +35,7 @@ function genPoints(feature, latlng) {
 function genLabels(feature, layer){
 		layer.bindPopup(
 				"Country: " + feature.properties.country + "<br>" +
+				"PI: " + feature.properties.prinv + "<br>" + 
 				"Plot Area: " + feature.properties.plot_area + " ha" + "<br>" + 
 				"Times surveyed: " + feature.properties.n_census);
 	}
