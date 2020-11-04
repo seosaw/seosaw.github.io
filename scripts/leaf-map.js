@@ -40,7 +40,7 @@ function genLabels(feature, layer){
 				"Times surveyed: " + feature.properties.n_census);
 	}
 
-function miomboOptions(feature) {
+function regionOptions(feature) {
   return { 
     fillOpacity: 0.6,
     fillColor: "#179600",
@@ -49,14 +49,12 @@ function miomboOptions(feature) {
   };
 }
 
-L.geoJSON(miombo, {style: miomboOptions}).addTo(mymap);
+L.geoJSON(region, {style: regionOptions}).addTo(mymap);
 
-L.geoJSON(locations, {
+L.geoJSON(plots, {
 	style: plotOptions,
 	pointToLayer: genPoints,
 	onEachFeature: genLabels}).addTo(mymap);
-
-
 
 var legend = L.control({position: 'bottomright'});
 
@@ -77,9 +75,9 @@ legend.onAdd = function (mymap) {
 
 legend.addTo(mymap);
 
-var legend_miombo = L.control({position: 'bottomright'});
+var legend_region = L.control({position: 'bottomright'});
 
-legend_miombo.onAdd = function (mymap) {
+legend_region.onAdd = function (mymap) {
     var div = L.DomUtil.create('div', 'legend');
     	categories = ['savanna'];
     	labels = []
@@ -88,10 +86,10 @@ legend_miombo.onAdd = function (mymap) {
     for (var i = 0; i < categories.length; i++) {
         div.innerHTML += 
         	labels.push(
-        	'<i style="background:#179600"></i> ' + 'Savanna');
+        	'<i style="background:#179600"></i> ' + 'SEOSAW region');
     }
     div.innerHTML = labels.join('<br>');
     return div;
 };
 
-legend_miombo.addTo(mymap);
+legend_region.addTo(mymap);
