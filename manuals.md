@@ -11,12 +11,18 @@ The following protocols are in the works, after we agreed at the first meeting t
 * [Plot design and tree measurements, including deadwood and saplings.][1] 
 * [Understory plants, Caroline Lehmann.][2]
 * [Trees traits, Carla Staver][3]
-* Soil, Mathew Williams and Iain McNicol. Draft in progress.
-* Seedling traits, Ricardo Holdo
+* Soil, Mathew Williams and Iain McNicol. - Draft in progress.
+* Seedling traits, Ricardo Holdo. - Draft in progress.
 
 All the protocols are 'living documents', and we welcome input and suggestions from all.
 
-Example field data sheets will be added here shortly, and an ODK Android tablet data entry form is also being developed.
+We provide template field datasheets and a data contribution manual, if you are thinking about setting up your own plot in the SEOSAW style:
+
+* [Plot info sheet]({{ site.baseurl }}/resources/blank_info_sheet.pdf)
+* [Stem measurement sheet]({{ site.baseurl }}/resources/blank_stem_sheet.pdf)
+* [Data contribution manual]({{ site.baseurl }}/resources/seosaw_contrib_guide.pdf)
+
+An ODK Android tablet data entry form is also being developed.
 
 [1]: ./resources/SEOSAW_FieldManual_v3_2018.pdf
 [2]: ./resources/Grass_sampling_PSPs_May_2018.pdf
@@ -36,11 +42,13 @@ Example field data sheets will be added here shortly, and an ODK Android tablet 
 * To suggest methods aimed at long term permanent plots that are to be remeasured approximately every 2-5 years to study changes in ecosystem structure, diversity, carbon storage, mortality and growth. 
 * To provide a flexible approach suited for the many-small-plots paradigm and also the few-large-plots approach which has come to dominate research in the wet tropics.
 
-## SEOSAW dataset usage
+## SEOSAW dataset 
 
-The SEOSAW dataset uses two tables to organise data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
+The SEOSAW dataset is available for research purposes following agreement from all data contributors. Please contact us if you woul like to use or contribute to the SEOSAW dataset. 
+
+The dataset uses two tables to organise data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
 
 * [Stem table columns]({{ site.baseurl }}/stem_columns)
 * [Plot table columns]({{ site.baseurl }}/plot_columns)
 
-Additionally, refer to the [seosawr package vignette]({{ site.baseurl }}/vignette) for more information on how the SEOSAW dataset is cleaned and how you can format your own data in a SEOSAW friendly way. [See here for further description of the SEOSAW dataset]({{ site.baseurl }}/description).
+Additionally, refer to the [seosawR package vignette]({{ site.baseurl }}/vignette) for more information on how the SEOSAW dataset is cleaned and how you can format your own data in a SEOSAW friendly way. [See here for further description of the SEOSAW dataset]({{ site.baseurl }}/description).
