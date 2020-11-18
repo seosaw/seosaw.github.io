@@ -22,7 +22,7 @@ $('.grid').masonry({
 });
 </script>
 
-# Plot table columns
+# Stem table columns
 
 <input class="filter" id='myInput' onkeyup='filterTable()' type='text' placeholder="Filter...">
 

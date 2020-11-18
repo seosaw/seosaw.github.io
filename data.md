@@ -30,6 +30,3 @@ If you are interested in being involved in data synthesis activities and have da
 <script src="{{ site.baseurl }}/scripts/leaflet.markercluster-src.js"></script>
 
 
-## Data sharing agreement
-
-SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct]({{ site.baseurl }}/resources/SEOSAW_CoC_V2.1_200504.pdf) and the accompanying [plain language summary]({{ site.baseurl }}/resources/seosaw_coc_plain_summary_v2.1_200504.txt). 

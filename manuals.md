@@ -46,6 +46,8 @@ An ODK Android tablet data entry form is also being developed.
 
 The SEOSAW dataset is available for research purposes following agreement from all data contributors. Please contact us if you woul like to use or contribute to the SEOSAW dataset. 
 
+SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct]({{ site.baseurl }}/resources/SEOSAW_CoC_V2.1_200504.pdf) and the accompanying [plain language summary]({{ site.baseurl }}/resources/seosaw_coc_plain_summary_v2.1_200504.txt). 
+
 The dataset uses two tables to organise data, a __stems__ table and a __plots__ table. To help guide your own data collection, refer to these pages which document the format of the data stored in each of these tables:
 
 * [Stem table columns]({{ site.baseurl }}/stem_columns)
