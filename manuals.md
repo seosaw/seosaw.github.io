@@ -18,8 +18,8 @@ All the protocols are 'living documents', and we welcome input and suggestions f
 
 We provide template field datasheets and a data contribution manual, if you are thinking about setting up your own plot in the SEOSAW style:
 
-* [Plot info sheet]({{ site.baseurl }}/resources/blank_info_sheet.pdf)
-* [Stem measurement sheet]({{ site.baseurl }}/resources/blank_stem_sheet.pdf)
+* [Plot info sheet]({{ site.baseurl }}/resources/blank_plot.pdf)
+* [Stem measurement sheet]({{ site.baseurl }}/resources/blank_stem.pdf)
 * [Data contribution manual]({{ site.baseurl }}/resources/seosaw_contrib_guide.pdf)
 
 An ODK Android tablet data entry form is also being developed.
