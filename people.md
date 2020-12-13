@@ -182,7 +182,7 @@ $('.grid').masonry({
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Benjamin_Wigley" target="_blank">Benjamin Wigley</a></td>
-<td>Skukuza</td>
+<td>Kruger National Park - Skukuza</td>
 <td>South Africa</td>
 </tr>
 <tr>

@@ -46,7 +46,7 @@ img {
 
 // Header
 .header {
-	padding: 50px 20px 40px;
+	padding: 30px 20px 20px;
 	background-image: url("../images/miombo_banner.jpg");
 	background-size: cover;
 }
@@ -99,7 +99,6 @@ img {
 }
 
 .social-links {
-	padding-top: 10px;
 	margin-left: 0;
 }
 
@@ -120,23 +119,18 @@ img {
 
 // Footer
 .footer {
-	margin: 10px 10px 0px 10px;
-}
-
-.footer-text {
-	float: left;
-	margin: 10px;
-
+	margin: 30px 10px 0px 10px;
 }
 
 .footer-img { 
-	float: right;
+	float: left;
+	margin: 0 auto
 }
 
 .footer-img img {
 	display: inline-block;
-	max-height: 40px;
-	margin: 5px;
+	max-height: 45px;
+	padding: 5px;
 }
 
 // Lists
@@ -146,7 +140,7 @@ li {
 }
 
 ul, ol {
-    margin-left: 30px;
+    margin: 20px 0px 20px 30px;
 }
 
 // Headings

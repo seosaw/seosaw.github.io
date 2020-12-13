@@ -7,24 +7,17 @@ layout: default
 
 # The SEOSAW plot network
 
-The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across the woodlands and savannas of southern Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
+The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across southern Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
 
-The map below shows the locations of plots in the SEOSAW dataset, The map also shows the SEOSAW core region, which encompasses woody savannas and woodlands in southern Africa. The core region is based on White's vegetation map and further shaped by expert opinion. 
+The map below shows the locations of plots in the SEOSAW dataset, The map also shows the SEOSAW core region, which encompasses woody savannas and woodlands in southern Africa. The core region is based on [White's vegetation map](https://www.cabdirect.org/cabdirect/abstract/19840692540) and further shaped by expert opinion. 
 
 ## The SEOSAW dataset 
 
 The SEOSAW dataset is available for research purposes following agreement from all data contributors. Please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk) if you would like to use or contribute to the SEOSAW dataset. 
 
+There is a [dataset manual]({{ site.baseurl }}/resources/dataset_manual.pdf) available which covers the contents of the dataset and how it is generated from raw data.
+
 SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct]({{ site.baseurl }}/resources/SEOSAW_CoC_V2.1_200504.pdf) and the accompanying [plain language summary]({{ site.baseurl }}/resources/seosaw_coc_plain_summary_v2.1_200504.txt).
-
-## Dataset resources
-
-To aid with analysis of the SEOSAW dataset, we provide a number of documents:
-
-* [Stem table columns]({{ site.baseurl }}/resources/stem_columns.csv)
-* [Plot table columns]({{ site.baseurl }}/resources/plot_columns.csv)
-* [seosawR package vignette]({{ site.baseurl }}/resources/seosawr_vignette.pdf)
-* [Brief description of the SEOSAW dataset]({{ site.baseurl }}/resources/data_description.pdf)
 
 Plots with multiple censuses will eventually be provided to [ForestPlots.net](https://www.forestplots.net/) for those members of the partnership who wish to make their data, or just the metadata, public. As part of the SEOSAW project, the [ForestPlots.net](https://www.forestplots.net/) database is being adapted to allow it to handle data from savannas and woodlands more easily. 
 
