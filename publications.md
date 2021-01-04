@@ -28,6 +28,12 @@ layout: default
 	 </thead>
 	 <tbody id='tableBody'>
 	 <tr>
+		 <td>The SEOSAW Partnership</td>
+		 <td><a href="https://doi.org/10.1002/ppp3.10168" target="_blank">A network to understand the changing socio‐ecology of the southern African woodlands (SEOSAW): Challenges, benefits, and methods</a></td>
+		 <td>Plants People Planet</td>
+		 <td>2020</td>
+	 </tr>
+	 <tr>
 		 <td>Godlee J. L., Gonçalves F. M., Tchamba J. J., Chisingui A. V., Muledi J. I., Shutcha M. N., Ryan C. M., Brade T. K. & Dexter K. G.</td>
 		 <td><a href="https://dx.doi.org/10.3390/d12040140" target="_blank">Diversity and structure of an arid woodland in southwest Angola, with comparison to the wider miombo ecoregion</a></td>
 		 <td>Diversity</td>

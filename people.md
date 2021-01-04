@@ -36,7 +36,7 @@ $('.grid').masonry({
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td><a href="https://www.geos.ed.ac.uk/people/person.html?indv=7358" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>

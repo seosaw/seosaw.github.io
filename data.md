@@ -13,15 +13,12 @@ The map below shows the locations of plots in the SEOSAW dataset, The map also s
 
 ## The SEOSAW dataset 
 
-The SEOSAW dataset is available for research purposes following agreement from all data contributors. Please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk) if you would like to use or contribute to the SEOSAW dataset. 
+The SEOSAW dataset is available for research purposes following agreement from all data contributors. Please use the [contact form]({{ site.baseurl }}/contact.html) if you would like to use or contribute to the SEOSAW dataset. 
 
-There is a [dataset manual]({{ site.baseurl }}/resources/dataset_manual.pdf) available which covers the contents of the dataset and how it is generated from raw data.
 
 SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct]({{ site.baseurl }}/resources/SEOSAW_CoC_V2.1_200504.pdf) and the accompanying [plain language summary]({{ site.baseurl }}/resources/seosaw_coc_plain_summary_v2.1_200504.txt).
 
-Plots with multiple censuses will eventually be provided to [ForestPlots.net](https://www.forestplots.net/) for those members of the partnership who wish to make their data, or just the metadata, public. As part of the SEOSAW project, the [ForestPlots.net](https://www.forestplots.net/) database is being adapted to allow it to handle data from savannas and woodlands more easily. 
-
-If you are interested in being involved in data synthesis activities and have data you would like to contribute, please contact [Casey Ryan](mailto:casey.ryan@ed.ac.uk).
+Plots with multiple censuses will eventually be provided to [ForestPlots.net](https://www.forestplots.net/) for those members of the partnership who wish to make public their data, or just the metadata. As part of the SEOSAW project, the ForestPlots.net database is being adapted to allow it to handle data from savannas and woodlands more easily.  There is a [dataset manual]({{ site.baseurl }}/resources/dataset_manual.pdf) available which covers the contents of the SEOSAW dataset and how it is generated from raw data.
 
 <div id="leaf-map"></div>
 
