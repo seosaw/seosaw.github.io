@@ -260,8 +260,12 @@ th.coldesc {
 }
 
 // Landing page button 
+.landing-btn-wrapper {
+	text-align: center;
+}
+
 .landing-btn {
-	width: 100%;
+	width: 90%;
 	height: $spacing-unit;
 	background: $brand-color;
 	border: none;
