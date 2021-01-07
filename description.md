@@ -384,7 +384,7 @@ summary {
 
 
 <p>This document describes the SEOSAW dataset (v2.9).</p>
-<pre class="r"><code>library(seosawr)
+<pre class="r"><code>library(seosawr)  # Not on CRAN, install from SEOSAW Bitbucket repo
 library(sf)
 library(raster)
 library(dplyr)
