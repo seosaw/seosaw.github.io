@@ -14,7 +14,7 @@ The following protocols are currently available:
 * Soil - Draft in progress.
 
 [1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
-[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/grass_manual/versions/seosaw_grass_manual_latest.pdf
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_latest.pdf
 [3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
 
 We also provide template field datasheets and data entry files if you are thinking about setting up your own plot in the SEOSAW style:
