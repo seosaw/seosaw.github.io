@@ -270,6 +270,11 @@ $('.grid').masonry({
 <td>Namibian University of Science and Technology</td>
 <td>Namibia</td>
 </tr>
+<tr>
+<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
+<td>Royal Botanic Garden Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
 </tbody>
 </table>
 <div class="grid">
@@ -441,11 +446,11 @@ $('.grid').masonry({
   	  </div>
     </div>
   </div>
-    <div class="grid-item">
-		<div class="hovereffect">
-            <img src="{{ site.baseurl }}/images/inst_logos/gcrf.jpg" alt=""/>
-            <div class="overlay">
-			  <h2>Global Challenges Research Fund</h2>
+  <div class="grid-item">
+    <div class="hovereffect">
+      <img src="{{ site.baseurl }}/images/inst_logos/gcrf.jpg" alt=""/>
+      <div class="overlay">
+	    <h2>Global Challenges Research Fund</h2>
   	  </div>
     </div>
   </div>
@@ -454,6 +459,14 @@ $('.grid').masonry({
             <img src="{{ site.baseurl }}/images/inst_logos/nust.png" alt=""/>
             <div class="overlay">
 			  <h2>Namibian University of Science and Technology</h2>
+  	  </div>
+    </div>
+  </div>
+    <div class="grid-item">
+		<div class="hovereffect">
+            <img src="{{ site.baseurl }}/images/inst_logos/rbge.png" alt=""/>
+            <div class="overlay">
+			  <h2>Royal Botanic Garden Edinburgh</h2>
   	  </div>
     </div>
   </div>

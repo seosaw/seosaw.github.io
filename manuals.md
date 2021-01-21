@@ -13,18 +13,18 @@ The following protocols are currently available:
 * [Tree traits][3]
 * Soil - Draft in progress.
 
-[1]: {{ site.baseurl }}/resources/SEOSAW_FieldManual_latest.pdf
-[2]: {{ site.baseurl }}/resources/Grass_sampling_PSPs_May_2018.pdf
-[3]: {{ site.baseurl }}/resources/traits_manual.pdf 
+[1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/grass_manual/versions/seosaw_grass_manual_latest.pdf
+[3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
 
 We also provide template field datasheets and data entry files if you are thinking about setting up your own plot in the SEOSAW style:
 
-* [Blank plot datasheet]({{ site.baseurl }}/resources/blank_plot.pdf)
-* [Blank stem datasheet]({{ site.baseurl }}/resources/blank_stem.pdf)
-* [Plot data entry template]({{ site.baseurl }}/resources/plot_data_entry_template.csv)
-* [Stem data entry template]({{ site.baseurl }}/resources/stem_data_entry_template.csv)
+* [Blank plot datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/blank/blank_plot.pdf)
+* [Blank stem datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/blank/blank_stem.pdf)
+* [Plot data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/plot_data_template.csv)
+* [Stem data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/stem_data_template.csv)
 
-An [ODK](https://opendatakit.org/) Android tablet data entry form is also being developed and will be available here in the future.
+An [ODK](https://opendatakit.org/) data entry form for use on Android devices is also being developed and will be available here in the future.
 
 ## Purpose of the protocols
 
