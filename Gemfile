@@ -7,3 +7,5 @@ Encoding.default_internal = Encoding::UTF_8
 gem "jekyll"
 gem "jekyll-paginate" # For Pagination in jekyll
 gem "jekyll-gist" # Fot gist integration with jekyll
+
+gem "webrick", "~> 1.7"

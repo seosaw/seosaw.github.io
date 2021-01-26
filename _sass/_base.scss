@@ -16,37 +16,18 @@ body {
     background-color: $background-color;
 }
 
-img {
-    margin: 10px auto;
-    max-width: 90%;
-    vertical-align: middle;
-	display: block;
-}
-
-// Wrapper
+// Page content wrapper
 .page-content {
     min-height: 100%;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    padding-bottom: $spacing-unit;
-}
-
-// Main container 
-.main-container {
-	position: relative;
-	min-height: 100vh;
-	overflow: hidden;
-	display: block;
-	padding-bottom: 100px;
+    margin: 0px auto;
+    padding: 0px $spacing-unit $spacing-unit $spacing-unit;
 }
 
 // Header
 .header {
-	padding: 50px 20px 40px;
+	padding: 30px 20px 20px 20px;
 	background-image: url("../images/miombo_banner.jpg");
 	background-size: cover;
 }
@@ -54,99 +35,73 @@ img {
 .header-container {
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 	margin: 0 auto;
+	color: $white-color;
+}
+
+.header-container a {
+	color: $white-color;
+}
+
+.header-container a:hover {
+	color: $white-color;
+	opacity: 0.7;
+	text-decoration: none;
 }
 
 .nav {
-	color: $grey-color;
 	text-transform: uppercase;
 	font-size: 16px;
-	font-weight: 600;
-	font-family: $base-font-family;
-	display: inline;
+	font-weight: $nav-font-weight;
 }
 
 .nav li {
 	padding-right: 20px;
 	display: inline-block;
-	line-height: 1;
-}
-
-.nav li a:hover {
-	opacity: 0.7;
-	cursor: pointer;
-	text-decoration: none;
-}
-
-.title li a {
-	color: $white-color;
-}
-
-.title li a:hover {
-	opacity: 0.7;
 }
 
 .nav-bar-title {
 	font-family: $base-font-family;
 	font-size: 50px;
 	color: $white-color;
-	margin: 0px 0px -20px -2px;
+	margin-bottom: -20px;
 }
 
 .description {
 	padding-top: 20px;
 	font-size: 14px;
-	color: $white-color;
 }
 
-.social-links {
-	padding-top: 10px;
-	margin-left: 0;
+.bitbucket {
+	padding: 0px 0px 20px 0px;
 }
 
-.social-links li {
-	display: inline;
-	padding-right: 10px;
-	line-height: 0;
-}
-
-.social-links img {
-    margin: 10px auto;
-    float: left;
-}
-
-.social-links img:hover {
-	opacity: 0.8;
+.bitbucket img {
+	float: left;
 }
 
 // Footer
 .footer {
-	margin: 10px 10px 0px 10px;
-}
-
-.footer-text {
-	float: left;
-	margin: 10px;
-
+	margin: 30px 10px 0px 10px;
 }
 
 .footer-img { 
-	float: right;
+	float: left;
+	margin: 0 auto;
 }
 
 .footer-img img {
 	display: inline-block;
-	max-height: 40px;
-	margin: 5px;
+	max-height: 45px;
+	padding: 5px;
 }
 
 // Lists
 li {
-	margin-left: 0;
 	line-height: 1.7em;
 }
 
 ul, ol {
-    margin-left: 30px;
+    margin: 20px 0px 20px 30px;
 }
 
 // Headings
@@ -177,10 +132,42 @@ h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    cursor: pointer;
     &:hover {
         color: $text-color;
         text-decoration: none;
     }
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+// Images
+img {
+    margin: 10px auto;  // top-bottom, left-right 
+    max-width: 90%;  // relative to div
+    vertical-align: middle;  
+	display: block;
+}
+
+// Text
+p {
+	margin: $par-unit 0px;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub { 
+  top: 0.4em; 
 }
 
 // Tables
@@ -243,14 +230,12 @@ th.coldesc {
 	width: 30%;
 }
 
-//th.coldesc, th.colunit
-
-
 // Leaflet map
 #leaf-map {
-	 height: 500px;
-	 margin: 10px 0;
- }
+	height: 500px;
+	margin: 10px 0;
+}
+
 .legend {
     line-height: 25px;
     color: $text-color;
@@ -259,32 +244,34 @@ th.coldesc {
     font-size: 15px;
     background: $background-color;
 }
+
 .legend i {
     width: 15px;
     height: 15px;
     float: left;
     margin-right: 8px;
 }
+
 .legend .circle {
-  border-radius: 50%;
-  border: 1px solid #7A0099; 
-  width: 12px;
-  height: 12px;
+	border-radius: 50%;
+	border: 1px solid #7A0099; 
+	width: 12px;
+	height: 12px;
 }
 
 // Landing page button 
-.landing-btn {
-  width: 100%;
-  height: 35px;
-  background: $brand-color;
-  border: none;
-  color: $white-color;
-  font-size: 18px;
-  margin: 10px 0;
+.landing-btn-wrapper {
+	text-align: center;
 }
-.landing-btn:hover {
-	opacity: 0.7;
-	cursor: pointer;
+
+.landing-btn {
+	width: 90%;
+	height: $spacing-unit;
+	background: $brand-color;
+	border: none;
+	color: $white-color;
+	font-size: 18px;
+	margin: 10px 0;
 	text-decoration: none;
 }
 
@@ -294,19 +281,23 @@ th.coldesc {
    padding: 15px;
    overflow: hidden;
 }       
+
 #contact-form .form-group {
 	padding-bottom: 15px;
 }
+
 #contact-form .form-item {
 	padding: 5px;
 }
+
 #contact-form .form-control {
-	height: 35px;
+	height: $spacing-unit;
 	border: 1px solid $brand-color;
 	box-shadow: none;
 	width: 50%;
 	padding-left: 10px;
 }
+
 #contact-form textarea {
 	box-sizing: border-box;
 	height: 90px;
@@ -317,11 +308,7 @@ th.coldesc {
 	padding-left: 10px;
 	padding-top: 10px;
 }
-#contact-form button:hover {
-	opacity: 0.7;
-	cursor: pointer;
-	text-decoration: none;
-}
+
 .filter {
   height: 30px;
   border: 1px solid $brand-color;
@@ -341,12 +328,14 @@ th.coldesc {
   text-align: center;
   font-size: 20px;
 }
+
 .count li { 
   list-style: none;
   display: inline-block;
   text-align: center;	
   width: 175px;
 }
+
 .counter-img {
 	width: 50px;
 }
@@ -392,12 +381,12 @@ th.coldesc {
 .hovereffect img {
     position: relative;
     opacity: 1;
-    transition:all 0.2s ease-in-out
+    transition:all 0.2s ease-in-out;
 }
 
 .hovereffect:hover > img {
     opacity: 0.2;
-    transition:all 0.2s ease-in-out
+    transition:all 0.2s ease-in-out;
 }
 
 .overlay {
@@ -413,11 +402,11 @@ th.coldesc {
     position: absolute;
     top: 20%;
     opacity: 0;
-    transition:all 0.2s ease-in-out
+    transition:all 0.2s ease-in-out;
 }
 
 .overlay:hover > h2 {
     opacity: 1;
-    transition:all 0.2s ease-in-out
+    transition:all 0.2s ease-in-out;
 }
 

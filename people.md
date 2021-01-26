@@ -36,7 +36,7 @@ $('.grid').masonry({
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td><a href="https://www.geos.ed.ac.uk/people/person.html?indv=7358" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -182,7 +182,7 @@ $('.grid').masonry({
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Benjamin_Wigley" target="_blank">Benjamin Wigley</a></td>
-<td>Skukuza</td>
+<td>Kruger National Park - Skukuza</td>
 <td>South Africa</td>
 </tr>
 <tr>
@@ -269,6 +269,11 @@ $('.grid').masonry({
 <td><a href="https://www.researchgate.net/profile/Vera_De_Cauwer" target="_blank">Vera De Cauwer</a></td>
 <td>Namibian University of Science and Technology</td>
 <td>Namibia</td>
+</tr>
+<tr>
+<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
+<td>Royal Botanic Garden Edinburgh</td>
+<td>United Kingdom</td>
 </tr>
 </tbody>
 </table>
@@ -441,11 +446,11 @@ $('.grid').masonry({
   	  </div>
     </div>
   </div>
-    <div class="grid-item">
-		<div class="hovereffect">
-            <img src="{{ site.baseurl }}/images/inst_logos/gcrf.jpg" alt=""/>
-            <div class="overlay">
-			  <h2>Global Challenges Research Fund</h2>
+  <div class="grid-item">
+    <div class="hovereffect">
+      <img src="{{ site.baseurl }}/images/inst_logos/gcrf.jpg" alt=""/>
+      <div class="overlay">
+	    <h2>Global Challenges Research Fund</h2>
   	  </div>
     </div>
   </div>
@@ -454,6 +459,14 @@ $('.grid').masonry({
             <img src="{{ site.baseurl }}/images/inst_logos/nust.png" alt=""/>
             <div class="overlay">
 			  <h2>Namibian University of Science and Technology</h2>
+  	  </div>
+    </div>
+  </div>
+    <div class="grid-item">
+		<div class="hovereffect">
+            <img src="{{ site.baseurl }}/images/inst_logos/rbge.png" alt=""/>
+            <div class="overlay">
+			  <h2>Royal Botanic Garden Edinburgh</h2>
   	  </div>
     </div>
   </div>

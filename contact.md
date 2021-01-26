@@ -24,7 +24,9 @@ layout: default
       <div class="form-item">
 	<textarea class="form-text" rows="3" name="content" placeholder="Your Message" required></textarea>
   </div>
-	<button class="landing-btn btn btn-default" type="submit">Send Message</button>
+	<div class="landing-btn-wrapper">
+		<button class="landing-btn btn btn-default" type="submit">Send Message</button>
+	</div>
 </div>
 </form>
 

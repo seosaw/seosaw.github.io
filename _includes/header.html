@@ -18,7 +18,7 @@
 			</span>
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/data.html">sites and data</a>
+					<a href="{{ site.baseurl }}/data.html">data</a>
 				</li>
 			</span>
 			<span class="title">
@@ -28,14 +28,14 @@
 			</span>
 		
 		</div>
-		<div class="nav-bar-title"> {{ site.title }} </div>
-		<div class="description"> {{ site.motto }} </div>
-		<ul class="social-links">
-			<li>
-				<a href="https://bitbucket.org/{{ site.bitbucket_username }}/{{ site.bitbucket_repo}}" title="Bitbucket" target="_blank">
-					<img width="100px" src="{{ site.baseurl }}/images/bitbucket.png" style="padding-top:2px;" style="padding-bottom:2px;"/>
-				</a>
-			</li>
-		</ul>
+		<div class="nav-bar-title">
+			<a href="{{ site.baseurl }}/index.html">{{ site.title }}</a>
+		</div>
+		<div class="description">{{ site.motto }}</div>
+		<div class="bitbucket">
+			<a href="https://bitbucket.org/{{ site.bitbucket_username }}/{{ site.bitbucket_repo}}" title="SEOSAW Bitbucket repo" target="_blank">
+				<img width="100px" src="{{ site.baseurl }}/images/bitbucket.png" alt="SEOSAW Bitbucket repo" />
+			</a>
+		</div>
 	</div>
 </header>
