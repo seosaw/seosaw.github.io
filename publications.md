@@ -34,6 +34,12 @@ layout: default
 		 <td>2020</td>
 	 </tr>
 	 <tr>
+		 <td>Aleman J. C., Fayolle A., Favier C., Staver A. C., Dexter K. G., Ryan C. M., Azihou A. F., Bauman D., te Beest M., Chidumayo E. N., Comiskey J. A., Cromsigt J. P. G. M., Dessard H., Doucet J.-L., Finckh M., Gillet J.-F., Gourlet-Fleury S., Hempson G. P., Holdo R. M., Kirunda B., Kouame F. N., Mahy G., Gonçalves F. M. P., McNicol I., Nieto Quintano P., Plumptre A. J., Pritchard R. C., Revermann R., Schmitt C. B., Swemmer A. M., Talila H., Woollen E., & Swaine M. D.</td>
+		 <td><a href="https://doi.org/10.1073/pnas.2011515117" target="_blank">Floristic evidence for alternative biome states in tropical Africa</a></td>
+		 <td>Proceedings of the National Academy of the United States of America</td>
+		 <td>2020</td>
+	 </tr>
+	 <tr>
 		 <td>Godlee J. L., Gonçalves F. M., Tchamba J. J., Chisingui A. V., Muledi J. I., Shutcha M. N., Ryan C. M., Brade T. K. & Dexter K. G.</td>
 		 <td><a href="https://dx.doi.org/10.3390/d12040140" target="_blank">Diversity and structure of an arid woodland in southwest Angola, with comparison to the wider miombo ecoregion</a></td>
 		 <td>Diversity</td>
