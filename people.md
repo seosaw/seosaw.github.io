@@ -126,6 +126,11 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
+<td><a href="https://scholar.google.co.za/citations?user=gT37J6oAAAAJ&hl=en" target="_blank">Gregor Feig</a></td>
+<td>Saeon Arid Lands Node</td>
+<td>South Africa</td>
+</tr>
+<tr>
 <td><a href="http://www.biodiversity-plants.de/fb0a068/fb0a068_e.htm" target="_blank">Manfred Finckh</a></td>
 <td>University of Hamburg</td>
 <td>Germany</td>
@@ -390,6 +395,11 @@ $('.grid').masonry({
 <td>United Kingdom</td>
 </tr>
 <tr>
+<td>Buster Mogonong</a></td>
+<td>SAEON Arid Lands Node</td>
+<td>South Africa</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
 <td>Democratic Republic of Congo</td>
@@ -398,6 +408,11 @@ $('.grid').masonry({
 <td><a href="https://www.researchgate.net/profile/Cesar_Perez_Cruzado" target="_blank">César Pérez-Cruzado</a></td>
 <td>Universidade de Santiago de Compostela</td>
 <td>Spain</td>
+</tr>
+<tr>
+<td><a href="http://skp.dirisa.org/repository/Arid%20Lands/website/personnel/permanent-staff/tshililo-ramaswiela" target="_blank">Tshililo Ramaswiela</a></td>
+<td>SAEON Arid Lands Node</td>
+<td>South Africa</td>
 </tr>
 <tr>
 <td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/s/bobscholeswitsacza/" target="_blank">Bob Scholes</a></td>
@@ -423,6 +438,11 @@ $('.grid').masonry({
 <td><a href="https://www.researchgate.net/profile/Mariska_Beest" target="_blank">Mariska te Beest</a></td>
 <td>Umeå University</td>
 <td>Sweden</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=3znk_9QAAAAJ&hl=en" target="_blank">Helga van der Merwe</a></td>
+<td>SAEON Arid Lands Node</td>
+<td>South Africa</td>
 </tr>
 <tr>
 <td><a href="https://orcid.org/0000-0002-0438-3921" target="_blank">Maria J. Vasconcelos</a></td>
