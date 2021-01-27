@@ -1,8 +1,11 @@
 var mymap = L.map('leaf-map').setView([-16.5, 24.7], 4);
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+  tileSize: 512,
   maxZoom: 18,
-  id: 'mapbox.streets'
+  zoomOffset: -1,
+  id: 'mapbox/streets-v11',
+  accessToken: 'pk.eyJ1Ijoiam9obmdvZGxlZSIsImEiOiJja2tmbTR0eW4wNXNxMnBvZzZieThncXI3In0.JdWRVsv8GWEMU6NhFUgxeQ'
 }).addTo(mymap);
 
 function getColor(d) { 
