@@ -27,6 +27,11 @@ $('.grid').masonry({
 </thead>
 <tbody id='tableBody'>
 <tr>
+<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/a/sallyarchibaldwitsacza/" target="_blank">Sally Archibald</a></td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
+</tr>
+<tr>
 <td><a href="http://phylodiversity.net/kdexter/HOME.html" target="_blank">Kyle Dexter</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
