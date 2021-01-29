@@ -400,7 +400,7 @@ $('.grid').masonry({
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td>Buster Mogonong</a></td>
+<td>Buster Mogonong</td>
 <td>SAEON Arid Lands Node</td>
 <td>South Africa</td>
 </tr>
