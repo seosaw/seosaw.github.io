@@ -39,7 +39,8 @@ function genLabels(feature, layer){
 		layer.bindPopup(
 				"Country: " + feature.properties.country_iso3 + "<br>" +
 				"PI: " + feature.properties.prinv + "<br>" + 
-				"Plot Area: " + feature.properties.plot_area + " ha");
+				"Plot Area: " + feature.properties.plot_area + " ha" + "<br>" +
+                "Times surveyed: " + feature.properties.n_census);
 	}
 
 function regionOptions(feature) {
