@@ -23,6 +23,25 @@ layout: default
 
 * [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_v0.1_2018.pdf)
 
+## Plot field datasheet
+
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.1.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.0.pdf)
+
+## Stem field datasheet
+
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.1.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.0.pdf)
+
+
+## Plot data entry template
+
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_v1.0.csv)
+
+## Stem data entry template
+
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_v1.0.csv)
+
 ## Code of Conduct
 
 * [v2.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/coc/versions/coc/seosaw_coc_v2.1_2020-05-04.pdf)
