@@ -15,7 +15,7 @@ $('.grid').masonry({
 
 # People
 
-## SEOSAW leadership team
+## SEOSAW steering committee
 
 <table>
 <thead>
