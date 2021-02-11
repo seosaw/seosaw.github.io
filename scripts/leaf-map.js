@@ -25,7 +25,7 @@ function plotOptions(feature) {
 		fillColor: getColor(feature.properties.permanent),
 		fillOpacity: 0.6,
 		weight: 0.5,
-		radius: 5,
+		radius: 4,
 		color: "#7A0099"
 	};
 }
