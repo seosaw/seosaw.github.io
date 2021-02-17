@@ -4,6 +4,8 @@ layout: default
 
 # All versions of SEOSAW protocols 
 
+[This spreadsheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/versions.csv) contains the versions of each protocol at time snapshots.
+
 ## Field manual
 
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
