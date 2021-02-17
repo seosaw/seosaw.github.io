@@ -13,6 +13,7 @@ layout: default
 
 ## Dataset manual
 
+* [v2.11](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v2.11.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.0.pdf)
 
