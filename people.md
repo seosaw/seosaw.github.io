@@ -78,8 +78,8 @@ $('.grid').masonry({
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Mariska_Beest" target="_blank">Mariska te Beest</a></td>
-<td>Umeå University</td>
-<td>Sweden</td>
+<td>Utrecht University</td>
+<td>Netherlands</td>
 </tr>
 <tr>
 <td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Geoff Wells</a></td>
