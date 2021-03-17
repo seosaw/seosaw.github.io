@@ -171,6 +171,11 @@ $('.grid').masonry({
 <td>Malawi</td>
 </tr>
 <tr>
+<td><a href="https://www.geos.ed.ac.uk/people/person.html?indv=4064" target="_blank">Iain McNicol</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
 <td>Anderson Muchawona</td>
 <td>Zimbabwe Forestry Commission</td>
 <td>Zimbabwe</td>
@@ -378,11 +383,6 @@ $('.grid').masonry({
 <td><a href="https://www.uni-goettingen.de/en/dr.+paul+magdon+/533762.html" target="_blank">Paul Magdon</a></td>
 <td>University of Göttingen</td>
 <td>Germany</td>
-</tr>
-<tr>
-<td><a href="https://www.geos.ed.ac.uk/people/person.html?indv=4064" target="_blank">Iain McNicol</a></td>
-<td>University of Edinburgh</td>
-<td>United Kingdom</td>
 </tr>
 <tr>
 <td><a href="https://environment.leeds.ac.uk/geography/pgr/2003/joana-b-melo" target="_blank">Joana B. Melo</a></td>
