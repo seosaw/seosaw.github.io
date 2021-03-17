@@ -8,11 +8,13 @@ layout: default
 
 ## Field manual
 
+* [v3.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.3.pdf)
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
 * [v3.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.0_2018.pdf)
 
 ## Dataset manual
 
+* [v2.12](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v2.12.pdf)
 * [v2.11](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v2.11.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.0.pdf)
@@ -28,21 +30,26 @@ layout: default
 
 ## Plot field datasheet
 
+* [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.2.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.0.pdf)
 
 ## Stem field datasheet
 
+* [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.2.pdf)
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.1.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.0.pdf)
 
 
 ## Plot data entry template
 
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_v1.1.csv)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_v1.0.csv)
 
 ## Stem data entry template
 
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_v1.1.csv)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_v1.0.csv)
 
 ## Code of Conduct
