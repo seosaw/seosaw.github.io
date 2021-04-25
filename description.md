@@ -1,0 +1,4 @@
+ ---
+ redirect:   https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_latest.pdf
+ layout:     redirect
+ ---
