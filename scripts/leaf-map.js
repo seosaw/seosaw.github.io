@@ -5,7 +5,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   maxZoom: 18,
   zoomOffset: -1,
   id: 'mapbox/streets-v11',
-  accessToken: 'pk.eyJ1Ijoiam9obmdvZGxlZSIsImEiOiJja2tmbTR0eW4wNXNxMnBvZzZieThncXI3In0.JdWRVsv8GWEMU6NhFUgxeQ'
+  accessToken: 'pk.eyJ1Ijoiam9obmxnb2RsZWUiLCJhIjoiY2twbW4yY29zMDB4MjJ2cDFieTk4YnE5NiJ9.X4MS2F_hTWCVC8PruaQ3Nw'
 }).addTo(mymap);
 
 function getColor(d) { 
