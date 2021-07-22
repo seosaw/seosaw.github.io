@@ -16,6 +16,12 @@ layout: default
     </thead>
     <tbody id='tableBody'>
     <tr>
+     <td>Godlee J. L., Ryan C. M., Bauman D., Bowers S. J., Carreiras J. M. B., Chisingui A. V., Cromsigt J. P. G. M., Druce D. J., Finckh M., Gonçalves F. M., Holdo R. M., Makungwa S., McNicol I. M., Mitchard E. T. A., Muchawona A., Revermann R., Ribeiro N. S., Siampale A., Syampungani S., Tchamba J. J., Tripathi H. G., Wallenfang J., te Beest M., Williams M., Dexter K. G.</td>
+     <td><a href="https://doi.org/10.1111/nph.17639" target="_blank">Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship of woodlands and savannas.</a></td>
+     <td>New Phytologist</td>
+     <td>2021</td> 
+    </tr>
+    <tr>
    	 <td>The SEOSAW Partnership</td>
    	 <td><a href="https://doi.org/10.1002/ppp3.10168" target="_blank">A network to understand the changing socio‐ecology of the southern African woodlands (SEOSAW): Challenges, benefits, and methods</a></td>
    	 <td>Plants People Planet</td>
