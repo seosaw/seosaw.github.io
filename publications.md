@@ -10,7 +10,7 @@ layout: default
     	 <tr id='tableHeader'>
    	 	 <th>Authors</th>
    	 	 <th>Title</th>
-   	 	 <th>Journal</th>
+   	 	 <th>Publication</th>
    	 	 <th>Year</th>
     	 </tr>
     </thead>
@@ -20,6 +20,12 @@ layout: default
      <td><a href="https://doi.org/10.1111/nph.17639" target="_blank">Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship of woodlands and savannas.</a></td>
      <td>New Phytologist</td>
      <td>2021</td> 
+    </tr>
+    <tr>
+     <td>Ribeiro N. S., Silva de Miranda P. L. S., Timberlake J.</td>
+     <td><a href="https://doi.org/10.1007/978-3-030-50104-4_2" target="_blank">Biogeography and Ecology of Miombo Woodlands</a></td>
+     <td>In: Ribeiro N. S., Katerere Y., Chirwa P. W., Grundy I. M. (eds) Miombo Woodlands in a Changing Environment: Securing the Resilience and Sustainability of People and Woodlands</td>
+     <td>2020</td> 
     </tr>
     <tr>
    	 <td>The SEOSAW Partnership</td>
