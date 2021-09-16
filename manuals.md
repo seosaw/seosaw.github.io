@@ -11,18 +11,23 @@ The following protocols are currently available:
 * [Plot design and stem measurements][1] 
 * [Understory plants][2]
 * [Tree traits][3]
-* Soil - Draft in progress.
+* [Soil][4]
+
 
 [1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
 [2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_latest.pdf
 [3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
+[4]:(https://github.com/seosaw/seosaw.github.io/files/7176834/SECO.soil.protocol.pdf)
 
 We provide template field datasheets and data entry files if you are thinking about setting up your own plot in the SEOSAW style:
 
-* [Blank plot datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_latest.pdf)
-* [Blank stem datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_latest.pdf)
+* [Blank plot datasheet](https://github.com/seosaw/seosaw.github.io/files/7176858/SEOSAW_plot.pdf)
+* [Blank stem datasheet](https://github.com/seosaw/seosaw.github.io/files/7176866/blank_stem.pdf)
+* [Blank plot metadata](https://github.com/seosaw/seosaw.github.io/files/7176846/Disturbance_questions_newest.pdf)
 * [Plot data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_latest.csv)
 * [Stem data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_latest.csv)
+* [Stems cheat sheet](https://github.com/seosaw/seosaw.github.io/files/7176875/Field.Cheat.Sheet.pdf)
+
 
 We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
 
