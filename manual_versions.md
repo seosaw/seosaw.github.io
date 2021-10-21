@@ -8,6 +8,7 @@ layout: default
 
 ## Field manual
 
+* [v3.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.4.pdf)
 * [v3.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.3.pdf)
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
 * [v3.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.0_2018.pdf)
