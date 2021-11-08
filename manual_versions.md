@@ -8,6 +8,7 @@ layout: default
 
 ## Field manual
 
+* [v3.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.4.pdf)
 * [v3.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.3.pdf)
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
 * [v3.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.0_2018.pdf)
@@ -28,19 +29,31 @@ layout: default
 
 * [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_v0.1_2018.pdf)
 
+## Soil manual
+
+* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_v1.4.pdf)
+
 ## Plot field datasheet
 
+* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.4.pdf)
+* [v1.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.3.pdf)
 * [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.2.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_v1.0.pdf)
 
 ## Stem field datasheet
 
+* [v1.5](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.5.pdf)
+* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.4.pdf)
+* [v1.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.3.pdf)
 * [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.2.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.1.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_v1.0.pdf)
 
+
+## Disturbance Questions
+* [v1.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_v1.3.pdf)
 
 ## Plot data entry template
 
@@ -51,6 +64,11 @@ layout: default
 
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_v1.1.csv)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_v1.0.csv)
+
+## Field Cheat Sheet
+
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.1.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.0.pdf)
 
 ## Code of Conduct
 

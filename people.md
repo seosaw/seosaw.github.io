@@ -72,6 +72,10 @@ $('.grid').masonry({
 <td>United Kingdom</td>
 </tr>
 <tr>
+<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
 <td>University of Cape Town</td>
 <td>South Africa</td>
