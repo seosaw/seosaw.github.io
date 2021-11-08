@@ -11,7 +11,7 @@ The following protocols are currently available:
 * [Plot design and stem measurements][1] 
 * [Understory plants][2]
 * [Tree traits][3]
-* [Soil](ttps://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_latest.pdf)   [[fr]](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_pt.pdf)
+* [Soil](https://bitbucket.org/miombo/seosaw/src/master/doc/manuals/soil_manual/Versions/soil_protocol_latest.pdf)   [[fr]](https://bitbucket.org/miombo/seosaw/src/master/doc/manuals/soil_manual/Versions/soil_protocol_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/src/master/doc/manuals/soil_manual/Versions/soil_protocol_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/src/master/doc/manuals/soil_manual/Versions/soil_protocol_pt.pdf)
 
 [1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
 [2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_latest.pdf
@@ -28,9 +28,8 @@ We provide template field datasheets and data entry files if you are thinking ab
 * [Blank stem datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_latest.pdf)
 * [Plot data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_latest.csv)
 * [Stem data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_latest.csv)
-* [Blank disturbance datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_latest.pdf) [[fr]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_pt.pdf)
-* [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
-
+* [Blank disturbance datasheet](https://bitbucket.org/miombo/seosaw/src/master/doc/forms/field_sheets/versions/disturbance/Disturbance_questions_latest.pdf) [[fr]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_pt.pdf)
+* [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/src/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
 
 We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
 
