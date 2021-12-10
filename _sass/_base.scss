@@ -170,6 +170,12 @@ sub {
   top: 0.4em; 
 }
 
+// Videos
+video {
+	display: block;
+	margin: $par-unit auto;
+}
+
 // Tables
 table {
     margin: 10px 0 15px 0;
