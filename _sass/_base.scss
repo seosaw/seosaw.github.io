@@ -174,8 +174,7 @@ sub {
 video {
 	display: block;
 	margin: $par-unit auto;
-	height: 240px;
-	width: 320px;
+	max-width: 90%;
 }
 
 // Tables
