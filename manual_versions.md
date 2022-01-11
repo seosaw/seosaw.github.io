@@ -25,9 +25,10 @@ layout: default
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v1.0.pdf)
 * [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v0.1.pdf)
 
-## Understory manual
+## Herbaceous manual
 
-* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_v0.1_2018.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_manual/versions/seosaw_herbaceous_manual_v1.0_2022.pdf)
+* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_manual/versions/seosaw_herbaceous_manual_v0.1_2018.pdf)
 
 ## Soil manual
 
