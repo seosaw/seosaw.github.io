@@ -9,7 +9,7 @@ We are developing a set of linked protocols that will allow for data collected a
 The following protocols are currently available:
 
 * [Plot design and stem measurements][1] 
-* [Herbaceous plants][2]
+* Herbaceous plants- coming soon
 * [Tree traits][3]
 * [Soil][4]  [[fr]][5]  [[es]][6]  [[pt]][7]
 
