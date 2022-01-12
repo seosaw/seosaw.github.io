@@ -9,12 +9,12 @@ We are developing a set of linked protocols that will allow for data collected a
 The following protocols are currently available:
 
 * [Plot design and stem measurements][1] 
-* [Understory plants][2]
+* [Herbaceous plants][2]
 * [Tree traits][3]
 * [Soil][4]  [[fr]][5]  [[es]][6]  [[pt]][7]
 
 [1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
-[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_latest.pdf
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_manual/versions/seosaw_herbaceous_manual_latest.pdf
 [3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
 [4]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_latest.pdf
 [5]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_fr.pdf
