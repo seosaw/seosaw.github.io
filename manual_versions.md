@@ -32,6 +32,7 @@ layout: default
 
 ## Soil manual
 
+* [v1.5](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_v1.5.pdf)
 * [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_v1.4.pdf)
 
 ## Plot field datasheet
