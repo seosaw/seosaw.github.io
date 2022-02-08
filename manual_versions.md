@@ -8,6 +8,7 @@ layout: default
 
 ## Field manual
 
+* [v3.5](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.5.pdf)
 * [v3.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.4.pdf)
 * [v3.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.3.pdf)
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
@@ -69,6 +70,7 @@ layout: default
 
 ## Field Cheat Sheet
 
+* [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.2.pdf)
 * [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.1.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.0.pdf)
 
