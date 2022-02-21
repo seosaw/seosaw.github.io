@@ -47,6 +47,16 @@ $('.grid').masonry({
 <td>Angola</td>
 </tr>
 <tr>
+<tr>
+<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
 <td>Democratic Republic of Congo</td>
@@ -71,11 +81,6 @@ $('.grid').masonry({
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
-<tr>
-<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
-<td>Sokoine University of Agriculture</td>
-<td>Tanzania</td>
-<tr>
 <td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
 <td>University of Cape Town</td>
 <td>South Africa</td>
