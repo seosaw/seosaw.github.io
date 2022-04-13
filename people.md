@@ -15,6 +15,7 @@ $('.grid').masonry({
 
 # People
 
+
 ## SEOSAW steering committee
 
 SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/sc_terms_latest.pdf).
@@ -101,7 +102,10 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
+---
+
 ## SEOSAW staff
+
 
 <table>
 <thead>
@@ -134,6 +138,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
+---
 
 ## Lead data contributors 
 
@@ -516,6 +521,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
+---
 
 ## Other SEOSAW members
 
