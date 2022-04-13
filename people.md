@@ -17,6 +17,9 @@ $('.grid').masonry({
 
 ## SEOSAW steering committee
 
+SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/sc_terms_latest.pdf).
+
+
 <table>
 <thead>
 <tr id='tableHeader'>
@@ -98,7 +101,42 @@ $('.grid').masonry({
 </tbody>
 </table>
 
+## SEOSAW staff
+
+<table>
+<thead>
+<tr id='tableHeader'>
+<th>Name</th>
+<th>Role</th>
+<th>Institution</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody id='tableBody'>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=PTsjXCwAAAAJ&hl=en" target="_blank">Penny Mograbi</a></td>
+<td>Science Officer</td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td><a href="https://zw.linkedin.com/in/tatenda-gotore-38aa2848?challengeId=AQGGt4z1yZ2q_QAAAYAeZzYc4sdQBrnmbXsEeo5BDZF9JeTf3M8ksRB5e8D0Hz54KeZpYRub70OAMOWdyQzRxtD3W198djfdng&submissionId=ced16f4d-ea2f-e516-19ff-603a49c7b34f" target="_blank">Tatenda Gotore</a></td>
+<td>Sustainable Management of Miombo Woodlands Researcher</td>
+<td>University of the Witwatersrand / Miombo Network</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=1GqlDMgAAAAJ&hl=en" target="_blank">Lorena Benitez</a></td>
+<td>Project Officer</td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Lead data contributors 
+
 
 <table>
 <thead>
@@ -287,7 +325,9 @@ $('.grid').masonry({
 </tbody>
 </table>
 
+
 ## Other data contributors
+
 
 <table>
 <thead>
@@ -476,7 +516,9 @@ $('.grid').masonry({
 </tbody>
 </table>
 
+
 ## Other SEOSAW members
+
 
 <table>
 <thead>

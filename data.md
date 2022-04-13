@@ -7,7 +7,7 @@ layout: default
 
 # The SEOSAW plot network
 
-The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across southern Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
+The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across Sub-Saharan Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
 
 The map below shows the locations of plots in the SEOSAW dataset, The map also shows the SEOSAW core region, which encompasses woody savannas and woodlands in southern Africa. The core region is based on [White's vegetation map](https://www.cabdirect.org/cabdirect/abstract/19840692540) and is further shaped by expert opinion. 
 
