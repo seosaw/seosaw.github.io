@@ -66,11 +66,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Democratic Republic of Congo</td>
 </tr>
 <tr>
-<td><a href="https://www.nust.ac.zw/fas/index.php/en/teachers/teacher/mr-robert-mwase" target="_blank">Robert Mwase</a></td>
-<td>National University of Science and Technology</td>
-<td>Zimbabwe</td>
-</tr>
-<tr>
 <td><a href="https://scholar.google.com/citations?user=0tk4KC4AAAAJ&hl=en" target="_blank">Elifuraha Elisha Njoghomi‬</a></td>
 <td>Tanzania Forestry Research Institute, Morogoro</td>
 <td>Tanzania</td>
@@ -102,9 +97,9 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
----
 
-## SEOSAW staff
+
+# SEOSAW staff
 
 
 <table>
@@ -138,9 +133,8 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
----
 
-## Lead data contributors 
+# Lead data contributors 
 
 
 <table>
@@ -521,9 +515,8 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
----
 
-## Other SEOSAW members
+# Other SEOSAW members
 
 
 <table>
