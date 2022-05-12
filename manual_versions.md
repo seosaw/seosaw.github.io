@@ -28,13 +28,13 @@ layout: default
 
 ## Herbaceous manual
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_manual/versions/seosaw_herbaceous_manual_v1.0_2022.pdf)
-* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_manual/versions/seosaw_herbaceous_manual_v0.1_2018.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_v1.0_2022.pdf)
+* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_v0.1_2018.pdf)
 
 ## Soil manual
 
-* [v1.5](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_v1.5.pdf)
-* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/soil_protocol_v1.4.pdf)
+* [v1.5](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_v1.5.pdf)
+* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_v1.4.pdf)
 
 ## Plot field datasheet
 
@@ -56,7 +56,7 @@ layout: default
 
 
 ## Disturbance Questions
-* [v1.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_v1.3.pdf)
+* [v1.3](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/Disturbance_questions_v1.3.pdf)
 
 ## Plot data entry template
 
