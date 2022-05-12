@@ -70,9 +70,9 @@ layout: default
 
 ## Field Cheat Sheet
 
-* [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.2.pdf)
-* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.1.pdf)
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/cheat_sheet/versions/cheat_sheet_v1.0.pdf)
+* [v1.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_v1.2.pdf)
+* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_v1.1.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_v1.0.pdf)
 
 ## Code of Conduct
 

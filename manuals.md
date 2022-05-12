@@ -33,7 +33,7 @@ We provide template field datasheets and data entry files if you are thinking ab
 * [Plot data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_latest.csv)
 * [Stem data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_latest.csv)
 * [Blank disturbance datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_latest.pdf) [[fr]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_pt.pdf)
-* [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/src/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
+* [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
 
 We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
 
