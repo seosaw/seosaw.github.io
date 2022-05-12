@@ -20,7 +20,6 @@ $('.grid').masonry({
 
 SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/sc_terms_latest.pdf).
 
-
 <table>
 <thead>
 <tr id='tableHeader'>
@@ -60,6 +59,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
 <td>Sokoine University of Agriculture</td>
 <td>Tanzania</td>
+</tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
@@ -130,9 +130,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
-
 ## Lead data contributors 
-
 
 <table>
 <thead>
@@ -320,7 +318,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tr>
 </tbody>
 </table>
-
 
 ## Other data contributors
 
@@ -511,9 +508,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
-
 ## Other SEOSAW members
-
 
 <table>
 <thead>
