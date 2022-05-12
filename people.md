@@ -97,10 +97,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tbody>
 </table>
 
-
-
-# SEOSAW staff
-
+## SEOSAW staff
 
 <table>
 <thead>
@@ -134,7 +131,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </table>
 
 
-# Lead data contributors 
+## Lead data contributors 
 
 
 <table>
@@ -327,7 +324,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 
 ## Other data contributors
 
-
 <table>
 <thead>
 <tr id='tableHeader'>
@@ -516,7 +512,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </table>
 
 
-# Other SEOSAW members
+## Other SEOSAW members
 
 
 <table>
