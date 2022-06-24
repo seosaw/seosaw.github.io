@@ -15,7 +15,10 @@ $('.grid').masonry({
 
 # People
 
+
 ## SEOSAW steering committee
+
+SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/versions/sc_terms_v1.0.pdf).
 
 <table>
 <thead>
@@ -32,7 +35,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="http://phylodiversity.net/kdexter/HOME.html" target="_blank">Kyle Dexter</a></td>
+<td><a href="https://phylodiversity.net/kdexter/" target="_blank">Kyle Dexter</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -47,14 +50,20 @@ $('.grid').masonry({
 <td>Angola</td>
 </tr>
 <tr>
+<tr>
+<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
 <td>Democratic Republic of Congo</td>
-</tr>
-<tr>
-<td><a href="https://www.nust.ac.zw/fas/index.php/en/teachers/teacher/mr-robert-mwase" target="_blank">Robert Mwase</a></td>
-<td>National University of Science and Technology</td>
-<td>Zimbabwe</td>
 </tr>
 <tr>
 <td><a href="https://scholar.google.com/citations?user=0tk4KC4AAAAJ&hl=en" target="_blank">Elifuraha Elisha Njoghomi‬</a></td>
@@ -71,11 +80,6 @@ $('.grid').masonry({
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
-<tr>
-<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
-<td>Sokoine University of Agriculture</td>
-<td>Tanzania</td>
-<tr>
 <td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
 <td>University of Cape Town</td>
 <td>South Africa</td>
@@ -87,6 +91,39 @@ $('.grid').masonry({
 </tr>
 <tr>
 <td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Geoff Wells</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
+</tbody>
+</table>
+
+## SEOSAW staff
+
+<table>
+<thead>
+<tr id='tableHeader'>
+<th>Name</th>
+<th>Role</th>
+<th>Institution</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody id='tableBody'>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=PTsjXCwAAAAJ&hl=en" target="_blank">Penny Mograbi</a></td>
+<td>Science Officer</td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td><a href="https://zw.linkedin.com/in/tatenda-gotore-38aa2848?challengeId=AQGGt4z1yZ2q_QAAAYAeZzYc4sdQBrnmbXsEeo5BDZF9JeTf3M8ksRB5e8D0Hz54KeZpYRub70OAMOWdyQzRxtD3W198djfdng&submissionId=ced16f4d-ea2f-e516-19ff-603a49c7b34f" target="_blank">Tatenda Gotore</a></td>
+<td>Sustainable Management of Miombo Woodlands Researcher</td>
+<td>University of the Witwatersrand / Miombo Network</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=1GqlDMgAAAAJ&hl=en" target="_blank">Lorena Benitez</a></td>
+<td>Project Officer</td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -105,7 +142,7 @@ $('.grid').masonry({
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -329,7 +366,7 @@ $('.grid').masonry({
 <td>Belgium</td>
 </tr>
 <tr>
-<td><a href="https://www.wits.ac.za/apes/staff/academic-staff/erasmus/professor-barend-erasmus/" target="_blank">Barend Erasmus</a></td>
+<td>Barend Erasmus</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -349,7 +386,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -424,7 +461,7 @@ $('.grid').masonry({
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/s/bobscholeswitsacza/" target="_blank">Bob Scholes</a></td>
+<td>Bob Scholes</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>

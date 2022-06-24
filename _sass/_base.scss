@@ -1,13 +1,8 @@
-// Reset basic elements
-html, body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-	padding: 0;
-}
 
 // Basic styling
 body {
+    margin: 0;
+	padding: 0;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -52,6 +47,10 @@ body {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: $nav-font-weight;
+}
+
+.nav ul {
+    margin: 20px 0px 20px 20px;
 }
 
 .nav li {
@@ -101,7 +100,7 @@ li {
 }
 
 ul, ol {
-    margin: 20px 0px 20px 30px;
+	padding-left: 2em;
 }
 
 // Headings
@@ -197,28 +196,6 @@ th {
     background: $brand-color;
     font-weight: bold;
     color: $background-color;
-}
-
-table.tablesorter thead tr .headerSortNone {
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-image: url('../images/table_arrow/bg.gif');
-    padding-right: 5px;
-
-}
-
-table.tablesorter thead tr .headerSortUp {
-    background-image: url('../images/table_arrow/asc.gif');
-    background-position: right center;
-    background-repeat: no-repeat;
-    padding-right: 5px;
-}
-
-table.tablesorter thead tr .headerSortDown {
-    background-image: url('../images/table_arrow/desc.gif');
-    background-position: right center;
-    background-repeat: no-repeat;
-    padding-right: 5px;
 }
 
 th.colname {
