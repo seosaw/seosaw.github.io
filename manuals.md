@@ -1,43 +1,135 @@
 ---
 layout: default
 ---
+<img src="{{ site.baseurl }}/images/seosaw_protocol_figure.png" alt="SEOSAW Protocols">
 
-# Measurement protocols for African woodlands and savannas
+# Protocols
 
-We are developing a set of linked protocols that will allow for data collected across the region to be compared, whilst retaining flexibility to suit the many different objectives of researchers in the region. All the protocols are 'living documents', and we welcome input and suggestions from all. Previous versions of the SEOSAW protocols can be [found here]({{ site.baseurl }}/manual_versions).
+SEOSAW has developed a set of linked protocols to study the complex socioecology of African woodlands. These protocols were designed to allow for data collected across the region to be compared, whilst retaining flexibility to suit many different objectives. Please reach out to us if you have questions about the protocols.  We can also assist you in preparing methods and datasheets for your project. 
 
-The following protocols are currently available:
+* [Field manual][1] 
 
-* [Plot design and stem measurements][1] 
-* [Understory plants][2]
-* [Tree traits][3]
-* [Soil][4]  [[fr]][5]  [[es]][6]  [[pt]][7]
+    * Translations available in [Português][1a], [Français][1b], and [Swahili][1c] 
 
-[1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest.pdf
-[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/seosaw_understory_manual_latest.pdf
-[3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
+* [Small stems][2] 
+
+    * Translations available in [Português][2a], [Français][2b], and [Swahili][2c] 
+
+* [Coarse woody debris][3] 
+
+    * Translations available in [Português][3a], [Français][3b], and [Swahili][3c] 
+
+* [Soil][4] (developed as part of SECO) 
+
+    * Translations available in [Português][4a] and [Français][4b] 
+
+* [Herbaceous biomass][5] 
+* [Traits][6]
+* Social- coming soon 
+* Shrubs- coming soon 
+
+
+All the protocols are ‘living documents’, and we welcome input and suggestions from all. Previous versions of the SEOSAW protocols can be [found here]({{ site.baseurl }}/manual_versions).
+
+
+[1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/field_manual/versions/seosaw_field_manual_latest.pdf
+[1a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/field_manual/versions/seosaw_field_manual_pt.pdf
+[1b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/field_manual/versions/seosaw_field_manual_fr.pdf
+[1c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/field_manual/versions/seosaw_field_manual_sw.pdf
+
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/small_stem_protocol/versions/small_stems_protocol.pdf
+[2a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/small_stem_protocol/versions/small_stems_protocol_pt.pdf
+[2b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/small_stem_protocol/versions/small_stems_protocol_fr.pdf
+[2c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/small_stem_protocol/versions/small_stems_protocol_sw.pdf
+
+[3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/cwd_protocol/versions/cwd_protocol.pdf
+[3a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/cwd_protocol/versions/cwd_protocol_pt.pdf
+[3b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/cwd_protocol/versions/cwd_protocol_fr.pdf
+[3c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/cwd_protocol/versions/cwd_protocol_sw.pdf
+
 [4]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_latest.pdf
-[5]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_fr.pdf
-[6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_es.pdf
-[7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_pt.pdf
+[4a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_pt.pdf
+[4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/Versions/soil_protocol_fr.pdf
+
+[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/herbaceous_protocol_latest.pdf
+
+[6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest.pdf
+
+# Datasheets
+SEOSAW has created the following datasheets to aid you in data collection following the above protocols. 
+
+* [Plot metadata][7] 
+
+   * Translations available in [Português][7a], [Français][7b], and [Swahili][7c] 
+
+* [Plot disturbance history][8] 
+
+   * Translations available in [Português][8a] and [Français][8b] 
+
+   * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
+
+* [Stem datasheet][9] 
+
+   * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
+
+* [Small stems][10] 
+
+   * Translations available in [Português][10a], [Français][10b], and [Swahili][10c] 
+
+* [Coarse woody debris][11] 
+
+   * Translations available in [Português][11a], [Français][11b], and [Swahili][11c] 
+
+* [Soil][12] 
+
+   * Translations available in [Português][12a] and [Français][12b] 
+
+* [Herbaceous biomass][13] 
 
 
-And to help you with these protocols, we have recently created this recommended equipment list.
+[7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/blank_plot.docx
+[7a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/blank_plot_sw.docx
+[7b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/blank_plot_sw.docx
+[7c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/blank_plot_sw.docx
 
-* [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx)
+[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance.docx
+[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_pt.docx
+[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_fr.docx
 
-We provide template field datasheets and data entry files if you are thinking about setting up your own plot in the SEOSAW style:
+[9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/blank_stem.xlsx
+[9a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/blank_stem_pt.xlsx
+[9b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/blank_stem_fr.xlsx
+[9c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/blank_stem_sw.xlsx
 
-* [Blank plot datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/plot/blank_plot_latest.pdf)
-* [Blank stem datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/stem/blank_stem_latest.pdf)
-* [Plot data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/plot/plot_data_template_latest.csv)
-* [Stem data entry template](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/data_templates/versions/stem/stem_data_template_latest.csv)
-* [Blank disturbance datasheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_latest.pdf) [[fr]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_fr.pdf)  [[es]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_es.pdf)  [[pt]](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/versions/disturbance/disturbance_questions_pt.pdf)
-* [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/src/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
+[10]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/blank_small_stem.xlsx
+[10a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/blank_small_stem_pt.xlsx
+[10b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/blank_small_stem_fr.xlsx
+[10c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/blank_small_stem_sw.xlsx
 
+[11]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/blank_cwd.xlsx
+[11a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/blank_cwd_pt.xlsx
+[11b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/blank_cwd_fr.xlsx
+[11c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/blank_cwd_sw.xlsx
+
+[12]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/blank_soil.xlsx
+[12a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/blank_soil_pt.xlsx
+[12b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/blank_soil_fr.xlsx
+
+[13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/blank_herbaceous_biomass.xlsx
+
+# Field Resources
+
+##### [Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/src/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_latest.pdf)
+This one-page sheet is a printer-friendly summary of the SEOSAW codes and tips for best practice when sampling stems.  
+
+##### [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx)
+Use this list of recommended equipment to help you plan for your fieldwork!  
+
+##### Digital forms
 We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
 
-## Purpose of the protocols
+
+## SEOSAW’s protocols and datasheets were designed with following goals in mind:  
 
 * Not to suggest novel methods, but to borrow from elsewhere, and present methods that have been tried and tested by the partners in tropical savannas and woodlands.
 * To share experience about what works and what does not, to avoid mistakes being repeated.

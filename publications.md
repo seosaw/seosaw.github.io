@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Publications
+New SEOSAW working paper, "[Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands](https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/diameter_relationship_latest.pdf)" now available!
 
 
 <table>
