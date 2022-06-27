@@ -40,7 +40,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John L. Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -182,7 +182,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Germany</td>
 </tr>
 <tr>
-<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John L. Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
