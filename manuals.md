@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<img src="{{ site.baseurl }}/images/seosaw_protocol_figure.png" alt="SEOSAW Protocols">
+<img src="{{ site.baseurl }}/images/seosaw_protocol_figure2.png" alt="SEOSAW Protocols">
 
 # Protocols
 
 SEOSAW has developed a set of linked protocols to study the complex socio-ecology of African woodlands. These protocols were designed to allow for data collected across the region to be compared, whilst retaining flexibility to suit many different objectives. Please reach out to us if you have questions about the protocols.  We can also assist you in preparing methods and datasheets for your project. 
 
 * [Field manual][1] 
-	* Translations available in [Português][1a], [Français][1b], and [Swahili][1c] 
+	* Translations available in [Português][1a], [Français][1b], and [Kiswahili][1c] 
 * [Small stems][2] 
-    * Translations available in [Português][2a], [Français][2b], and [Swahili][2c] 
+    * Translations available in [Português][2a], [Français][2b], and [Kiswahili][2c] 
 * [Coarse woody debris][3] 
-    * Translations available in [Português][3a], [Français][3b], and [Swahili][3c] 
+    * Translations available in [Português][3a], [Français][3b], and [Kiswahili][3c] 
 * [Soil][4] (developed as part of [SECO](https://blogs.ed.ac.uk/seco-project/)) 
     * Translations available in [Português][4a] and [Français][4b] 
 * [Herbaceous biomass][5] 
@@ -50,16 +50,16 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 SEOSAW has created the following datasheets to aid you in data collection following the above protocols. 
 
 * [Plot metadata][7] 
-   * Translations available in [Português][7a], [Français][7b], and [Swahili][7c] 
+   * Translations available in [Português][7a], [Français][7b], and [Kiswahili][7c] 
 * [Plot disturbance history][8] 
    * Translations available in [Português][8a], [Français][8b], and [Español][8c]
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
 * [Stem datasheet][9] 
    * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
 * [Small stems][10] 
-   * Translations available in [Português][10a], [Français][10b], and [Swahili][10c] 
+   * Translations available in [Português][10a], [Français][10b], and [Kiswahili][10c] 
 * [Coarse woody debris][11] 
-   * Translations available in [Português][11a], [Français][11b], and [Swahili][11c] 
+   * Translations available in [Português][11a], [Français][11b], and [Kiswahili][11c] 
 * [Soil][12] 
    * Translations available in [Português][12a] and [Français][12b] 
 * [Herbaceous biomass][13] 
