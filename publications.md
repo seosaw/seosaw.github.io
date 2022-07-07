@@ -28,7 +28,7 @@ SEOSAW partnership. (2021). A network to understand the changing socio‐ecology
      </tbody>
 </table>
 
-##Peer-reviewed Papers
+## Peer-reviewed Papers
 <table>
     <thead>
     	 <tr id='tableHeader'>
