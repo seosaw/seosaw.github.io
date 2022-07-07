@@ -18,7 +18,7 @@ $('.grid').masonry({
 
 ## SEOSAW steering committee
 
-SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/sc_terms_latest.pdf).
+SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/versions/sc_terms_v1.0.pdf).
 
 <table>
 <thead>
@@ -35,12 +35,12 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="http://phylodiversity.net/kdexter/HOME.html" target="_blank">Kyle Dexter</a></td>
+<td><a href="https://phylodiversity.net/kdexter/" target="_blank">Kyle Dexter</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John L. Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -142,7 +142,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -182,7 +182,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Germany</td>
 </tr>
 <tr>
-<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John Godlee</a></td>
+<td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John L. Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -366,7 +366,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Belgium</td>
 </tr>
 <tr>
-<td><a href="https://www.wits.ac.za/apes/staff/academic-staff/erasmus/professor-barend-erasmus/" target="_blank">Barend Erasmus</a></td>
+<td>Barend Erasmus</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -386,7 +386,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -461,7 +461,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/s/bobscholeswitsacza/" target="_blank">Bob Scholes</a></td>
+<td>Bob Scholes</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
