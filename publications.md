@@ -3,9 +3,32 @@ layout: default
 ---
 
 # Publications
-New SEOSAW working paper, "[Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands](https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/diameter_relationship/diameter_relationship_latest.pdf)" now available!
+
+When referencing SEOSAW, please cite as:
+
+SEOSAW partnership. (2021). A network to understand the changing socio‐ecology of the southern African woodlands (SEOSAW): Challenges, benefits, and methods. *Plants, People, Planet*, 3(3), 249-267. doi: [10.1002/ppp3.10168](https://doi.org/10.1002/ppp3.10168).
 
 
+## Working Papers 
+
+<table>
+    <thead>
+    	 <tr id='tableHeader'>
+   	 	 <th>Authors</th>
+   	 	 <th>Title</th>
+   	 	 <th>Year</th>
+    	 </tr>
+    </thead>
+    <tbody id='tableBody'>
+    <tr>
+     <td>Gotore, T., Archibald, S., Ryan, C. M. </td>
+     <td><a href="https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/diameter_relationship/diameter_relationship_latest.pdf" target="_blank">Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands</a></td>
+     <td>2022</td> 
+    </tr>
+     </tbody>
+</table>
+
+##Peer-reviewed Papers
 <table>
     <thead>
     	 <tr id='tableHeader'>
