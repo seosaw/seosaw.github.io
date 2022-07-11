@@ -54,6 +54,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 * [Plot disturbance history][8] 
    * Translations available in [Português][8a], [Français][8b], and [Español][8c]
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
+   *  [ODK format][8d] 
 * [Stem datasheet][9] 
    * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
 * [Small stems][10] 
@@ -69,10 +70,11 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [7b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4_fr.pdf
 [7c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4_sw.pdf
 
-[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/blank_disturbance_v1.3.pdf
-[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/blank_disturbance_v1.3_pt.pdf
-[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/blank_disturbance_v1.3_fr.pdf
+[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance.docx
+[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_pt.docx
+[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_fr.docx
 [8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/blank_disturbance_v1.3_es.pdf
+[8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/disturbance/disturbance.xlsx
 
 [9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5.xlsx
 [9a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5_pt.xlsx
