@@ -94,6 +94,36 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=D6BSRu8Lvb0C&hl=nl" target="_blank">Vera De Cauwer</a></td>
+<td>Namibia University of Science and Technology (NUST)</td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Clemence-Zimudzi" target="_blank">Clemence Zimudzi</a></td>
+<td>University of Zimbabwe</td>
+<td>Zimbabwe</td>
+</tr>
+<tr>
+<td><a href="https://staverlab.yale.edu/" target="_blank">Carla Staver</a></td>
+<td>Yale University</td>
+<td>United States</td>
+</tr>
+<tr>
+<td><a href="https://gtr.ukri.org/person/D88DA52F-86CF-457A-B9C5-1B2A1FABE61A" target="_blank">Charles Blessings Jumbe</a></td>
+<td>Centre for Independent Evaluations</td>
+<td>Malawi</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Muri-Soares" target="_blank">Muri Gonçalves Soares</a></td>
+<td>Fundo Nacional de Desenvolvimento Sustentável (FNDS - National Fund for Sustainable Development)</td>
+<td>Mozambique</td>
+</tr>
+<tr>
+<td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Justice Muvengwi</a></td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
+</tr>
 </tbody>
 </table>
 
