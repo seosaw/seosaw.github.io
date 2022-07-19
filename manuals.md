@@ -14,7 +14,7 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
 * [Coarse woody debris][3] 
     * Translations available in [Português][3a], [Français][3b], and [Kiswahili][3c] 
 * [Soil][4] (developed as part of [SECO](https://blogs.ed.ac.uk/seco-project/)) 
-    * Translations available in [Português][4a] and [Français][4b] 
+    * Translations available in [Português][4a], [Français][4b] and [Español][4c] 
 * [Herbaceous biomass][5] 
 * [Traits][6]
 * Social - coming soon 
@@ -39,8 +39,9 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 [3c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd_protocol/versions/cwd_protocol_v1.0_sw.pdf
 
 [4]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7.pdf
-[4a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.4_pt.pdf
-[4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.4_fr.pdf
+[4a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_pt.pdf
+[4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_fr.pdf
+[4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_es.pdf
 
 [5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/herbaceous_protocol_v1.4.pdf
 
@@ -73,7 +74,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance.docx
 [8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_pt.docx
 [8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_fr.docx
-[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/blank_disturbance_v1.3_es.pdf
+[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_es.docx
 [8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/disturbance/disturbance.xlsx
 
 [9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5.xlsx
