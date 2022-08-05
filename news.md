@@ -11,6 +11,7 @@ layout: default
 * March 2022: The Herbaceous Protocol Training in Tanzania was a great success. Read more about it in the May 2022 newsletter.
 
 ## Newsletters
+*Read the latest newsletter from [August 2022](https://sway.office.com/jP61ngxt4D6yeHPz?ref=Link)*
 
 SEOSAW sends out a newsletter every three months to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities.
 
