@@ -120,7 +120,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Mozambique</td>
 </tr>
 <tr>
-<td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Justice Muvengwi</a></td>
+<td><a href="https://scholar.google.com/citations?user=8z4QEFYAAAAJ&hl=en" target="_blank">Justice Muvengwi</a></td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>

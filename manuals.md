@@ -7,7 +7,7 @@ layout: default
 
 SEOSAW has developed a set of linked protocols to study the complex socio-ecology of African woodlands. These protocols were designed to allow for data collected across the region to be compared, whilst retaining flexibility to suit many different objectives. Please reach out to us if you have questions about the protocols.  We can also assist you in preparing methods and datasheets for your project. 
 
-* [Field manual][1] 
+* [Trees and plot setup][1] 
 	* Translations available in [Português][1a], [Français][1b], and [Kiswahili][1c] 
 * [Small stems][2] 
     * Translations available in [Português][2a], [Français][2b], and [Kiswahili][2c] 
