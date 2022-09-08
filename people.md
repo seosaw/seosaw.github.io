@@ -172,23 +172,23 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td>Mthokozisi Moyo</a></td>
+<td>Mthokozisi Moyo</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
 <tr>
-<td>Collins Masinde</a></td>
+<td>Collins Masinde</td>
 <td>Kenya Forestry Research Institute</td>
 <td>Kenya</td>
 </tr>
-<td>Hermane Diesse</a></td>
+<tr>
+<td>Hermane Diesse</td>
 <td>Namibia University of Science and Technology (NUST)</td>
 <td>Namibia</td>
 </tr>
 <tr>
-<td>Henry Kariuki Njeri</a></td>
-<td>Botany department, National Museums of Kenya
-</td>
+<td>Henry Kariuki Njeri</td>
+<td>Botany department, National Museums of Kenya</td>
 <td>Kenya</td>
 </tr>
 </tbody>
