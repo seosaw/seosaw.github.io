@@ -112,11 +112,11 @@ layout: default
 
 ## Herbaceous biomass datasheet
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/herbaceous_biomass_v1.0.xlsx)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/herbaceous_biomass_v1.0_en.xlsx)
 
 ## Shrub datasheet
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/shrub/versions/blank_shrub_v1.0_en.xlsx)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/shrub/versions/shrub_v1.0_en.xlsx)
 
 ## Small stem datasheet
 
@@ -127,9 +127,9 @@ layout: default
 
 ## Soil datasheet
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0_en.xlsx)
-	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0_fr.xlsx)
-	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0_pt.xlsx)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_v1.0_en.xlsx)
+	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_v1.0_fr.xlsx)
+	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_v1.0_pt.xlsx)
 
 ## Disturbance Questions
 

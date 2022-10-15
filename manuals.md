@@ -70,11 +70,11 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [7b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_fr.pdf
 [7c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_sw.pdf
 
-[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/disturbance_latest_en.docx
-[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/disturbance_latest_pt.docx
-[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/disturbance_latest_fr.docx
-[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/disturbance_latest_es.docx
-[8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/disturbance/disturbance.xls
+[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_en.pdf
+[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_pt.pdf
+[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_fr.pdf
+[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_es.pdf
+[8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/disturbance/versions/disturbance.xls
 
 [9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_en.pdf
 [9a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_pt.pdf
