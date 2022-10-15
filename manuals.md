@@ -23,29 +23,29 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
 All the protocols are ‘living documents’, and we welcome input and suggestions from all. Previous versions of the SEOSAW protocols can be [found here]({{ site.baseurl }}/manual_versions).
 
 
-[1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v4.0.pdf
-[1a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.5_pt.pdf
-[1b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.5_fr.pdf
-[1c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.5_sw.pdf
+[1]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_en.pdf
+[1a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_pt.pdf
+[1b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_fr.pdf
+[1c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_sw.pdf
 
-[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stem_protocol/versions/small_stem_protocol_v1.0.pdf
-[2a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stem_protocol/versions/small_stem_protocol_v1.0_pt.pdf
-[2b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stem_protocol/versions/small_stem_protocol_v1.0_fr.pdf
-[2c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stem_protocol/versions/small_stem_protocol_v1.0_sw.pdf
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_en.pdf
+[2a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_pt.pdf
+[2b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_fr.pdf
+[2c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_sw.pdf
 
-[3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd_protocol/versions/cwd_protocol_v1.0.pdf
-[3a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd_protocol/versions/cwd_protocol_v1.0_pt.pdf
-[3b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd_protocol/versions/cwd_protocol_v1.0_fr.pdf
-[3c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd_protocol/versions/cwd_protocol_v1.0_sw.pdf
+[3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_en.pdf
+[3a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_pt.pdf
+[3b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_fr.pdf
+[3c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_sw.pdf
 
-[4]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7.pdf
-[4a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_pt.pdf
-[4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_fr.pdf
-[4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_v1.7_es.pdf
+[4]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_en.pdf
+[4a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_pt.pdf
+[4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_fr.pdf
+[4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_es.pdf
 
-[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/understory_manual/versions/herbaceous_protocol_v1.4.pdf
+[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_biomass/versions/herbaceous_biomass_latest_en.pdf
 
-[6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v1.0.pdf
+[6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest_en.pdf
 
 # Datasheets
 SEOSAW has created the following datasheets to aid you in data collection following the above protocols. 
@@ -55,7 +55,6 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 * [Plot disturbance history][8] 
    * Translations available in [Português][8a], [Français][8b], and [Español][8c]
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
-   *  [ODK format][8d] 
 * [Stem datasheet][9] 
    * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
 * [Small stems][10] 
@@ -66,41 +65,41 @@ SEOSAW has created the following datasheets to aid you in data collection follow
    * Translations available in [Português][12a] and [Français][12b] 
 * [Herbaceous biomass][13] 
 
-[7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4.pdf
-[7a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4_pt.pdf
-[7b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4_fr.pdf
-[7c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/blank_plot_v1.4_sw.pdf
+[7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_en.pdf
+[7a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_pt.pdf
+[7b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_fr.pdf
+[7c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_sw.pdf
 
-[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance.docx
-[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_pt.docx
-[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_fr.docx
-[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/blank_disturbance_es.docx
-[8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/disturbance/disturbance.xlsx
+[8]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_en.pdf
+[8a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_pt.pdf
+[8b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_fr.pdf
+[8c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/disturbance/versions/disturbance_latest_es.pdf
+[8d]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/disturbance/versions/disturbance.xls
 
-[9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5.xlsx
-[9a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5_pt.xlsx
-[9b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5_fr.xlsx
-[9c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/blank_stem_v1.5_sw.xlsx
+[9]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_en.pdf
+[9a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_pt.pdf
+[9b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_fr.pdf
+[9c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_sw.pdf
 
-[10]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/blank_small_stem_v1.0.xlsx
-[10a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/blank_small_stem_v1.0_pt.xlsx
-[10b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/blank_small_stem_v1.0_fr.xlsx
-[10c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/blank_small_stem_v1.0_sw.xlsx
+[10]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_en.xlsx
+[10a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_pt.xlsx
+[10b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_fr.xlsx
+[10c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_sw.xlsx
 
-[11]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/blank_cwd_v1.0.xlsx
-[11a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/blank_cwd_v1.0_pt.xlsx
-[11b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/blank_cwd_v1.0_fr.xlsx
-[11c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/blank_cwd_v1.0_sw.xlsx
+[11]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_latest_en.xlsx
+[11a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_latest_pt.xlsx
+[11b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_latest_fr.xlsx
+[11c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_latest_sw.xlsx
 
-[12]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0.xlsx
-[12a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0_pt.xlsx
-[12b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/blank_soil_v1.0_fr.xlsx
+[12]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_en.xlsx
+[12a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_pt.xlsx
+[12b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_fr.xlsx
 
-[13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/blank_herbaceous_biomass_v1.0.xlsx
+[13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/herbaceous_biomass_latest_en.xlsx
 
 # Field Resources
 
-[Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cheat_sheet/versions/cheat_sheet_v1.2.pdf) - This one-page sheet is a printer-friendly summary of the SEOSAW codes and tips for best practice when sampling stems.  
+[Field Cheat Sheet](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cheat_sheet/versions/cheat_sheet_latest.pdf) - This one-page sheet is a printer-friendly summary of the SEOSAW codes and tips for best practice when sampling stems.  
 
 [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx) - Use this list of recommended equipment to help you plan for your fieldwork!  
 

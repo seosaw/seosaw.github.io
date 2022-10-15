@@ -18,7 +18,7 @@ $('.grid').masonry({
 
 ## SEOSAW steering committee
 
-SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/terms/sc/versions/sc_terms_v1.0.pdf).
+SEOSAW is governed by a board of researchers.  To learn more about what the steering committee does and how it functions, read the SEOSAW steering committee [terms of reference](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/sc/versions/sc_terms_latest.pdf).
 
 <table>
 <thead>
@@ -35,7 +35,12 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://phylodiversity.net/kdexter/" target="_blank">Kyle Dexter</a></td>
+<td><a href="https://www.researchgate.net/profile/Vera_De_Cauwer" target="_blank">Vera De Cauwer</a></td>
+<td>Namibia University of Science and Technology</td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td><a href="http://phylodiversity.net/kdexter/HOME.html" target="_blank">Kyle Dexter</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -50,13 +55,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Angola</td>
 </tr>
 <tr>
-<tr>
-<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
-<td>Kenya Forestry Research Institute</td>
-<td>Kenya</td>
-</tr>
-<tr>
-<td><a href="https://www.researchgate.net/profile/Wilson-Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td><a href="https://www.researchgate.net/profile/Wilson_Mugasha" target="_blank">Wilson Mugasha</a></td>
 <td>Sokoine University of Agriculture</td>
 <td>Tanzania</td>
 </tr>
@@ -80,6 +79,12 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
+<tr>
+<td><a href="http://staverlab.yale.edu/" target="_blank">Carla Staver</a></td>
+<td>Yale University</td>
+<td>USA</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
 <td>University of Cape Town</td>
 <td>South Africa</td>
@@ -95,19 +100,14 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td><a href="https://scholar.google.com/citations?user=D6BSRu8Lvb0C&hl=nl" target="_blank">Vera De Cauwer</a></td>
-<td>Namibia University of Science and Technology (NUST)</td>
-<td>Namibia</td>
+<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Clemence-Zimudzi" target="_blank">Clemence Zimudzi</a></td>
 <td>University of Zimbabwe</td>
 <td>Zimbabwe</td>
-</tr>
-<tr>
-<td><a href="https://staverlab.yale.edu/" target="_blank">Carla Staver</a></td>
-<td>Yale University</td>
-<td>United States</td>
 </tr>
 <tr>
 <td><a href="https://gtr.ukri.org/person/D88DA52F-86CF-457A-B9C5-1B2A1FABE61A" target="_blank">Charles Blessings Jumbe</a></td>
@@ -207,7 +207,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </thead>
 <tbody id='tableBody'>
 <tr>
-<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/genetics-and-conservation/dr-antje-ahrends/" target="_blank">Antje Ahrends</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -228,7 +228,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Vera_De_Cauwer" target="_blank">Vera De Cauwer</a></td>
-<td>Namibian University of Science and Technology</td>
+<td>Namibia University of Science and Technology</td>
 <td>Namibia</td>
 </tr>
 <tr>
@@ -238,7 +238,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tr>
 <tr>
 <td><a href="https://scholar.google.co.za/citations?user=gT37J6oAAAAJ&hl=en" target="_blank">Gregor Feig</a></td>
-<td>Saeon Arid Lands Node</td>
+<td>SAEON Arid Lands Node</td>
 <td>South Africa</td>
 </tr>
 <tr>
@@ -357,11 +357,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>United Kingdom</td>
 </tr>
 <tr>
-<td><a href="https://www.forestresearch.gov.uk/staff/felix-trotter/" target="_blank">Felix Trotter</a></td>
-<td>Forest Research</td>
-<td>United Kingdom</td>
-</tr>
-<tr>
 <td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/t/waynetwinewitsacza/" target="_blank">Wayne Twine</a></td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
@@ -378,6 +373,21 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tr>
 <tr>
 <td><a href="https://blogs.ed.ac.uk/ellie-wood/" target="_blank">Ellie Wood</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td>Collins Masinde</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td><a href="https://www.worldagroforestry.org/staff/harrison-rhett" target="_blank">Rhett D. Harrison</a></td>
+<td>World Agroforestry Centre</td>
+<td>Zambia</td>
+</tr>
+<tr>
+<td>Mathew Rees</td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
 </tr>
@@ -431,7 +441,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Belgium</td>
 </tr>
 <tr>
-<td>Barend Erasmus</td>
+<td><a href="https://www.wits.ac.za/apes/staff/academic-staff/erasmus/professor-barend-erasmus/" target="_blank">Barend Erasmus</a></td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -446,19 +456,9 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Zimbabwe</td>
 </tr>
 <tr>
-<td><a href="https://www.eurocoppice.uni-freiburg.de/members/cori-ham" target="_blank">Cori Ham</a></td>
-<td>Stellenbosch University</td>
-<td>South Africa</td>
-</tr>
-<tr>
-<td><a href="https://www.rbge.org.uk/about-us/who-we-are/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
+<td><a href="https://www.rbge.org.uk/about-us/organisational-structure/staff/herbarium-staff/dr-david-harris-herbarium-curator-and-deputy-director-of-science/" target="_blank">Dave Harris</a></td>
 <td>Royal Botanic Garden Edinburgh</td>
 <td>United Kingdom</td>
-</tr>
-<tr>
-<td><a href="https://independent.academia.edu/sergiosim%C3%A3ojo%C3%A3ojoao" target="_blank">Sergio Simão João</a></td>
-<td>Universidade Eduardo Mondlane</td>
-<td>Mozambique</td>
 </tr>
 <tr>
 <td>Miya Kabajani</td>
@@ -476,12 +476,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Tanzania</td>
 </tr>
 <tr>
-<td><a href="https://www.uni-goettingen.de/en/prof.+dr.+christoph+kleinn/205596.html" target="_blank">Christoph Kleinn</a></td>
-<td>Georg-August Universität Göttingen</td>
-<td>Germany</td>
-</tr>
-<tr>
-<td>W. Kubheja</td>
+<td>Kubheja W.</td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -501,19 +496,9 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td><a href="https://www.geos.ed.ac.uk/homes/emitchar/" target="_blank">Edward Mitchard</a></td>
-<td>University of Edinburgh</td>
-<td>United Kingdom</td>
-</tr>
-<tr>
 <td>Buster Mogonong</td>
 <td>SAEON Arid Lands Node</td>
 <td>South Africa</td>
-</tr>
-<tr>
-<td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
-<td>University of Lubumbashi</td>
-<td>Democratic Republic of Congo</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Cesar_Perez_Cruzado" target="_blank">César Pérez-Cruzado</a></td>
@@ -526,7 +511,7 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>South Africa</td>
 </tr>
 <tr>
-<td>Bob Scholes</td>
+<td><a href="https://www.wits.ac.za/staff/academic-a-z-listing/s/bobscholeswitsacza/" target="_blank">Bob Scholes</a></td>
 <td>University of the Witwatersrand</td>
 <td>South Africa</td>
 </tr>
@@ -547,18 +532,23 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Mariska_Beest" target="_blank">Mariska te Beest</a></td>
-<td>Umeå University</td>
-<td>Sweden</td>
+<td>Utrecht University</td>
+<td>Netherlands</td>
 </tr>
 <tr>
-<td><a href="https://scholar.google.com/citations?user=3znk_9QAAAAJ&hl=en" target="_blank">Helga van der Merwe</a></td>
-<td>SAEON Arid Lands Node</td>
-<td>South Africa</td>
+<td><a href="https://www.forestresearch.gov.uk/staff/felix-trotter/" target="_blank">Felix Trotter</a></td>
+<td>Forest Research</td>
+<td>United Kingdom</td>
 </tr>
 <tr>
 <td><a href="https://orcid.org/0000-0002-0438-3921" target="_blank">Maria J. Vasconcelos</a></td>
 <td>Tropical Research Institute</td>
 <td>Portugal</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=3znk_9QAAAAJ&hl=en" target="_blank">Helga van der Merwe</a></td>
+<td>SAEON Arid Lands Node</td>
+<td>South Africa</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Benjamin_Wigley" target="_blank">Benjamin Wigley</a></td>
@@ -569,6 +559,76 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td><a href="https://www.research.ed.ac.uk/portal/en/persons/emily-woollen(d72d2d5d-e30a-45ce-bfba-94a7732cee1e).html" target="_blank">Emily Woollen</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=PTsjXCwAAAAJ&hl=en" target="_blank">Penny Mograbi</a></td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td>John Ngugi</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Vivian Kathambi</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Patrick Mutiso</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Beth Ndunda</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Peter Matee</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Simon Wachira</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Brian Okito</td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td>Lisboa S.</td>
+<td></td>
+<td>Mozambique</td>
+</tr>
+<tr>
+<td>Joao S. S.</td>
+<td></td>
+<td>Mozambique</td>
+</tr>
+<tr>
+<td>Ham C.</td>
+<td></td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td>Kleinn C.</td>
+<td></td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td>Kihumuro P.</td>
+<td></td>
+<td>Uganda</td>
+</tr>
+<tr>
+<td>Okia C.</td>
+<td></td>
+<td>Uganda</td>
 </tr>
 </tbody>
 </table>
@@ -600,9 +660,24 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Mozambique</td>
 </tr>
 <tr>
+<td><a href="https://www.eurocoppice.uni-freiburg.de/members/cori-ham" target="_blank">Cori Ham</a></td>
+<td>Stellenbosch University</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td><a href="https://independent.academia.edu/sergiosim%C3%A3ojo%C3%A3ojoao" target="_blank">Sergio Simão João</a></td>
+<td>Universidade Eduardo Mondlane</td>
+<td>Mozambique</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Josiah_Katani" target="_blank">Josiah Zephania Katani</a></td>
 <td>Sokoine University of Agriculture</td>
 <td>Tanzania</td>
+</tr>
+<tr>
+<td><a href="https://www.uni-goettingen.de/en/prof.+dr.+christoph+kleinn/205596.html" target="_blank">Christoph Kleinn</a></td>
+<td>Georg-August Universität Göttingen</td>
+<td>Germany</td>
 </tr>
 <tr>
 <td><a href="https://www.ed.ac.uk/geosciences/people?indv=3626" target="_blank">Caroline Lehmann</a></td>
@@ -613,6 +688,16 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td><a href="https://www.ulb.ac.be/rech/inventaire/chercheurs/8/CH2958.html" target="_blank">Pierre Meerts</a></td>
 <td>Université libre de Bruxelles</td>
 <td>Belgium</td>
+</tr>
+<tr>
+<td><a href="https://www.geos.ed.ac.uk/homes/emitchar/" target="_blank">Edward Mitchard</a></td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td><a href="https://www.nust.ac.zw/fas/index.php/en/teachers/teacher/mr-robert-mwase" target="_blank">Robert Mwase</a></td>
+<td>National University of Science and Technology</td>
+<td>Zimbabwe</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Almeida_Sitoe" target="_blank">Almeida Sitoe</a></td>
