@@ -1,4 +1,4 @@
-# seosaw.bitbucket.io - the SEOSAW website
+# seosaw.github.io - the SEOSAW website
 
 This is the website for SEOSAW. It is served at https://seosaw.github.io
 
