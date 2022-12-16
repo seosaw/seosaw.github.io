@@ -103,7 +103,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 
 [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx) - Use this list of recommended equipment to help you plan for your fieldwork!  
 
-Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
+Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data. Forms for most protocols can be found [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/forms.zip).
 
 ## Goals of SEOSAW protocols and datasheets  
 
