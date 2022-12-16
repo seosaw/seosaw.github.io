@@ -15,7 +15,7 @@ If you were unable to make it, you can view the full meeting [here](https://ed-a
 
 ### Human-Environment Dimensions Workshop
 
-On November 15 and 16, SEOSAW held a Human-Environment Dimensions workshop. Thank you to all our workshop participants and speakers for a stimulating and engaging workshop on incorporating research on the human dimension into SEOSAW. 
+On November 15-16, SEOSAW held a Human-Environment Dimensions workshop. Thank you to all our workshop participants and speakers for a stimulating and engaging workshop on incorporating research on the human dimension into SEOSAW. 
 
 You can read all about it in this workshop summary [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/workshop_reports%5CH-E%20Workshop%20Report.pdf).
 
