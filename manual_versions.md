@@ -34,10 +34,10 @@ layout: default
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v1.0_en.pdf)
 * [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v0.1_en.pdf)
 
-## Herbaceous manual
+## Ground layer manual
 
-* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_biomass/versions/herbaceous_biomass_v1.4_en.pdf)
-* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_biomass/versions/seosaw_understory_manual_v0.1_2018.pdf)
+* [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_ground_layer_manual_v1.4_en.pdf)
+* [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_understory_manual_v0.1_2018.pdf)
 
 ## Coarse Woody Debris manual
 
@@ -48,10 +48,10 @@ layout: default
 
 ## Small stem manual
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_v1.0_en.pdf)
-	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_v1.0_fr.pdf)
-	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_v1.0_pt.pdf)
-	* [v1.0 - Swahili](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_v1.0_sw.pdf)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_en.pdf)
+	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_fr.pdf)
+	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_pt.pdf)
+	* [v1.0 - Swahili](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_sw.pdf)
 
 ## Soil manual
 
@@ -110,9 +110,9 @@ layout: default
 	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_v1.0_fr.xlsx)
 	* [v1.0 - Swahili](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/cwd/versions/cwd_v1.0_sw.xlsx)
 
-## Herbaceous biomass datasheet
+## Ground layer datasheet
 
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/herbaceous_biomass_v1.0_en.xlsx)
+* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/ground_layer/versions/ground_layer_v1.0_en.xlsx)
 
 ## Shrub datasheet
 

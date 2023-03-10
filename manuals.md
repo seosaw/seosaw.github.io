@@ -28,10 +28,10 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 [1b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_fr.pdf
 [1c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_latest_sw.pdf
 
-[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_en.pdf
-[2a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_pt.pdf
-[2b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_fr.pdf
-[2c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/small_stems_latest_sw.pdf
+[2]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_latest_en.pdf
+[2a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_latest_pt.pdf
+[2b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_latest_fr.pdf
+[2c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_latest_sw.pdf
 
 [3]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_en.pdf
 [3a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_latest_pt.pdf
@@ -43,7 +43,7 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 [4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_fr.pdf
 [4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_es.pdf
 
-[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/ground_layer_latest_en.pdf
+[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/ground_layer_manual_latest_en.pdf
 
 [6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest_en.pdf
 
@@ -103,7 +103,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 
 [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx) - Use this list of recommended equipment to help you plan for your fieldwork!  
 
-Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
+Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data. Form templates for most protocols can be found [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/forms.zip).
 
 ## Goals of SEOSAW protocols and datasheets  
 
