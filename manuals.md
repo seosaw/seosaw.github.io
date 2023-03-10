@@ -15,7 +15,7 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
     * Translations available in [Português][3a], [Français][3b], and [Kiswahili][3c] 
 * [Soil][4] (developed as part of [SECO](https://blogs.ed.ac.uk/seco-project/)) 
     * Translations available in [Português][4a], [Français][4b] and [Español][4c] 
-* [Herbaceous biomass][5] 
+* [Ground layer][5] 
 * [Traits][6]
 * Social - coming soon 
 * Shrubs - coming soon 
@@ -43,7 +43,7 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 [4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_fr.pdf
 [4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_es.pdf
 
-[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/herbaceous_biomass/versions/herbaceous_biomass_latest_en.pdf
+[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/ground_layer_latest_en.pdf
 
 [6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest_en.pdf
 
@@ -56,14 +56,14 @@ SEOSAW has created the following datasheets to aid you in data collection follow
    * Translations available in [Português][8a], [Français][8b], and [Español][8c]
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
 * [Stem datasheet][9] 
-   * Translations available in [Português][9a], [Français][9b], and [Kiswahili][9c] 
+   * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
 * [Small stems][10] 
    * Translations available in [Português][10a], [Français][10b], and [Kiswahili][10c] 
 * [Coarse woody debris][11] 
    * Translations available in [Português][11a], [Français][11b], and [Kiswahili][11c] 
 * [Soil][12] 
    * Translations available in [Português][12a] and [Français][12b] 
-* [Herbaceous biomass][13] 
+* [Ground layer][13] 
 
 [7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_en.pdf
 [7a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_pt.pdf
@@ -95,7 +95,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [12a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_pt.xlsx
 [12b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_fr.xlsx
 
-[13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/herbaceous/versions/herbaceous_biomass_latest_en.xlsx
+[13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/ground_layer/versions/ground_layer_latest_en.xlsx
 
 # Field Resources
 
@@ -103,7 +103,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 
 [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx) - Use this list of recommended equipment to help you plan for your fieldwork!  
 
-Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data. Form templates for most protocols can be found [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/forms.zip).
+Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
 
 ## Goals of SEOSAW protocols and datasheets  
 
