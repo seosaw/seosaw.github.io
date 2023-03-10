@@ -347,6 +347,11 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>USA</td>
 </tr>
 <tr>
+<td><a href="https://www.researchgate.net/profile/Ifo-Suspense" target="_blank">Ifo Suspense</a></td>
+<td>Marien Ngouabi University</td>
+<td>Republic of Congo</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Stephen_Syampungani" target="_blank">Stephen Syampungani</a></td>
 <td>Copperbelt University</td>
 <td>Zambia</td>
