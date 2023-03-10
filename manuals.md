@@ -56,7 +56,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
    * Translations available in [Português][8a], [Français][8b], and [Español][8c]
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
 * [Stem datasheet][9] 
-   * Translations available in [Português][9a], [Français][9b], and [Swahili][9c] 
+   * Translations available in [Português][9a], [Français][9b], and [Kiswahili][9c] 
 * [Small stems][10] 
    * Translations available in [Português][10a], [Français][10b], and [Kiswahili][10c] 
 * [Coarse woody debris][11] 
@@ -103,7 +103,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 
 [Equipment List](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/equipment_list/equipment_list_Oct2021.xlsx) - Use this list of recommended equipment to help you plan for your fieldwork!  
 
-Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data.
+Digital forms - We use KoboToolbox to host digital data entry forms for use on Android devices. [Follow these instructions](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/filling_forms.txt) to get setup with your Android device. Remember to consult the [SEOSAW plot design and stem measurements manual][1] before collecting data. Form templates for most protocols can be found [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/odk/forms/forms.zip).
 
 ## Goals of SEOSAW protocols and datasheets  
 
