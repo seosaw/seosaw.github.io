@@ -43,7 +43,7 @@ All the protocols are ‘living documents’, and we welcome input and suggestio
 [4b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_fr.pdf
 [4c]:https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/soil_manual/versions/SECO_soil_protocol_latest_es.pdf
 
-[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/ground_layer_manual_latest_en.pdf
+[5]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_ground_layer_manual_latest_en.pdf
 
 [6]: https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_latest_en.pdf
 
