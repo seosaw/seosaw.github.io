@@ -4,15 +4,18 @@ layout: default
 
 # News
 
-## Recent events: 
-### Science Meeting (18/11/22)
+## Upcoming events: 
+### Science Meeting (16/05/2023)
 
-The topic of the meeting was _SEOSAW Beyond the Trees_, and focused on how understory vegetation, humans, and fauna impact savanna woodlands.  
+We are tentatively planning a SEOSAW for May 16, 13:00-16:00 GMT. 
 
-If you were unable to make it, you can view the full meeting [here](https://ed-ac-uk.zoom.us/rec/play/SlqCuVz3b6IOPb_lHwHTtCgHDzUbZWR3KYnt3nSIP1KkBnFormnx9HsQ5e09KPRFDjfuB-IA5-MjIaOe.vZEkseVZG4FNwfXu?continueMode=true&_x_zm_rtaid=l075FjSgRde38q00BXAUiA.1671192671859.daf3dad782fce4ca1c8939670fcc2852&_x_zm_rhtaid=859). 
+The topic will be Science for Policy and be a joint meeting with the Miombo Network.  It will be equal parts presentations and discussions on the topics of biodiversity, carbon, climate, and how we research influences policy. More details to follow soon!
 
+https://ed-ac-uk.zoom.us/j/88435893897 
+Meeting ID: 884 3589 3897
+Passcode: SEOSAW23
 
-
+## Past events: 
 ### Human-Environment Dimensions Workshop
 
 On November 15-16, SEOSAW held a Human-Environment Dimensions workshop. Thank you to all our workshop participants and speakers for a stimulating and engaging workshop on incorporating research on the human dimension into SEOSAW. 
@@ -26,7 +29,7 @@ You can read all about it in this workshop summary [here](https://bitbucket.org/
 * March 2022: The Herbaceous Protocol Training in Tanzania was a great success. Read more about it in the May 2022 newsletter.
 
 ## Newsletters
-*Read the latest newsletter from [December 2022](https://sway.office.com/CZLMRbX1jvRTiDqU?ref=Link)*
+*Read the latest newsletter from [March 2023](https://sway.office.com/63ZWok7hoAYdSMgs?ref=Link)*
 
 SEOSAW sends out a newsletter every three months to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities.
 
@@ -40,6 +43,7 @@ Join our mailing list to receive the Quarterly Newsletters!  Just send us a mess
 
 ### Past newsletters
 
+* [December 2022](https://sway.office.com/CZLMRbX1jvRTiDqU?ref=Link)
 * [August 2022](https://sway.office.com/jP61ngxt4D6yeHPz?ref=Link)
 * [May 2022](https://sway.office.com/1ygFjSV2UCFKd6qP?ref=Link)
 * [February 2022](https://sway.office.com/yOc4A2qqAXhZAvSJ?ref=Link)
