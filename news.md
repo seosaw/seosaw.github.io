@@ -7,13 +7,41 @@ layout: default
 ## Upcoming events: 
 ### Science Meeting (16/05/2023)
 
-We are tentatively planning a SEOSAW for May 16, 13:00-16:00 GMT. 
+We are planning a SEOSAW for May 16, 13:00-16:00 GMT+1. 
 
-The topic will be Science for Policy and be a joint meeting with the Miombo Network.  It will be equal parts presentations and discussions on the topics of biodiversity, carbon, climate, and how we research influences policy. More details to follow soon!
+The topic will be Science for Policy and be a joint meeting with the Miombo Network.  It will be equal parts presentations and discussions on the topics of biodiversity, carbon, climate, and how our research influences policy. 
 
 https://ed-ac-uk.zoom.us/j/88435893897 
 Meeting ID: 884 3589 3897
 Passcode: SEOSAW23
+
+#### May 16, 13:00 to 16:00 GMT +1
+
+Opening and closing: Jonathan Muledi 
+
+
+#### Session 1 (13:00)    Biodiversity and sustainable use 
+
+Hayley Clements: Building a Biodiversity Intactness Index for Africa - Navigating the science-policy interface
+
+Paxie Chirwa: Title TBD
+
+
+#### Session 2 (14:00)    Carbon and climate change
+
+Chris Trisos: Science for Policy: Ecosystem-based approaches or Nature-based Solutions to Climate Change?
+
+Paul Desanker: Title TBD
+
+Milward Kuona: Low carbon development policies in Zimbabwe and the role of science research in informing policy 
+
+
+#### Session 3 (15:00)   SEOSAW & Miombo Network's contribution to policy & management
+
+Judith Kamoto: From research to policy: experiences from Miombo Network (challenges and successes)
+
+Penny Mograbi: SEOSAWing across the science-policy interface
+
 
 ## Past events: 
 ### Human-Environment Dimensions Workshop
