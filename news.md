@@ -4,46 +4,13 @@ layout: default
 
 # News
 
-## Upcoming events: 
+## Past events: 
 ### Science Meeting (16/05/2023)
 
-We are planning a SEOSAW for May 16, 13:00-16:00 GMT+1. 
+The topic was Science for Policy and was a joint meeting with the Miombo Network.  It was equal parts presentations and discussions on the topics of biodiversity, carbon, climate, and how our research influences policy.
 
-The topic will be Science for Policy and be a joint meeting with the Miombo Network.  It will be equal parts presentations and discussions on the topics of biodiversity, carbon, climate, and how our research influences policy. 
+If you missed it, you can watch the recording [here](https://ed-ac-uk.zoom.us/rec/share/PFYFAeZ1tdQvRRkDshbqaLIcrKiJSQpe2AlaMe0kM3agraXHI1WoaCBLNzKePVE0.gkyWD2nHGTGj1VT8) 
 
-https://ed-ac-uk.zoom.us/j/88435893897 
-Meeting ID: 884 3589 3897
-Passcode: SEOSAW23
-
-#### May 16, 13:00 to 16:00 GMT +1
-
-Opening and closing: Jonathan Muledi 
-
-
-#### Session 1 (13:00)    Biodiversity and sustainable use 
-
-Hayley Clements: Building a Biodiversity Intactness Index for Africa - Navigating the science-policy interface
-
-Paxie Chirwa: Title TBD
-
-
-#### Session 2 (14:00)    Carbon and climate change
-
-Chris Trisos: Science for Policy: Ecosystem-based approaches or Nature-based Solutions to Climate Change?
-
-Paul Desanker: Title TBD
-
-Milward Kuona: Low carbon development policies in Zimbabwe and the role of science research in informing policy 
-
-
-#### Session 3 (15:00)   SEOSAW & Miombo Network's contribution to policy & management
-
-Judith Kamoto: From research to policy: experiences from Miombo Network (challenges and successes)
-
-Penny Mograbi: SEOSAWing across the science-policy interface
-
-
-## Past events: 
 ### Human-Environment Dimensions Workshop
 
 On November 15-16, SEOSAW held a Human-Environment Dimensions workshop. Thank you to all our workshop participants and speakers for a stimulating and engaging workshop on incorporating research on the human dimension into SEOSAW. 
