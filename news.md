@@ -19,9 +19,9 @@ You can read all about it in this workshop summary [here](https://bitbucket.org/
 
 ## Recent highlights
 
-* June 2022: New SEOSAW working paper, "Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands" now available [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/diameter_relationship/diameter_relationship_latest.pdf).
-* June 2022: New SEOSAW protocols and data sheets are now available in four languages!
-* March 2022: The Herbaceous Protocol Training in Tanzania was a great success. Read more about it in the May 2022 newsletter.
+* July 2023:  New SEOSAW publication in *Ecography* by Davies et al.: [Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa]
+ (http://doi.org/10.1111/ecog.06720)
+
 
 ## Newsletters
 *Read the latest newsletter from [March 2023](https://sway.office.com/63ZWok7hoAYdSMgs?ref=Link)*
