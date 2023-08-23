@@ -19,12 +19,11 @@ You can read all about it in this workshop summary [here](https://bitbucket.org/
 
 ## Recent highlights
 
-* July 2023:  New SEOSAW publication in *Ecography* by Davies et al.: [Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa]
- (http://doi.org/10.1111/ecog.06720)
+* July 2023:  New SEOSAW publication in *Ecography* by Davies et al.: [Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa](http://doi.org/10.1111/ecog.06720)
 
 
 ## Newsletters
-*Read the latest newsletter from [March 2023](https://sway.office.com/63ZWok7hoAYdSMgs?ref=Link)*
+*Read the latest newsletter from [July 2023](https://sway.office.com/QKNCYwypIZdKfBq0?ref=Link&loc=play)*
 
 SEOSAW sends out a newsletter every three months to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities.
 
@@ -38,6 +37,7 @@ Join our mailing list to receive the Quarterly Newsletters!  Just send us a mess
 
 ### Past newsletters
 
+* [March 2023](https://sway.office.com/63ZWok7hoAYdSMgs?ref=Link)
 * [December 2022](https://sway.office.com/CZLMRbX1jvRTiDqU?ref=Link)
 * [August 2022](https://sway.office.com/jP61ngxt4D6yeHPz?ref=Link)
 * [May 2022](https://sway.office.com/1ygFjSV2UCFKd6qP?ref=Link)
