@@ -8,7 +8,7 @@ layout: default
 
 <h1>Send SEOSAW an email:</h1>
 
-<form action="https://formspree.io/f/xnqwojbr" class="contact" method="POST">
+<form action="https://formspree.io/f/xknleodj" class="contact" method="POST">
 <div class="form-group">
       <div class="form-item">
 	<input type="text" class="form-control" name="_name" placeholder="Your Name" required>
