@@ -4,7 +4,7 @@ layout: default
 
 # News
 
-*Read the latest newsletter from [July 2023](https://sway.office.com/QKNCYwypIZdKfBq0?ref=Link&loc=play)*
+*Read the latest newsletter from [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)*
 
 SEOSAW sends out a newsletter every three months to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities. Join our mailing list to receive the Quarterly Newsletters! Just send us a message using the link below.
 
@@ -14,13 +14,12 @@ SEOSAW sends out a newsletter every three months to highlight the exciting work 
 </form>
 </div>
 
-## Upcoming Events
-
-### Savanna Science Network Meeting 2024
-
-Abstracts are open until Thursday October 5, [apply here](https://www.sanparks.org/scientific-services/events/savanna-science-network-meeting-2024). We anticipate lots of SEOSAW people attending this year!
 
 ## Past News
+
+### Newsletter October 2023
+
+Check out our latest newsletter to learn about what our steering committee is up to! [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)
 
 ### Growth Rates Workshop - August 2023
 
@@ -66,7 +65,7 @@ Read about our new working paper and greet our new steering committee members! [
 
 ### Science Meeting: June 2022
 
- We had another great Science Meeting on June 10! Thank you to all who presented and attended. We had great presentations from Zimbabwe Forestry Commission, Tanzania Forestry Research Institute, University of Lubumbashi, and Kenya Forestry Research Institute who updated us on their fieldwork. Additionally, we had a series of flash talks from students. The meeting commenced with the co-chairs giving an overview of SEOSAWâ€™s scientific goals and ended with a review of all the SEOSAW protocols. If you missed the meeting, the recording is [here](https://ed-ac-uk.zoom.us/rec/share/YYCAuZ53oAowLyJspCZU1b03-ZGU-5Tryj4Uy29tr8c5xb_ATpzRqXAO0lcr6BsZ.c3udR6Wf4wtYjnoJ).
+ We had another great Science Meeting on June 10! Thank you to all who presented and attended. We had great presentations from Zimbabwe Forestry Commission, Tanzania Forestry Research Institute, University of Lubumbashi, and Kenya Forestry Research Institute who updated us on their fieldwork. Additionally, we had a series of flash talks from students. The meeting commenced with the co-chairs giving an overview of SEOSAW’s scientific goals and ended with a review of all the SEOSAW protocols. If you missed the meeting, the recording is [here](https://ed-ac-uk.zoom.us/rec/share/YYCAuZ53oAowLyJspCZU1b03-ZGU-5Tryj4Uy29tr8c5xb_ATpzRqXAO0lcr6BsZ.c3udR6Wf4wtYjnoJ).
 
 ### Newsletter May 2022
 
