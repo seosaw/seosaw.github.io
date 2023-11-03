@@ -2,6 +2,25 @@
 layout: default
 ---
 
+# Call for Nominations: SEOSAW Scientific Steering Committee (SSC) 
+
+We are looking for nominations from enthusiastic SEOSAW members to join our Scientific Steering Committee (SSC).   
+
+Steering committee members contribute their time by leading SEOSAW activities including: 
+
+    1. Setting collective goals for SEOSAW in terms of the research agenda, outreach, and training 
+    2. Growing and maintaining the network by fostering connections with new researchers and other networks in the region  
+    3. Encouraging the set-up of permanent plots and supporting long-term plans for remeasurement 
+    4. Developing, promoting and managing the implementation of standardised methods for plot design and measurement, tailored to the socio-ecology of African woodlands 
+    5. Facilitating the use of SEOSAW data in analyses 
+    6. Planning and organising networking events and training workshops to connect African researchers and build capacity 
+    7. Contributing to obtaining funds to support SEOSAW fieldwork, events, or management.  
+
+We are particularly looking for, but are not limited to, expertise in: soils, taxonomy, and social sciences. 
+
+Submit your nominations through [this form](https://forms.gle/pCptKyZU1EQ2ARL66), including your CV and a motivation letter by 8 November. 
+
+
 # News
 
 *Read the latest newsletter from [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)*
@@ -17,9 +36,17 @@ SEOSAW sends out a newsletter every three months to highlight the exciting work 
 
 ## Past News
 
+### New SEOSAW publications!
+
+SEOSAW partners and scientific steering comittee members have published new papers! 
+
+Elisha Njoghomi and Wilson Mugasha demonstrate sustainable harvesting modelling in Kitulangalo, Tanzania: [Simulation of stand dynamics for miombo woodlands in Kitulangalo Forest Reserve, Morogoro, Tanzania](https://doi.org/10.1080/13416979.2023.2239136).
+
+Buster Mogonong, Helga v.d. Merwe and Gregor Feig showcase SEOSAW protocols in monitoring sparsely wooded savannas in Benfontein, South Africa: [Vegetation description around the savanna flux measurement site at Benfontein Nature Reserve, South Africa](https://doi.org/10.1016/j.sajb.2023.09.010). 
+
 ### Newsletter October 2023
 
-Check out our latest newsletter to learn about what our steering committee is up to! [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)
+Check out our latest newsletter to learn about SEOSAW has been up to! [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)
 
 ### Growth Rates Workshop - August 2023
 
@@ -65,7 +92,7 @@ Read about our new working paper and greet our new steering committee members! [
 
 ### Science Meeting: June 2022
 
- We had another great Science Meeting on June 10! Thank you to all who presented and attended. We had great presentations from Zimbabwe Forestry Commission, Tanzania Forestry Research Institute, University of Lubumbashi, and Kenya Forestry Research Institute who updated us on their fieldwork. Additionally, we had a series of flash talks from students. The meeting commenced with the co-chairs giving an overview of SEOSAW’s scientific goals and ended with a review of all the SEOSAW protocols. If you missed the meeting, the recording is [here](https://ed-ac-uk.zoom.us/rec/share/YYCAuZ53oAowLyJspCZU1b03-ZGU-5Tryj4Uy29tr8c5xb_ATpzRqXAO0lcr6BsZ.c3udR6Wf4wtYjnoJ).
+ We had another great Science Meeting on June 10! Thank you to all who presented and attended. We had great presentations from Zimbabwe Forestry Commission, Tanzania Forestry Research Institute, University of Lubumbashi, and Kenya Forestry Research Institute who updated us on their fieldwork. Additionally, we had a series of flash talks from students. The meeting commenced with the co-chairs giving an overview of SEOSAWï¿½s scientific goals and ended with a review of all the SEOSAW protocols. If you missed the meeting, the recording is [here](https://ed-ac-uk.zoom.us/rec/share/YYCAuZ53oAowLyJspCZU1b03-ZGU-5Tryj4Uy29tr8c5xb_ATpzRqXAO0lcr6BsZ.c3udR6Wf4wtYjnoJ).
 
 ### Newsletter May 2022
 
