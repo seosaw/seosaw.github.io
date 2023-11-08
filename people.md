@@ -122,8 +122,8 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <tr>
 <td><a href="https://scholar.google.com/citations?user=PTsjXCwAAAAJ&hl=en" target="_blank">Penny Mograbi</a></td>
 <td>Project Scientist</td>
-<td>University of Edinburgh/University of the Witwatersrand</td>
-<td>United Kingdom/South Africa</td>
+<td>University of Edinburgh / University of the Witwatersrand</td>
+<td>United Kingdom / South Africa</td>
 </tr>
 <tr>
 <td><a href="https://zw.linkedin.com/in/tatenda-gotore-38aa2848?challengeId=AQGGt4z1yZ2q_QAAAYAeZzYc4sdQBrnmbXsEeo5BDZF9JeTf3M8ksRB5e8D0Hz54KeZpYRub70OAMOWdyQzRxtD3W198djfdng&submissionId=ced16f4d-ea2f-e516-19ff-603a49c7b34f" target="_blank">Tatenda Gotore</a></td>
@@ -131,12 +131,10 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>University of the Witwatersrand / Miombo Network</td>
 <td>South Africa</td>
 </tr>
-</tr>
 </tbody>
 </table>
 
 ## SEOSAW fellows
-
 Past scientific steering committee members.
 
 <table>
