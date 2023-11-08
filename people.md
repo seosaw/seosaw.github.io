@@ -148,7 +148,6 @@ Past scientific steering committee members.
 <thead>
 <tr id='tableHeader'>
 <th>Name</th>
-<th>Role</th>
 <th>Institution</th>
 <th>Location</th>
 </tr>
