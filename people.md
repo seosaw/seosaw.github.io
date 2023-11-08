@@ -55,11 +55,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Angola</td>
 </tr>
 <tr>
-<td><a href="https://www.researchgate.net/profile/Wilson_Mugasha" target="_blank">Wilson Mugasha</a></td>
-<td>Sokoine University of Agriculture</td>
-<td>Tanzania</td>
-</tr>
-<tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
 <td>Democratic Republic of Congo</td>
@@ -85,19 +80,9 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>USA</td>
 </tr>
 <tr>
-<td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
-<td>University of Cape Town</td>
-<td>South Africa</td>
-</tr>
-<tr>
 <td><a href="https://www.researchgate.net/profile/Mariska_Beest" target="_blank">Mariska te Beest</a></td>
 <td>Utrecht University</td>
 <td>Netherlands</td>
-</tr>
-<tr>
-<td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Geoff Wells</a></td>
-<td>University of Edinburgh</td>
-<td>United Kingdom</td>
 </tr>
 <tr>
 <td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
@@ -108,11 +93,6 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td><a href="https://www.researchgate.net/profile/Clemence-Zimudzi" target="_blank">Clemence Zimudzi</a></td>
 <td>University of Zimbabwe</td>
 <td>Zimbabwe</td>
-</tr>
-<tr>
-<td><a href="https://gtr.ukri.org/person/D88DA52F-86CF-457A-B9C5-1B2A1FABE61A" target="_blank">Charles Blessings Jumbe</a></td>
-<td>Centre for Independent Evaluations</td>
-<td>Malawi</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Muri-Soares" target="_blank">Muri Gonçalves Soares</a></td>
@@ -156,6 +136,43 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Project Officer</td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
+</tr>
+</tbody>
+</table>
+
+## SEOSAW fellows
+
+Past scientific steering committee members.
+
+<table>
+<thead>
+<tr id='tableHeader'>
+<th>Name</th>
+<th>Role</th>
+<th>Institution</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody id='tableBody'>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Wilson_Mugasha" target="_blank">Wilson Mugasha</a></td>
+<td>Sokoine University of Agriculture</td>
+<td>Tanzania</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Nicola_Stevens3" target="_blank">Nicola Stevens</a></td>
+<td>University of Oxford</td>
+<td>United Kingdom</td>
+</tr>
+<tr>
+<td><a href="https://orcid.org/0000-0002-5416-951X" target="_blank">Geoff Wells</a></td>
+<td>Stockholm University</td>
+<td>Sweden</td>
+</tr>
+<tr>
+<td><a href="https://gtr.ukri.org/person/D88DA52F-86CF-457A-B9C5-1B2A1FABE61A" target="_blank">Charles Blessings Jumbe</a></td>
+<td>Centre for Independent Evaluations</td>
+<td>Malawi</td>
 </tr>
 </tbody>
 </table>
@@ -718,6 +735,27 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td><a href="https://scholar.google.com/citations?user=puhRMP8AAAAJ&hl=en" target="_blank">Tony Swemmer</a></td>
 <td>SAEON Ndlovu Node</td>
 <td>South Africa</td>
+</tr>
+</tbody>
+</table>
+
+## Past SEOSAW staff
+
+<table>
+<thead>
+<tr id='tableHeader'>
+<th>Name</th>
+<th>Role</th>
+<th>Institution</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody id='tableBody'>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=1GqlDMgAAAAJ&hl=en" target="_blank">Lorena Benitez</a></td>
+<td>Project Officer</td>
+<td>University of Edinburgh</td>
+<td>United Kingdom</td>
 </tr>
 </tbody>
 </table>
