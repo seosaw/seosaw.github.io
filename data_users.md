@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<script src="{{ site.baseurl }}/scripts/masonry.pkgd.min.js"></script>
+
+<script>
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+	percentPosition: true,
+	columnWidth: '.grid-sizer'
+});
+</script>
+
 # SEOSAW collaborators
 
 This is a record of all the people who are working with SEOSAW and using plots curated by SEOSAW for their research. 
@@ -30,6 +41,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
    	    <td>Complete</td>
    	    <td><a href="https://doi.org/10.1073/pnas.2011515117" target="_blank">Aleman et al. 2020. Floristic evidence for alternative biome states in tropical Africa. The Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.2011515117</a></td>
     </tr>
+    <tr>
      <td>1.</td>
       <td>Adeline Fayolle</td>
       <td></td>
