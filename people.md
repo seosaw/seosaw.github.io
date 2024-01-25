@@ -45,6 +45,11 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>United Kingdom</td>
 </tr>
 <tr>
+<td><a href="https://www.researchgate.net/profile/Phesheya-Dlamini" target="_blank">Phesheya Dlamini</a></td>
+<td>University of Limpopo</td>
+<td>South Africa</td>
+</tr>
+<tr>
 <td><a href="https://blogs.ed.ac.uk/johngodlee/" target="_blank">John L. Godlee</a></td>
 <td>University of Edinburgh</td>
 <td>United Kingdom</td>
@@ -55,9 +60,34 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Angola</td>
 </tr>
 <tr>
+<td><a href="https://www.worldagroforestry.org/staff/harrison-rhett" target="_blank">Rhett Harrison</a></td>
+<td>CIFOR-ICRAF</td>
+<td>Zambia</td>
+</tr>
+<tr>
+<td><a href="https://www.researchgate.net/profile/Daud-Kachamba" target="_blank">Daud Kachamba</a></td>
+<td>African Forests Forum</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=JsiGBr4AAAAJ" target="_blank">Itambo Malombe</a></td>
+<td>National Museums Kenya</td>
+<td>Kenya</td>
+</tr>
+<tr>
+<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
+<td>Kenya Forestry Research Institute</td>
+<td>Kenya</td>
+</tr>
+<tr>
 <td><a href="https://www.researchgate.net/profile/Jonathan_Ilunga_Muledi2" target="_blank">Jonathan Muledi</a></td>
 <td>University of Lubumbashi</td>
 <td>Democratic Republic of Congo</td>
+</tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?user=8z4QEFYAAAAJ&hl=en" target="_blank">Justice Muvengwi</a></td>
+<td>University of the Witwatersrand</td>
+<td>South Africa</td>
 </tr>
 <tr>
 <td><a href="https://scholar.google.com/citations?user=0tk4KC4AAAAJ&hl=en" target="_blank">Elifuraha Elisha Njoghomi‬</a></td>
@@ -75,9 +105,19 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>United Kingdom</td>
 </tr>
 <tr>
+<td><a href="https://www.researchgate.net/profile/Muri-Soares" target="_blank">Muri Gonçalves Soares</a></td>
+<td>Fundo Nacional de Desenvolvimento Sustentável (FNDS - National Fund for Sustainable Development)</td>
+<td>Mozambique</td>
+</tr>
+<tr>
 <td><a href="http://staverlab.yale.edu/" target="_blank">Carla Staver</a></td>
 <td>Yale University</td>
 <td>USA</td>
+</tr>
+<tr>
+<td><a href="https://www.cbu.ac.zm/schoolsAndUnits/schoolofnaturalresources/?p=933" target="_blank">Stephen Syampungani</a></td>
+<td>Copperbelt University</td>
+<td>Zambia</td>
 </tr>
 <tr>
 <td><a href="https://www.researchgate.net/profile/Mariska_Beest" target="_blank">Mariska te Beest</a></td>
@@ -85,24 +125,9 @@ SEOSAW is governed by a board of researchers.  To learn more about what the stee
 <td>Netherlands</td>
 </tr>
 <tr>
-<td><a href="https://www.kefri.org/components/bio/mbuvi.html" target="_blank">Musingo Mbuvi</a></td>
-<td>Kenya Forestry Research Institute</td>
-<td>Kenya</td>
-</tr>
-<tr>
 <td><a href="https://www.researchgate.net/profile/Clemence-Zimudzi" target="_blank">Clemence Zimudzi</a></td>
 <td>University of Zimbabwe</td>
 <td>Zimbabwe</td>
-</tr>
-<tr>
-<td><a href="https://www.researchgate.net/profile/Muri-Soares" target="_blank">Muri Gonçalves Soares</a></td>
-<td>Fundo Nacional de Desenvolvimento Sustentável (FNDS - National Fund for Sustainable Development)</td>
-<td>Mozambique</td>
-</tr>
-<tr>
-<td><a href="https://scholar.google.com/citations?user=8z4QEFYAAAAJ&hl=en" target="_blank">Justice Muvengwi</a></td>
-<td>University of the Witwatersrand</td>
-<td>South Africa</td>
 </tr>
 </tbody>
 </table>
