@@ -2,23 +2,17 @@
 layout: default
 ---
 
-# Call for Nominations: SEOSAW Scientific Steering Committee (SSC) 
+# Congratulations to our new SEOSAW Scientific Steering Committee (SSC) members
 
-We are looking for nominations from enthusiastic SEOSAW members to join our Scientific Steering Committee (SSC).   
+Phesheya Dlamini, Rhett Harrison, Daud Kachamba and Itambo Malombe have joined the SSC for 2024. Welcome to our new members! See the full list of our SSC members [here](https://seosaw.github.io/people.html).
 
-Steering committee members contribute their time by leading SEOSAW activities including: 
 
-    1. Setting collective goals for SEOSAW in terms of the research agenda, outreach, and training 
-    2. Growing and maintaining the network by fostering connections with new researchers and other networks in the region  
-    3. Encouraging the set-up of permanent plots and supporting long-term plans for remeasurement 
-    4. Developing, promoting and managing the implementation of standardised methods for plot design and measurement, tailored to the socio-ecology of African woodlands 
-    5. Facilitating the use of SEOSAW data in analyses 
-    6. Planning and organising networking events and training workshops to connect African researchers and build capacity 
-    7. Contributing to obtaining funds to support SEOSAW fieldwork, events, or management.  
 
-We are particularly looking for, but are not limited to, expertise in: soils, taxonomy, and social sciences. 
+# New Publications from SEOSAW partners!
 
-Submit your nominations through [this form](https://forms.gle/pCptKyZU1EQ2ARL66), including your CV and a motivation letter by 8 November. 
+Tatenda Gotore's new paper is out using SEOSAW sites:
+Tatenda Gotore, Sam Bowers, Hilton GT Ndagurwa, Shakkie Kativu, Anderson Muchawona,Pomerayi Mutete, Mduduzi Tembani,Ruramai Murepa, Admore Mureva, Casey Ryan, Denis Gautier, and Laurent Gazull. 2023. [Woody biomass increases across three contrasting land uses in Hurungwe, mid-Zambezi valley, Zimbabwe](https://doi.org/10.2989/20702620.2023.2267043). 
+
 
 
 # News
@@ -32,6 +26,9 @@ SEOSAW sends out a newsletter every three months to highlight the exciting work 
  <button class="landing-btn" type="submit">Contact SEOSAW</button>
 </form>
 </div>
+
+
+
 
 
 ## Past News
