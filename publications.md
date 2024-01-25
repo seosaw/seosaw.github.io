@@ -39,13 +39,21 @@ SEOSAW partnership. (2021). A network to understand the changing socio‐ecology
     	 </tr>
     </thead>
     <tbody id='tableBody'>
+        <tr>
+     <td>Mogonong, B., van der Merwe, H., Ramaswiela, T., Maluleke, A., Feig, G.</td>
+     <td><a href="https://doi.org/10.1016/j.sajb.2023.09.010" target="_blank">Vegetation description around the savanna flux measurement site at Benfontein Nature Reserve, South Africa
+</a></td>
+     <td>South African Journal of Botany</td>
+     <td>2023</td> 
+    </tr>
     <tr>
      <td>Davies, R.W., Ryan, C.M., Harrison, R.D., Dexter, K.G., Ahrends, A., te Beest, M., Benitez, L., Brade, T.K., Carreiras, J.M.B.,  Druce, D.J., Fayolle, A., Finckh, M., Godlee, J.L., Gonclaves, F.M., Grundy, I.M., Hoche, T., Holdo, R.M., Makungwa, S., McNicol, I.M., Mograbi, P.J., Muchawona, A., Muhate, A., Muledi, J., Pritchard, R., Revermann, R., Ribeiro, N.S., Siampale, A., Staver, A.C., Syampungani, S., Williams, M., Swemmer, A.M., Edwards, D.P.</td>
      <td><a href="http://doi.org/10.1111/ecog.06720" target="_blank">Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa
 </a></td>
      <td>Ecography</td>
      <td>2023</td> 
-    </tr><tr>
+    </tr>
+    <tr>
      <td>Godlee J. L., Ryan C. M., Bauman D., Bowers S. J., Carreiras J. M. B., Chisingui A. V., Cromsigt J. P. G. M., Druce D. J., Finckh M., Gonçalves F. M., Holdo R. M., Makungwa S., McNicol I. M., Mitchard E. T. A., Muchawona A., Revermann R., Ribeiro N. S., Siampale A., Syampungani S., Tchamba J. J., Tripathi H. G., Wallenfang J., te Beest M., Williams M., Dexter K. G.</td>
      <td><a href="https://doi.org/10.1111/nph.17639" target="_blank">Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship of woodlands and savannas.</a></td>
      <td>New Phytologist</td>
