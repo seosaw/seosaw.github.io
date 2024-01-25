@@ -394,3 +394,11 @@ th.coldesc {
     transition:all 0.2s ease-in-out;
 }
 
+//Text boxes
+.paper {
+  margin-bottom: 1em;
+  padding: 0 1em;
+  border: 1px solid $brand-color;
+  border-radius: 5px;
+  box-shadow: none;
+}
