@@ -23,7 +23,7 @@ The map above shows the locations of plots in the SEOSAW dataset, The map also s
 
 ## The SEOSAW dataset 
 
-The SEOSAW dataset is available for research purposes following agreement from all data contributors. SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/coc/versions/coc/seosaw_coc_v2.1_2020-05-04.pdf) and the accompanying [plain language summary](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/coc/versions/coc_plain/seosaw_coc_plain_v2.1_2020-05-04.txt).
+The SEOSAW dataset is available for research purposes following agreement from all data contributors. SEOSAW maintains a strict data sharing agreement and code of conduct for SEOSAW members who wish to use SEOSAW data or contribute to the SEOSAW database. Please see the full [Code of Conduct](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/coc/versions/coc/seosaw_coc_v2.1_2020-05-04.pdf) and the accompanying [plain language summary](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/coc/versions/coc_plain/seosaw_coc_plain_v2.1_2020-05-04.txt). There is a list of collaborators using SEOSAW data here]({{ site.baseurl }}/data_users).
 
 A sample of the dataset is available [here](https://bitbucket.org/miombo/seosaw/raw/master/doc/web/sample_data.zip). 
 
