@@ -10,7 +10,9 @@ Phesheya Dlamini, Rhett Harrison, Daud Kachamba and Itambo Malombe have joined t
 
 # New Publications from SEOSAW partners!
 
-Tatenda Gotore's new paper is out using SEOSAW sites:
+*Tatenda Gotore*'s new paper is out using SEOSAW sites:
+
+
 Tatenda Gotore, Sam Bowers, Hilton GT Ndagurwa, Shakkie Kativu, Anderson Muchawona,Pomerayi Mutete, Mduduzi Tembani,Ruramai Murepa, Admore Mureva, Casey Ryan, Denis Gautier, and Laurent Gazull. 2023. [Woody biomass increases across three contrasting land uses in Hurungwe, mid-Zambezi valley, Zimbabwe](https://doi.org/10.2989/20702620.2023.2267043). 
 
 
