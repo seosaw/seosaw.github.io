@@ -77,9 +77,9 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><strong>19. The effects of climate change on tree dynamics</strong></p>
 <p><b>Jonathan Muledi (team lead) and the African Forests Forum</b> - Democratic Republic of the Congo; Kenya</p>
 <p><b>Affiliation:</b> University of Lubumbashi, DRC</p>
-<p><b>TECHNICAL REPORT</b> - Muledi, Mograbi et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</a></p>
-<p><b>POLICY BRIEF</b> - Muledi, Kamoto et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</a></p>
-<p><b>FACT SHEET</b> - Muledi, Kamoto et al. 2023. The Dynamics of African Forest Vegetation Under Changing Climate through Permanent Sampling Plots</a></p>
+<p><b>TECHNICAL REPORT</b> - Muledi, Mograbi et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</p>
+<p><b>POLICY BRIEF</b> - Muledi, Kamoto et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</p>
+<p><b>FACT SHEET</b> - Muledi, Kamoto et al. 2023. The Dynamics of African Forest Vegetation Under Changing Climate through Permanent Sampling Plots</p>
 </div>
 
 
@@ -116,7 +116,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 
 <div class="paper">
 <p><strong>14. Environmental gradients in miombo</strong></p>
-<p><b>Robert Davies</b> - UK</p>
+<p><b>Rob Davies</b> - UK</p>
 <p><b>Affiliation:</b> University of Sheffield, UK</p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/ecog.06720" target="_blank">Davies et al. 2023. Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa. Ecography. https://doi.org/10.1111/ecog.06720</a></p>
 </div>
