@@ -10,16 +10,13 @@ This is a record of all the people who are working with SEOSAW and using plots c
 
 ## 2024
 
-
 <div class="paper">
 <p><strong>27. Mapping aboveground biomass change across the dry tropics using radar remote sensing</strong></p>
 <p><b>Sam Harrison</b> - UK</p>
 <p><b>Affiliation:</b> 	University of Edinburgh, UK</p>
 </div>
 
-
 ## 2023
-
 
 <div class="paper">
 <p><strong>26. Mapping dry tropical African biomes using remote sensing; do structural and floristic data correspond?</strong></p>
@@ -27,13 +24,11 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> 	University of Edinburgh, UK</p>
 </div>
 
-
 <div class="paper">
 <p><strong>25. Functional traits across environmental gradients</strong></p>
 <p><b>Rob Davies</b> - UK</p>
 <p><b>Affiliation:</b> 	University of Sheffield, UK</p>
 </div>
-
 
 <div class="paper">
 <p><strong>24. Modelling tree growth rates</strong></p>
@@ -41,13 +36,11 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> 	University of the Witwatersrand, South Africa</p>
 </div>	
 
-
 <div class="paper">
 <p><strong>23. Linking faunal seed dispersal to tree dispersal traits and carbon sequestration in southern African woodlands</strong></p>
 <p><b>Lara-Marie Bodirsky</b> - Netherlands</p>
 <p><b>Affiliation:</b> 	Utrecht University, Netherlands</p>
 </div>	
-
 
 <div class="paper">
 <p><strong>22. Analysing and delineating functional biomes in the tropics at a global scale</strong></p>
@@ -55,13 +48,11 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Edinburgh, UK</p>
 </div>
 
-
 <div class="paper">
 <p><strong>21. The ecology and diversity of the hyperdiversified Berlinia clade</strong></p>
 <p><b>Adeline Fayolle</b> - Belgium</p>
 <p><b>Affiliation:</b> University of Liege, Belgium</p>
 </div>
-		
 
 <div class="paper">
 <p><strong>20. Exploring patterns of tree mortality in the tropics</strong></p>
@@ -69,19 +60,16 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Edinburgh, UK; Tanzania Forestry Research Institute, Tanzania; Eduardo Mondlane University, Mozambique; Smithsonian Tropical Research Institute, USA</p>
 </div>
 
-
 ## 2022
-
 
 <div class="paper">
 <p><strong>19. The effects of climate change on tree dynamics</strong></p>
 <p><b>Jonathan Muledi (team lead) and the African Forests Forum</b> - Democratic Republic of the Congo; Kenya</p>
 <p><b>Affiliation:</b> University of Lubumbashi, DRC</p>
-<p><b>TECHNICAL REPORT</b> - Muledi, Mograbi et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</a></p>
-<p><b>POLICY BRIEF</b> - Muledi, Kamoto et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</a></p>
-<p><b>FACT SHEET</b> - Muledi, Kamoto et al. 2023. The Dynamics of African Forest Vegetation Under Changing Climate through Permanent Sampling Plots</a></p>
+<p><b>TECHNICAL REPORT</b> - Muledi, Mograbi et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</p>
+<p><b>POLICY BRIEF</b> - Muledi, Kamoto et al. 2023. Strengthening the understanding of the dynamics of African forest vegetation under a changing climate through permanent sampling plots</p>
+<p><b>FACT SHEET</b> - Muledi, Kamoto et al. 2023. The Dynamics of African Forest Vegetation Under Changing Climate through Permanent Sampling Plots</p>
 </div>
-
 
 <div class="paper">
 <p><strong>18. Understanding resprouting ability across dominant savanna tree species</strong></p>
@@ -89,13 +77,11 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of the Witwatersrand, South Africa</p>
 </div>
 
-
 <div class="paper">
 <p><strong>17. Estimating Miombo structure and Above Ground Biomass based on field data and remotely sensed data</strong></p>
 <p><b>Hermane Diesse</b> - Democratic Republic of the Congo</p>
 <p><b>Affiliation:</b> Namibian University of Science & Technology, Namibia</p>
 </div>
-
 
 <div class="paper">
 <p><strong>16. Unexplored transitions between forests and savannas</strong></p>
@@ -103,9 +89,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Edinburgh, UK</p>
 </div>
 
-
 ## 2021
-
 
 <div class="paper">
 <p><strong>15. Seasonality effects on species composition</strong></p>
@@ -113,14 +97,12 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of the Witwatersrand, South Africa</p>
 </div>
 
-
 <div class="paper">
 <p><strong>14. Environmental gradients in miombo</strong></p>
-<p><b>Robert Davies</b> - UK</p>
+<p><b>Rob Davies</b> - UK</p>
 <p><b>Affiliation:</b> University of Sheffield, UK</p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/ecog.06720" target="_blank">Davies et al. 2023. Precipitation gradients drive high tree species turnover in the woodlands of eastern and southern Africa. Ecography. https://doi.org/10.1111/ecog.06720</a></p>
 </div>
-
 
 <div class="paper">
 <p><strong>13. Understanding the human footprint in the world's largest savanna</strong></p>
@@ -128,20 +110,17 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Edinburgh, UK; University of the Witwatersrand, South Africa</p>
 </div>
 
-
 <div class="paper">
 <p><strong>12. Carbon dynamics vital rates across the dry tropics (SECO)</strong></p>
 <p><b>John Godlee; Ebuka Nwobi; Casey Ryan</b> - UK; Nigeria</p>
 <p><b>Affiliation:</b> University of Edinburgh, UK</p>
 </div>
 
-
 <div class="paper">
 <p><strong>11. Aboveground biomass relationship to radar backscatter</strong></p>
 <p><b>Lennart Hoheisel; Thomas Higginbottom; Casey Ryan</b> - UK</p>
 <p><b>Affiliation:</b> University of Edinburgh, UK</p>
 </div>
-
 
 ## 2020
 
@@ -163,9 +142,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University College London, UK</p>
 </div>
 
-
 ## 2019
-
 
 <div class="paper">
 <p><strong>7. Ecology of the miombo woodlands</strong></p>
@@ -189,7 +166,6 @@ This is a record of all the people who are working with SEOSAW and using plots c
 
 ## 2018
 
-
 <div class="paper">
 <p><strong>4. Modelling tree growth rates across Southern African woodlands: a hierarchical mixed-effects approach</strong></p>
 <p><b>Brigadier Libanda</b> - Zambia</p>
@@ -199,14 +175,14 @@ This is a record of all the people who are working with SEOSAW and using plots c
 
 <div class="paper">
 <p><strong>3. A network to understand the changing socio-ecology of the southern African woodlands</strong></p>
-<p><b>Casey Ryan on behalf of all the early SEOSAW partners</p>
+<p><b>Casey Ryan on behalf of all the early SEOSAW partner</b></p>
 <p><b>Affiliation:</b> Various</p>
 <p><b>PUBLICATION</b> - <a href="https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10168" target="_blank">The SEOSAW Partnership. 2020. A network to understand the changing socio-ecology of the southern African woodlands (SEOSAW): Challenges, benefits, and methods. Plants, People, Planet. https://doi.org/10.1002/ppp3.10168</a></p>
 </div>
 
 <div class="paper">
 <p><strong>2. Forest-savanna floristics</strong></p>
-<p><b>Julia Aleman</b> - </p>
+<p><b>Julia Aleman</b></p>
 <p><b>Affiliation:</b> University of Liege, Belgium; University of Montreal, Canada</p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1073/pnas.2011515117" target="_blank">Aleman et al. 2020. Floristic evidence for alternative biome states in tropical Africa. The Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.2011515117</a></p>
 </div>
