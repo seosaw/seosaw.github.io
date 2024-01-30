@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 
 
@@ -193,4 +194,3 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Liege, Belgium</p>
 <p><b>PUBLICATION</b> - <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13475" target="_blank">Fayolle et al.et al. 2018. A sharp floristic discontinuity revealed by the biogeographic regionalization of African savannas. Journal of Biogeography. https://onlinelibrary.wiley.com/doi/10.1111/jbi.13475</a></p>
 </div>
-
