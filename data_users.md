@@ -176,7 +176,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 
 <div class="paper">
 <p><strong>3. A network to understand the changing socio-ecology of the southern African woodlands</strong></p>
-<p><b>Casey Ryan on behalf of all the early SEOSAW partner</b></p>
+<p><b>Casey Ryan on behalf of all the early SEOSAW partners</b></p>
 <p><b>Affiliation:</b> Various</p>
 <p><b>PUBLICATION</b> - <a href="https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10168" target="_blank">The SEOSAW Partnership. 2020. A network to understand the changing socio-ecology of the southern African woodlands (SEOSAW): Challenges, benefits, and methods. Plants, People, Planet. https://doi.org/10.1002/ppp3.10168</a></p>
 </div>
