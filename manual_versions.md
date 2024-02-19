@@ -21,14 +21,6 @@ layout: default
 * [v3.2](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.2_2020.pdf)
 * [v3.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/field_manual/versions/seosaw_field_manual_v3.0_2018.pdf)
 
-## Dataset manual
-
-* [v3.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v3.0.pdf)
-* [v2.12](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v2.12.pdf)
-* [v2.11](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v2.11.pdf)
-* [v1.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.1.pdf)
-* [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/dataset_manual/versions/seosaw_dataset_manual_v1.0.pdf)
-
 ## Traits manual
 
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/traits_manual/versions/seosaw_traits_manual_v1.0_en.pdf)
