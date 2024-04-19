@@ -2,20 +2,9 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/MarkerCluster.Default.css" />
-
 # The SEOSAW plot network
 
-<div id="leaf-map"></div>
-
-<script src="{{ site.baseurl }}/scripts/plots.js"></script>
-<script src="{{ site.baseurl }}/scripts/region.js"></script>
-<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-	integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-	crossorigin=""></script>
-<script src="{{ site.baseurl }}/scripts/leaf-map.js"></script>
-<script src="{{ site.baseurl }}/scripts/leaflet.markercluster-src.js"></script>
+<div id="map"></div>
 
 The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across Sub-Saharan Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
 

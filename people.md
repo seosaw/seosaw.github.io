@@ -2,19 +2,7 @@
 layout: default
 ---
 
-<script src="{{ site.baseurl }}/scripts/masonry.pkgd.min.js"></script>
-
-<script>
-$('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-	percentPosition: true,
-	columnWidth: '.grid-sizer'
-});
-</script>
-
 # People
-
 
 ## SEOSAW steering committee
 
