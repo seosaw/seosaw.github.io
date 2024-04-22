@@ -5,7 +5,9 @@ layout: default
 # The SEOSAW plot network
 
 <div id="map"></div>
-<script src="{{ site.baseurl }}/scripts/plotmap.js"></script>
+<script src="{{ site.baseurl }}/scripts/plots.geojson" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/scripts/region.geojson" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/scripts/plotmap.js" type="text/javascript"></script>
 
 The SEOSAW partnership maintains a database of tree and stem measurements gathered from plots across Sub-Saharan Africa. A major activity of SEOSAW is collating these data and conducting analyses of the structure and function of the region's vegetation.
 
