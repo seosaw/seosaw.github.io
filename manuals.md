@@ -9,7 +9,7 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
 
 * [Trees and plot setup][1] 
 	* Translations available in [Português][1a], [Français][1b], and [Kiswahili][1c] 
-* [Small stems][2] 
+* [Small stems and Shrubs][2] 
     * Translations available in [Português][2a], [Français][2b], and [Kiswahili][2c] 
 * [Coarse woody debris][3] 
     * Translations available in [Português][3a], [Français][3b], and [Kiswahili][3c] 
@@ -18,7 +18,6 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
 * [Ground layer][5] 
 * [Traits][6]
 * Social - coming soon 
-* Shrubs - coming soon 
 
 All the protocols are ‘living documents’, and we welcome input and suggestions from all. Previous versions of the SEOSAW protocols can be [found here]({{ site.baseurl }}/manual_versions).
 

@@ -28,6 +28,7 @@ layout: default
 
 ## Ground layer manual
 
+* [v1.7](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_ground_layer_manual_v1.7_en.pdf)
 * [v1.4](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_ground_layer_manual_v1.4_en.pdf)
 * [v0.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/ground_layer/versions/seosaw_understory_manual_v0.1_2018.pdf)
 
@@ -38,8 +39,9 @@ layout: default
 	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_v1.0_pt.pdf)
 	* [v1.0 - Swahili](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/cwd/versions/cwd_v1.0_sw.pdf)
 
-## Small stem manual
+## Small stems and shrubs manual
 
+* [v2.1] (https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_and_shrubs_manual_v2.1_en.pdf)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_en.pdf)
 	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_fr.pdf)
 	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/manuals/small_stems/versions/seosaw_small_stems_manual_v1.0_pt.pdf)
@@ -104,14 +106,16 @@ layout: default
 
 ## Ground layer datasheet
 
+* [v1.7](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/ground_layer/versions/ground_layer_v1.7_en.xlsx)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/ground_layer/versions/ground_layer_v1.0_en.xlsx)
 
 ## Shrub datasheet
 
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/shrub/versions/shrub_v1.0_en.xlsx)
 
-## Small stem datasheet
+## Small stems and shrubs datasheet
 
+* [v2.1](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stems_and_shrubs_v2.1_en.xlsx)
 * [v1.0](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_v1.0_en.xlsx)
 	* [v1.0 - Français](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_v1.0_fr.xlsx)
 	* [v1.0 - Português](https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_v1.0_pt.xlsx)
