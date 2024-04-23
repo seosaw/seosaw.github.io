@@ -2,26 +2,17 @@
 layout: default
 ---
 
-# Congratulations to our new SEOSAW Scientific Steering Committee (SSC) members
+# Newsletter
 
-Phesheya Dlamini, Rhett Harrison, Daud Kachamba and Itambo Malombe have joined the SSC for 2024. Welcome to our new members! See the full list of our SSC members [here](https://seosaw.github.io/people.html).
+*Read the latest newsletter from [April 2024](https://sway.cloud.microsoft/biDuA6obCWR2QQDL?ref=Link)*
 
-
-
-# New Publications from SEOSAW partners!
-
-*Tatenda Gotore*'s new paper is out using SEOSAW sites:
-
-
-Tatenda Gotore, Sam Bowers, Hilton GT Ndagurwa, Shakkie Kativu, Anderson Muchawona,Pomerayi Mutete, Mduduzi Tembani,Ruramai Murepa, Admore Mureva, Casey Ryan, Denis Gautier, and Laurent Gazull. 2023. [Woody biomass increases across three contrasting land uses in Hurungwe, mid-Zambezi valley, Zimbabwe](https://doi.org/10.2989/20702620.2023.2267043). 
+<iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/biDuA6obCWR2QQDL/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
 
 
 
-# News
 
-*Read the latest newsletter from [October 2023](https://sway.office.com/DV3l6bGWJnGIDHis?ref=Link)*
+SEOSAW sends out a newsletter to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities. Join our mailing list to receive the Quarterly Newsletters! Just send us a message using the link below.
 
-SEOSAW sends out a newsletter every three months to highlight the exciting work of our partners and provide updates on protocols, trainings, and other opportunities. Join our mailing list to receive the Quarterly Newsletters! Just send us a message using the link below.
 
 <div class="landing-btn-wrapper">
 <form action="{{ site.baseurl }}/contact.html">
@@ -31,9 +22,22 @@ SEOSAW sends out a newsletter every three months to highlight the exciting work 
 
 
 
-
-
 ## Past News
+
+### Congratulations to our new SEOSAW Scientific Steering Committee (SSC) members
+
+Phesheya Dlamini, Rhett Harrison, Daud Kachamba and Itambo Malombe have joined the SSC for 2024. Welcome to our new members! See the full list of our SSC members [here](https://seosaw.github.io/people.html).
+
+
+
+### New Publications from SEOSAW partners!
+
+*Tatenda Gotore*'s new paper is out using SEOSAW sites:
+
+
+Tatenda Gotore, Sam Bowers, Hilton GT Ndagurwa, Shakkie Kativu, Anderson Muchawona,Pomerayi Mutete, Mduduzi Tembani,Ruramai Murepa, Admore Mureva, Casey Ryan, Denis Gautier, and Laurent Gazull. 2023. [Woody biomass increases across three contrasting land uses in Hurungwe, mid-Zambezi valley, Zimbabwe](https://doi.org/10.2989/20702620.2023.2267043). 
+
+
 
 ### New SEOSAW publications!
 
