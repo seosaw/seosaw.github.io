@@ -12,6 +12,36 @@ This is a record of all the people who are working with SEOSAW and using plots c
 ## 2024
 
 <div class="paper">
+<p><strong>32. Ecosystem models of the dry tropics using carbon cycle observations from field inventory plots and satellite remote sensing</strong></p>
+<p><b>David Milodowski</b> - UK</p>
+<p><b>Affiliation:</b> 	University of Edinburgh, UK</p>
+</div>
+
+<div class="paper">
+<p><strong>31. Soil-vegetation relationships across the dry tropics</strong></p>
+<p><b>Tim Baker, Kyle Dexter, Renato Vanderlei</b> - UK, Brazil</p>
+<p><b>Affiliation:</b> 	University of Leeds, UK; Federal University of Pernambuco, Brazil; University of Edinburgh, UK</p>
+</div>
+
+<div class="paper">
+<p><strong>30. Forest-savanna transitions in the Republic of the Congo</strong></p>
+<p><b>Robin Fonteneau</b> - France</p>
+<p><b>Affiliation:</b> 	AgroParisTech, France</p>
+</div>
+
+<div class="paper">
+<p><strong>29. Socio-ecological dynamics of woodlands in southeast Angola</strong></p>
+<p><b>Luisa Escobar-Alvarado</b> - Mexico</p>
+<p><b>Affiliation:</b> 	University of Edinburgh, UK</p>
+</div>
+
+<div class="paper">
+<p><strong>28. NCEO's 2020 AGB stock map at 100 m  resolution</strong></p>
+<p><b>Nezha Acil</b> - UK</p>
+<p><b>Affiliation:</b> 	NCEO, UK</p>
+</div>
+
+<div class="paper">
 <p><strong>27. Mapping aboveground biomass change across the dry tropics using radar remote sensing</strong></p>
 <p><b>Sam Harrison</b> - UK</p>
 <p><b>Affiliation:</b> 	University of Edinburgh, UK</p>
@@ -153,10 +183,12 @@ This is a record of all the people who are working with SEOSAW and using plots c
 </div>
 
 <div class="paper">
-<p><strong>6. Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship</strong></p>
+<p><strong>6. Biodiversity: ecosystem function relationships in southern African woodlands</strong></p>
 <p><b>John Godlee</b> - UK</p>
 <p><b>Affiliation:</b> University of Edinburgh, UK </p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/nph.17639" target="_blank">Godlee et al. 2021. Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship of woodlands and savannas. New Phytologist. https://doi.org/10.1111/nph.17639</a></p>
+<p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/1365-2745.14366" target="_blank">Godlee et al. 2024. Tree species diversity drives the land surface phenology of seasonally dry tropical woodlands. Journal of Ecology. https://doi.org/10.1111/1365-2745.14366</a></p>
+<p><b>THESIS</b> - <a href="https://era.ed.ac.uk/handle/1842/38615" target="_blank">Godlee, J. L. 2022. Biodiversity: ecosystem function relationships in southern African woodlands. Doctoral thesis. University of Edinburgh.</a></p>
 </div>
 
 <div class="paper">
