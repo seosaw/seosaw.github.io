@@ -71,6 +71,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><strong>23. Linking faunal seed dispersal to tree dispersal traits and carbon sequestration in southern African woodlands</strong></p>
 <p><b>Lara-Marie Bodirsky</b> - Netherlands</p>
 <p><b>Affiliation:</b> 	Utrecht University, Netherlands</p>
+<p><b>THESIS</b> - <a href="https://studenttheses.uu.nl/handle/20.500.12932/47610" target="_blank">Bodirsky, BL. 2024. Linking faunal seed dispersal to tree dispersal traits and carbon storage in southern African woodlands. MSc thesis. Utrecht University, Netherlands.</a></p>
 </div>	
 
 <div class="paper">
@@ -188,7 +189,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><b>Affiliation:</b> University of Edinburgh, UK </p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/nph.17639" target="_blank">Godlee et al. 2021. Structural diversity and tree density drives variation in the biodiversity-ecosystem function relationship of woodlands and savannas. New Phytologist. https://doi.org/10.1111/nph.17639</a></p>
 <p><b>PUBLICATION</b> - <a href="https://doi.org/10.1111/1365-2745.14366" target="_blank">Godlee et al. 2024. Tree species diversity drives the land surface phenology of seasonally dry tropical woodlands. Journal of Ecology. https://doi.org/10.1111/1365-2745.14366</a></p>
-<p><b>THESIS</b> - <a href="https://era.ed.ac.uk/handle/1842/38615" target="_blank">Godlee, J. L. 2022. Biodiversity: ecosystem function relationships in southern African woodlands. Doctoral thesis. University of Edinburgh.</a></p>
+<p><b>THESIS</b> - <a href="https://era.ed.ac.uk/handle/1842/38615" target="_blank">Godlee, J. L. 2022. Biodiversity: ecosystem function relationships in southern African woodlands. PhD thesis. University of Edinburgh.</a></p>
 </div>
 
 <div class="paper">
@@ -203,7 +204,7 @@ This is a record of all the people who are working with SEOSAW and using plots c
 <p><strong>4. Modelling tree growth rates across Southern African woodlands: a hierarchical mixed-effects approach</strong></p>
 <p><b>Brigadier Libanda</b> - Zambia</p>
 <p><b>Affiliation:</b> University of Edinburgh, UK</p>
-<p><b>PHD THESIS</b> - <a href="http://dx.doi.org/10.7488/era/1943" target="_blank">Libanda, B. 2022. Modelling tree growth rates across Southern African woodlands: a hierarchical mixed-effects approach. PhD thesis. University of Edinburgh, UK. http://dx.doi.org/10.7488/era/1943</a></p>
+<p><b>THESIS</b> - <a href="http://dx.doi.org/10.7488/era/1943" target="_blank">Libanda, B. 2022. Modelling tree growth rates across Southern African woodlands: a hierarchical mixed-effects approach. PhD thesis. University of Edinburgh, UK. http://dx.doi.org/10.7488/era/1943</a></p>
 </div>
 
 <div class="paper">
