@@ -22,7 +22,7 @@ SEOSAW partnership. (2021). A network to understand the changing socio‐ecology
     <tbody id='tableBody'>
     <tr>
      <td>Gotore, T., Archibald, S., Ryan, C. M. </td>
-     <td><a href="https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/diameter_relationship/diameter_relationship_latest.pdf" target="_blank">Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands</a></td>
+     <td><a href="https://bitbucket.org/miombo/seosaw/raw/master/doc/reports/Gotore et al_2022_diameter_relationship_latest.pdf" target="_blank">Predicting diameter at breast height from 0.3m diameter measurements in miombo woodlands</a></td>
      <td>2022</td> 
     </tr>
      </tbody>
