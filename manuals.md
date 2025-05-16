@@ -15,7 +15,7 @@ SEOSAW has developed a set of linked protocols to study the complex socio-ecolog
     * Translations available in [Português][3a], [Français][3b], and [Kiswahili][3c] 
 * [Soil][4] (developed as part of [SECO](https://blogs.ed.ac.uk/seco-project/)) 
     * Translations available in [Português][4a], [Français][4b] and [Español][4c] 
-* [Ground layer][5] 
+* [Ground layer biomass][5] 
 * [Traits][6]
 * Social - coming soon 
 
@@ -56,13 +56,14 @@ SEOSAW has created the following datasheets to aid you in data collection follow
    * Digital form available [here](https://ee.kobotoolbox.org/x/HMyFegmI) 
 * [Stem datasheet][9] 
    * Translations available in [Português][9a], [Français][9b], and [Kiswahili][9c] 
-* [Small stems][10] 
+* [Small stems & shrubs biodiversity][10] 
    * Translations available in [Português][10a], [Français][10b], and [Kiswahili][10c] 
+* [Small stems & shrubs biomass][14] 
 * [Coarse woody debris][11] 
    * Translations available in [Português][11a], [Français][11b], and [Kiswahili][11c] 
 * [Soil][12] 
    * Translations available in [Português][12a] and [Français][12b] 
-* [Ground layer][13] 
+* [Ground layer biomass][13] 
 
 [7]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_en.pdf
 [7a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/plot/versions/plot_latest_pt.pdf
@@ -80,7 +81,7 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [9b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_fr.pdf
 [9c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/stem/versions/stem_latest_sw.pdf
 
-[10]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_en.xlsx
+[10]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/shrub/versions/shrub_biodiversity_latest_en.xlsx
 [10a]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_pt.xlsx
 [10b]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_fr.xlsx
 [10c]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/small_stem/versions/small_stem_latest_sw.xlsx
@@ -95,6 +96,8 @@ SEOSAW has created the following datasheets to aid you in data collection follow
 [12b]:https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/soil/versions/soil_latest_fr.xlsx
 
 [13]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/ground_layer/versions/ground_layer_latest_en.xlsx
+
+[14]: https://bitbucket.org/miombo/seosaw/raw/master/doc/forms/field_sheets/shrub/versions/shrub_biomass_latest_en.xlsx
 
 # Field Resources
 
