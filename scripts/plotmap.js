@@ -11,13 +11,13 @@ var map = L.map('map',
 	}).setView([-13.4,25.6]);
 
 // Add background map from tinyworldmap
-new L.GridLayer.TinyWorld().addTo(map)
+//new L.GridLayer.TinyWorld().addTo(map)
 
 // Add background map from openstreetmap
-//L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//    maxZoom: 19,
-//    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-//}).addTo(map);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 
 // Define function to set display options for SEOSAW region polygon
 function regionOpt(feature) {
