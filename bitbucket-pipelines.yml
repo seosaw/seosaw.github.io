@@ -1,0 +1,46 @@
+# This is a sample build configuration for Ruby.
+# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: ruby:latest
+
+pipelines:
+  default:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - bundle install
+          - bundle exec jekyll build
+  branches:
+    master:
+      - step:
+          script:
+            - bundle install
+            - bundle exec jekyll build
+            - cd _site
+            - git init
+            - git config user.email "ci@bitbucket.org"
+            - git config user.name "Bitbucket Pipelines"
+            - git add -A
+            - git commit -m "Deploy"
+            - git push -f https://$githubtoken@github.com/seosaw/seosaw.github.io.git master
+    dev:
+      - step:
+          script:
+            - bundle install
+            # --baseurl rewrites all {{ site.baseurl }} links so the build
+            # works when served from seosaw.github.io/preview/ instead of
+            # the domain root.
+            - bundle exec jekyll build --baseurl /preview
+            - rm -f _site/CNAME
+            - cd _site
+            # Tell GitHub Pages to serve these files as-is, skipping its
+            # own Jekyll build (which doesn't support jekyll-scholar).
+            - touch .nojekyll
+            - git init
+            - git checkout -b master
+            - git config user.email "ci@bitbucket.org"
+            - git config user.name "Bitbucket Pipelines"
+            - git add -A
+            - git commit -m "Deploy preview"
+            - git push -f https://$githubtoken@github.com/seosaw/preview.git master

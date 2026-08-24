@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEOSAW</title>
+    <description>A Socio-Ecological Observatory for Studying African Woodlands
+</description>
+    <link>seosaw.github.io/</link>
+    <atom:link href="seosaw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Aug 2026 12:26:04 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Aug 2026 12:26:04 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+  </channel>
+</rss>

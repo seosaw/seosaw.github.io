@@ -1,0 +1,41 @@
+<svg class="sp-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="plot icon">
+<style>
+  .sp-ico{ --seosaw-ink:#2b3038; --seosaw-accent:#bf6a27; --seosaw-muted:#aeb4be; --seosaw-mass:#2b3038; }
+  .sp-ico .ink  { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .fine { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .dash { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:2.5; stroke-dasharray:6 3.5; stroke-linecap:square; }
+  .sp-ico .mass { fill:var(--seosaw-mass,#2b3038); fill-opacity:.07; stroke:none; }
+  .sp-ico .dot  { fill:var(--seosaw-ink,#2b3038); }
+  .sp-ico .flame{ fill:var(--seosaw-accent,#bf6a27); fill-opacity:.16; stroke:var(--seosaw-accent,#bf6a27); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .ember{ fill:var(--seosaw-accent,#bf6a27); }
+  .sp-ico.muted .ink, .sp-ico.muted .fine { stroke:var(--seosaw-muted,#aeb4be); }
+  .sp-ico.muted .mass { fill:var(--seosaw-muted,#aeb4be); }
+</style>
+<g transform="translate(60,96) scale(0.8)">
+  <!-- plot boundary — dashed square -->
+  <rect class="dash" x="-46" y="-94" width="92" height="94"/>
+  <!-- corner crosshairs -->
+  <g class="fine">
+    <line x1="-52" y1="-94" x2="-40" y2="-94"/>
+    <line x1="-46" y1="-100" x2="-46" y2="-88"/>
+    <line x1="40" y1="-94" x2="52" y2="-94"/>
+    <line x1="46" y1="-100" x2="46" y2="-88"/>
+    <line x1="-52" y1="0" x2="-40" y2="0"/>
+    <line x1="-46" y1="-6" x2="-46" y2="6"/>
+    <line x1="40" y1="0" x2="52" y2="0"/>
+    <line x1="46" y1="-6" x2="46" y2="6"/>
+  </g>
+  <!-- tree crowns: circle (mass fill) + circle (ink outline) + dot (stem) -->
+  <circle class="mass" cx="-18" cy="-72" r="18"/>
+  <circle class="ink"  cx="-18" cy="-72" r="18"/>
+  <circle class="dot"  cx="-18" cy="-72" r="3"/>
+
+  <circle class="mass" cx="24" cy="-58" r="15"/>
+  <circle class="ink"  cx="24" cy="-58" r="15"/>
+  <circle class="dot"  cx="24" cy="-58" r="3"/>
+
+  <circle class="mass" cx="-4" cy="-24" r="13"/>
+  <circle class="ink"  cx="-4" cy="-24" r="13"/>
+  <circle class="dot"  cx="-4" cy="-24" r="2.5"/>
+</g>
+</svg>

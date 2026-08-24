@@ -1,0 +1,405 @@
+\documentclass{article}
+
+% Define page geometry
+\usepackage{geometry}
+\geometry{left=2.2cm,
+	right=2.2cm,
+	top=2.2cm,
+	bottom=2cm}
+\parskip 0.15cm
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1em}
+
+\usepackage{pdflscape}
+
+\newcommand{\versiontext}{v3.1}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{Version: \versiontext{} Page: \thepage{}}
+
+% Set font
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\definecolor{midnightgreen}{rgb}{0.0, 0.29, 0.33}
+\let\oldtexttt\texttt
+\renewcommand\texttt[1]{{\ttfamily\color{midnightgreen}#1}}
+
+% English language
+\usepackage[UKenglish]{babel}
+\usepackage{csquotes}
+
+% Image handling
+\usepackage{graphicx}  % Extended image support
+
+\makeatletter
+	\g@addto@macro\@floatboxreset\centering  % Automatically centre images (floats)
+\makeatother
+
+\graphicspath{ {img/} }
+\usepackage{float}  %  Graphics placement [H] [H!] arguments
+
+% Text formatting
+\usepackage{url} % Allow nice formatting of URLs in text
+
+\usepackage{enumerate}  % Enumerated lists
+
+\usepackage{siunitx}
+\usepackage{amsmath}
+
+\usepackage[htt]{hyphenat}
+
+
+% Tables
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{1}
+
+% Bibliography management
+\usepackage[style=authoryear, natbib=true, backend=biber]{biblatex}
+\addbibresource{seosaw_dataset_manual.bib}
+
+% Custom title formatting
+\let\oldtitle\title
+
+\renewcommand{\title}[1]{\oldtitle{\vspace{-1.5cm}#1}}
+
+\usepackage[breaklinks]{hyperref}
+\definecolor{links}{RGB}{191,59,72}
+\hypersetup{
+	breaklinks,
+	colorlinks,
+	allcolors=links,
+	linktoc=section,
+	pdfauthor={John L. Godlee}
+}
+
+\def\subsectionautorefname{section}
+\def\subsubsectionautorefname{section}
+
+\title{SEOSAW dataset manual\\v3.1}
+\author{John L. Godlee}
+
+\begin{document}
+
+\maketitle{}
+
+\tableofcontents{}
+
+<<setup, echo=FALSE>>=
+knitr::knit_hooks$set(document = function(x) {
+	sub('\\usepackage[]{color}', 
+		'\\usepackage[table]{xcolor}', x, fixed = TRUE)})
+knitr::opts_chunk$set(
+  cache=TRUE, 
+  warning=FALSE, 
+  message=FALSE,
+  fig.pos="H",
+  fig.align="center"
+)
+
+options(width=60, continue="  ")
+
+set.seed(1014)
+@
+
+<<pkg, echo=FALSE>>=
+library(seosawr)
+library(sf)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(ggplot2)
+@
+
+\section{Introduction}
+
+This manual provides information on the structure of the SEOSAW dataset, and how to contribute data to the dataset.
+
+For further guidance on collecting SEOSAW data in the field, you should consult the other \href{https://seosaw.github.io/manuals}{SEOSAW field manuals}.
+
+\section{Description of the SEOSAW dataset}
+
+This section gives a brief overview of the contents of the latest iteration of the SEOSAW dataset, which is available for research purposes by approval from the SEOSAW network. At the time of writing the latest version is \texttt{\versiontext{}}.
+
+The SEOSAW dataset is built around two key tables: 
+
+\begin{itemize}
+	\item{\texttt{plots.csv} - Plot level data}
+	\item{\texttt{stems.csv} - Stem level data}
+\end{itemize}
+
+Each row in the plots table represents a single census in a single plot. Each row in the stems table represents a single stem measurement. Note that a single tree may contain many stems and each stem may be measured multiple times over multiple censuses. See \autoref{col} for a breakdown of columns found in the dataset tables. All data objects are linked by the \texttt{plot\_id} column, which serves as the primary key for the dataset.
+
+There are also some auxiliary data objects in the SEOSAW data repository:
+
+\begin{itemize}
+	\item{\texttt{polys.shp} - Polygons for each plot}
+	\item{\texttt{small\_stems.csv} - Small stem measurements (below minimum diameter threshold)}
+	\item{\texttt{cwd.csv} - Coarse Woody Debris (CWD) data}
+	\item{\texttt{ground\_layer} - Ground layer biomass data}
+\end{itemize}
+
+There are also some derived datasets:
+
+\begin{itemize}
+	\item{\texttt{stems\_latest.csv} - Stem data subset for the most recent census of each plot}
+	\item{\texttt{stems\_multi.csv} - Stem data subset for plots with multiple censuses}
+	\item{\texttt{plots\_latest.csv} - Plot data subset for the most recent census of each plot}
+	\item{\texttt{plots\_multi.csv} - Plot data subset for plots with multiple censuses}
+	\item{\texttt{plots\_subdiv.csv} - Plot data for 1 ha subdivisions of plots >2 ha}
+	\item{\texttt{polys\_subdiv.shp} - Polygons for 1 ha subdivisions of plots >2 ha}
+	\item{\texttt{plot\_clusters.csv} - Floristic clusters for a subset of the plot data}
+	\item{\texttt{cluster\_dom.csv} - Dominant species per cluster}
+\end{itemize}
+
+\subsection{Nesting and subplots}
+
+Researchers occassionally stratify their sampling effort across a plot, often according to stem diameter classes, to reduce the work required to survey a plot. This stratification is often referred to as `nesting'. See the diagram below for an example of a nested plot. In this example, there are three levels of nesting. Across the whole plot (0.2 ha) stems >10 cm DBH are measured. Within the first level of nesting (N1, 0.1 ha), stems >5 cm DBH are measured, within the second level (N2, 0.05 ha) stems >2 cm DBH, and within the third level (N3, 0.025 ha) stems >1 cm DBH. 
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.8\textwidth]{nested}
+	\caption{Schematic diagram of a nested plot with three levels of nesting.}
+	\label{nested}
+\end{figure}
+
+There are a number of columns in \texttt{plots.csv} which record nesting, prefixed with either \texttt{nested\_}, \texttt{n1}, \texttt{n2} or \texttt{n3}, for different levels of nesting. 
+
+If plots are nested, with variation in sampling effort for trees of different sizes, the Fractional Probability of Inclusion in the \texttt{fpc} column of the stem table describes the sampling effort for each stem. In the example, stems >10 cm DBH are measured across the whole plot, so their \texttt{fpc} is 1.0. Stems >5 cm DBH are measured in an area 20x25 m (0.1 ha), which is half the total plot area, so their \texttt{fpc} is 0.5. Stems >2cm are measured over 0.05 ha, which is a quarter of the total plot area, so their \texttt{fpc} is 0.25, and so on. At present, the SEOSAW dataset only allows up to three levels of nesting, but this may change in the future.
+
+It is important to distinguish between nesting and subplots. Nested plots, as demonstrated above, are smaller parcels within a plot which denote variation in sampling effort. In contrast, subplots are merely administrative sub-divisions of a plot which can help with relocating stems for future censuses, for example. Sampling effort should be the same across all subplots. Below is an example of a plot with four 20x25 m subplots.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.8\textwidth]{subplot}
+	\caption{Schematic diagram of a plot with subplots, each occupying 25\% of the total plot space.}
+	\label{subplot}
+\end{figure}
+
+It is assumed that all subplots have the same dimensions and that subplots are not nested. Columns prefixed with \texttt{subplot\_} describe subplots.
+
+\subsection{Stems or trees}
+
+The ideal data for the SEOSAW dataset is organised so that there is one measurement for each stem during each census, with stems grouped into trees and a permanent tag to identify each stem. Understandably however, not all data matches this ideal, and is dependent on the original data collection protocol. There are a few columns in the plots table which help describe how stem data is organised:
+
+\begin{itemize}
+	\item{\texttt{tags} - Do stems have permanent tags which allow for remeasurement?}
+	\item{\texttt{tag\_tree\_stem} - Are tags applied to each tree, or each stem?}
+	\item{\texttt{meas\_tree\_stem} - Are measurements recorded at the tree or stem level?}
+	\item{\texttt{tree\_diff} - If \texttt{meas\_tree\_stem == `stem'}, were stem measurements grouped into separate trees?}
+\end{itemize}
+
+\subsection{Permanent or one-off plot}
+
+A permanent plot in the SEOSAW dataset is defined as one where trees and new recruits can be measured at a later date. The boundaries of a permanent plot must be clearly identifiable, i.e. with corner posts for a rectangular plot or a central marker for a circular plot. 
+
+Related, in many permanent plots it is possible to track the growth and mortality of individual stems between multiple censuses within a plot. Normally this is achieved through the use of numbered tags, but can alternatively be achieved with a highly accurate grid coordinate system, a differential GPS, or other tagging methods. The \texttt{stem\_timeline\_cont} column records whether the current census can be successfully stem-matched with the previous census. The \texttt{abandoned} column records if a plot has been abandoned, i.e. will not receive any more censuses in the future.
+
+One-off plots are those where only a single census has been made, with no way of exactly identifying plot boundaries or tree identity in the future.
+
+Both permanent and one-off plots are accepted by SEOSAW. The \texttt{permanent} column in the plots table notes whether a plot is permanent or not. 
+
+\subsection{Subdivided large plots}
+
+\texttt{plots\_subdiv.csv} and \texttt{polys\_subdiv.shp} hold data on 1 ha square subdivisions of large plots. Large plots are subdivided to make them more readily comparable with other 1 ha plots in the dataset, and to make them easier to work with when conducting spatial analyses. Plots are only subdivided if a number of conditions are met:
+
+\begin{itemize}
+	\item{Plot is >=2 ha}
+	\item{Plot is rectangular}
+	\item{All plot edges are divisible by 100 m}
+\end{itemize}
+
+Additionally, stems are only assigned to a subdivision if they have grid coordinates in \texttt{x\_grid} and \texttt{y\_grid}. If your stems are located instead by latitude/longitude coordinates, consider using the \texttt{gridCoordGen()} function to approximate grid coordinates originating from the southwest corner of the plot. Subdividing plots is performed by \texttt{largePlotSplit()} in the \texttt{\{seosawr\}} R package.
+
+The \texttt{subdiv} column in the plots table shows whether a plot has been subdivided. The \texttt{subdiv\_id} column in the stems table shows which subdivision a stem has been assigned to. \texttt{subdiv\_id} matches in \texttt{plots\_subdiv.csv} where subdivision-level calculated values (e.g. \texttt{agb\_ha}) are stored. The calculated values are calculated for each census per plot, like \texttt{plots.csv}. If you want only the most recent census for each plot, use \texttt{subsetLatest()}. Subdivision IDs are assigned by appending \texttt{\_S[1-n]} to the plot ID. 
+
+\subsection{Floristic clusters}
+
+A portion of the SEOSAW dataset has been clustered based on Ward's hierarchical clustering method. Data is clustered based on stem abundances per genus in the most recent census per plot. Plots with fewer than 14 stems were excluded from the analysis. Plots with exotic species were also excluded. Data on which cluster each plot is assigned to is found in \texttt{plot\_clusters.csv} with the dominant species per cluster found in \texttt{cluster\_dom.csv}.
+
+\subsection{Taxonomy}
+
+The taxonomic `backbone' of the SEOSAW dataset is the \href{https://africanplantdatabase.ch/}{CJB African plants database} with some notable exceptions, which are discussed below. The dataset also uses the \texttt{taxize::gnr\_resolve()} utility to query multiple databases to provide higher taxonomic rank information. The queried databases are:
+
+\begin{itemize}
+	\item{\href{https://tree.opentreeoflife.org/}{Open Tree of Life Reference Taxonomy}}
+	\item{\href{https://www.ipni.org/}{The International Plant Names Index}}
+	\item{\href{https://www.tropicos.org/}{Tropicos - Missouri Botanical Garden}}
+	\item{\href{https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c}{GBIF Backbone Taxonomy}}
+	\item{\href{https://www.ncbi.nlm.nih.gov/taxonomy}{NCBI}}
+\end{itemize}
+
+The breakup of the \textit{Acacia} genus has been well documented by \citep{Kyalangalilwa2013}. SEOSAW uses their list of synonyms to correct ex-\textit{Acacia} species. The CJB database does not currently acknowledge the \textit{Acacia} split, so queries to CJB retain the \textit{Acacia} name. 
+
+All \textit{Rhus} species in SEOSAW's study region belong to \textit{Searsia} and are transferred in this way. All recent phylogenetic results point to this, but the formal taxonomic work to transfer African \textit{Rhus} species is incomplete.
+
+Previously, \textit{Marquesia} species were placed in the \textit{Trillesanthus} genus, however this has since been reverted. SEOSAW corrects \textit{Trillesanthus} to \textit{Marquesia}.
+
+The latest taxonomy states that \textit{Maytenus} is a strictly Neotropical genus, while acknowledging that African \textit{Maytenus} are a ``problem''. The latest taxonomic literature doesn't tell us what to do with African \textit{Maytenus}. SEOSAW defaults to the CJB taxonomy on \textit{Gymnosporia}/\textit{Maytenus}, but this may change in the future.
+
+There are also some miscellaneous synonym corrections which are maintained throughout the canonical SEOSAW dataset. The vast majority of these corrections reflect previously debunked names which still appear in older datasets.
+
+If a species cannot be identified, it is given the ``indet'' epithet. If only the genus is known, it is recorded as ``\textit{Genus} indet'' (e.g. \textit{Brachystegia} indet). If only the family is known, it is recorded as ``Family indet'' (e.g. Fabaceae indet). As a last resort, if only the local name of the species is known, it is recorded in the \texttt{species\_orig\_local} column. 
+
+\subsection{Biomass}
+
+Estimates of biomass, specifically above-ground woody biomass (AGB) are stored in the \texttt{agb} column in the stems table. Additionally, plot level above-ground woody biomass is stored in the \texttt{agb\_ha} (AGB per hectare) column in the plots table. Biomass is estimated in the SEOSAW dataset by default using the \texttt{chave14()} function, which uses Equation 7 from \citep{Chave2014}. This allometric equation takes into account species wood density, stem diameter and an environmental stress index (E), derived from the plot location.
+
+\subsection{Plot polygons}
+
+Plot outline polygons are provided in \texttt{polys.shp}, for each plot where appropriate location and plot dimensions data is available. For rectangular plots, these polygons are normally created from GPS coordinates taken at each corner and used as vertices when transforming to a closed spatial polygon. 
+
+The SEOSAW region is provided as a spatial data object in the \texttt{\{seosawr\}} R package (\texttt{data(seosaw\_region)}), along with a simplified bounding box of the SEOSAW region (\texttt{data(seosaw\_bbox)}). There is also a useful outline of all countries in Africa (\texttt{data(africa)}).
+
+<<echo=FALSE, fig.cap="The spatial extent of the SEOSAW region shown in green and the SEOSAW bounding box as a blue rectangle, within Africa.">>=
+ggplot() + 
+  geom_sf(data = africa) + 
+  geom_sf(data = seosaw_bbox, fill = NA, colour = "blue") + 
+  geom_sf(data = seosaw_region, fill = "green", alpha = 0.6) +
+  theme_bw()
+@
+
+The SEOSAW region is based largely on White's vegetation map, which defines the locations of savannas and woodlands \citep{White1983}.
+
+A key issue was defining the north-eastern boundary of the SEOSAW region. It is defined here as the borders of Kenya and Uganda, excluding Ethiopia, Somalia, and South Sudan. While the decision to use country boundaries was largely pragmatic, it is backed up by environmental data. The mountainous Ethiopian highlands on the border between Kenya, Ethiopia and Somalia cause quite a clear change in precipitation, probably due them blocking dry Arabian air moving further southwest.
+
+The north-western boundary largely follows the rift valley lakes, with everything to the west of them being excluded. Some areas to the east of the lakes are also excluded as they are classed by White's vegetation map as Congo Forest Transitions and Mosaics.
+
+The south-east of the region is further reduced from White's vegetation map according to the Terrestrial Ecoregions of the World \citep{Dinerstein2017}. White classes some areas as woodland or forest in this area, but for our purposes they are considered too temperate, and are thus excluded from the SEOSAW region.
+
+\subsection{Dataset caveats}
+
+The SEOSAW dataset is aggregated from many individual datasets contributed by researchers around the world. While effort has been made to ensure that datasets are compatible with each other, particularly with respect to stem data like stem \texttt{diam} and \texttt{height}, some pieces of metadata should not be compared among datasets. For example, \texttt{canopy\_cover} is collected with hemispherical photos, different types of densitometer, aerial photos and many other methods. Due to the subjectivity of all these methods, it is not recommended to use this data as a variable in statistical analysis when considering multiple datasets; it should be used only as metadata. 
+
+SEOSAW takes the stance that metadata should be left blank if it is not known, rather than guessed at. This means that many metadata columns consist mainly of \texttt{NA} values. For example, \texttt{charcoal\_harvesting} is left mostly blank because most data originators did not record whether wood collection for charcoal harvesting had occurred in the plot. This also applies to stem data. If for example, the data originator did not record whether stems were located on termite mounds, \texttt{on\_termites} is left as \texttt{NA}, even if it is more likely that most stems were not located on termite mounds.
+
+\section{Contributing data}
+
+Please submit tabular data as \texttt{.csv} (comma-separated values) files if possible. If working in Microsoft Excel or a similar spreadsheet program, there is usually an option to export as \texttt{.csv}. \texttt{.csv} files are preferred as they are simple and store data exactly as entered. \texttt{.xls} or \texttt{.xlsx} files are also acceptable.
+
+Spatial data such as plot outlines are preferred as shapefiles (\texttt{.shp}), though plot corner or plot centre locations as latitude-longitude coordinates, stored in a \texttt{.csv} file are also acceptable. Make sure to describe the Coordinate Reference System (CRS) used for coordinates, WGS84 Latitude-Longitude (EPSG: 4326) is preferred.
+
+Please provide a description of the contents of each file in a separate document. For tabular data, if not using the SEOSAW column definitions, provide a description of the contents of each column. For example, to describe the contents of a column in the stems table containing stem diameter measurements:
+
+\begin{quote}
+	\texttt{S diam} - Stem diameters, measured in centimetres to one decimal place (i.e. to the nearest mm).
+\end{quote}
+
+Provide a description of the methodology used to collect the data in a separate document, especially any plot nested-ness or stratified sampling, as this will determine whether any corrections should be made when calculating plot-level statistics like aboveground biomass.
+
+\subsection{Vital data}
+
+There are many columns which can be filled by data contributors in the stem and plot tables, and you should try to provide data for as many as possible. 
+
+Below is a list of the columns which are absolutely necessary for minimum data quality. Data submitted without all of these columns cannot be added to the SEOSAW dataset. The column names as they appear in the template data tables are shown in brackets:
+
+Plots table:
+
+\begin{itemize}
+	\item{\texttt{plot\_name} - Plot name, for matching with plot names in stems table}
+	\item{\texttt{longitude\_of\_centre}, \texttt{latitude\_of\_centre} - Plot longitude and latitude coordinates}
+	\item{\texttt{plot\_shape}, \texttt{plot\_length}, \texttt{plot\_width}, or \texttt{plot\_radius} - Plot shape and dimensions}
+	\item{\texttt{prinv} - The Primary Investigator of the data}
+	\item{\texttt{nested\_1}, \texttt{n1\_*}, etc. - Information on plot nested-ness, including nested plot dimensions and stem size thresholds.}
+\end{itemize}
+
+Stems table: 
+
+\begin{itemize}
+	\item{\texttt{plot\_name} - Plot name, for matching with plot names in plots table}
+	\item{\texttt{species\_orig\_binom} or \texttt{species\_orig\_local} - Tree species name}
+	\item{\texttt{diam} - Tree diameter}
+	\item{\texttt{pom} - Height of diameter measurement}
+	\item{\texttt{fpc} - Fractional Probability of Inclusion. If plots are nested with varying sampling effort within plots for stems of different size, the probability of a stem this size occurring in the whole plot, based on the proportional area of the nested plot. If plots are not nested, \texttt{fpc} = 1.}
+\end{itemize}
+
+If only a few entries from each of these columns is missing due to mistakes during fieldwork, don't worry, you data is probably still usable, but try to fill as many empty values as possible.
+
+\subsection{Additional data} 
+
+Please provide \textit{any} metadata you think might be even slightly useful to gain a more detailed understanding of your plots. For example, if you have meteorological data for a nearby weather station, herbivore dung counts, photos of the plots, land use history timelines, soil core profiles, or fire management notes. As with the plot and stem data, try to provide a detailed description of the data, the methodology used to collect the data, and any caveats.
+
+\section{Dataset table columns} 
+\label{col}
+
+This section provides a comprehensive description of every column found in the SEOSAW dataset, across the plots table, stems table, small stems table, coarse woody debris table, and ground layer table.
+
+<<echo=FALSE>>=
+plot_col <- read.csv("../../columns/plot_columns.csv")
+
+kable(plot_col[,c("column", "class", "description", "units", "example")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  linesep = "",
+  col.names = c("Column", "Class", "Description", "Units", "Example"),
+  caption = "Column names for plots table.") %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center") %>%
+  column_spec(c(3,5), width = c("30em", "10em")) %>%
+  landscape()
+@
+
+<<echo=FALSE>>=
+stem_col <- read.csv("../../columns/stem_columns.csv")
+
+kable(stem_col[,c("column", "class", "description", "units", "example")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  linesep = "",
+  col.names = c("Column", "Class", "Description", "Units", "Example"),
+  caption = "Column names for stems table.") %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center") %>%
+  column_spec(c(3,5), width = c("30em", "10em")) %>%
+  landscape()
+@
+
+<<echo=FALSE>>=
+small_stem_col <- read.csv("../../columns/small_stem_columns.csv")
+
+kable(small_stem_col[,c("column", "class", "description", "units", "example")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  linesep = "",
+  col.names = c("Column", "Class", "Description", "Units", "Example"),
+  caption = "Column names for small stems table.") %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center") %>%
+  column_spec(c(3,5), width = c("30em", "10em")) %>%
+  landscape()
+@
+
+<<echo=FALSE>>=
+cwd_col <- read.csv("../../columns/cwd_columns.csv")
+
+kable(cwd_col[,c("column", "class", "description", "units", "example")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  linesep = "",
+  col.names = c("Column", "Class", "Description", "Units", "Example"),
+  caption = "Column names for coarse woody debris table.") %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center") %>%
+  column_spec(c(3,5), width = c("30em", "10em")) %>%
+  landscape()
+@
+
+<<echo=FALSE>>=
+ground_layer_col <- read.csv("../../columns/ground_layer_columns.csv")
+
+kable(ground_layer_col[,c("column", "class", "description", "units", "example")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  linesep = "",
+  col.names = c("Column", "Class", "Description", "Units", "Example"),
+  caption = "Column names for ground layer biomass table.") %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center") %>%
+  column_spec(c(3,5), width = c("30em", "10em")) %>%
+  landscape()
+@
+
+\printbibliography
+
+\end{document}
+
+

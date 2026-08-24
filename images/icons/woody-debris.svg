@@ -1,0 +1,22 @@
+<svg class="sp-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="woody debris icon">
+<style>
+  .sp-ico{ --seosaw-ink:#2b3038; --seosaw-accent:#bf6a27; --seosaw-muted:#aeb4be; --seosaw-mass:#2b3038; }
+  .sp-ico .ink  { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .fine { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .mass { fill:var(--seosaw-mass,#2b3038); fill-opacity:.07; stroke:none; }
+  .sp-ico .dot  { fill:var(--seosaw-ink,#2b3038); }
+  .sp-ico .flame{ fill:var(--seosaw-accent,#bf6a27); fill-opacity:.16; stroke:var(--seosaw-accent,#bf6a27); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .ember{ fill:var(--seosaw-accent,#bf6a27); }
+  .sp-ico.muted .ink, .sp-ico.muted .fine { stroke:var(--seosaw-muted,#aeb4be); }
+  .sp-ico.muted .mass { fill:var(--seosaw-muted,#aeb4be); }
+</style>
+<g transform="translate(60,96) scale(0.8)">
+    <path class="mass" d="M-36,-26 L46,-24 Q56,-13 46,-2 L-36,0 Z"/>
+    <path class="ink"  d="M-36,-26 L46,-24 Q56,-13 46,-2 L-36,0"/>
+    <ellipse class="mass" cx="-36" cy="-13" rx="9" ry="13"/>
+    <ellipse class="ink"  cx="-36" cy="-13" rx="9" ry="13"/>
+    <ellipse class="fine" cx="-36" cy="-13" rx="4.5" ry="7"/>
+    <path class="fine" d="M-26,-20 Q10,-18 42,-18"/>
+    <path class="fine" d="M-26,-6 Q10,-8 42,-9"/>
+</g>
+</svg>

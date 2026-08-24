@@ -1,0 +1,21 @@
+<svg class="sp-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="small stems icon">
+<style>
+  .sp-ico{ --seosaw-ink:#2b3038; --seosaw-accent:#bf6a27; --seosaw-muted:#aeb4be; --seosaw-mass:#2b3038; }
+  .sp-ico .ink  { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .fine { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .mass { fill:var(--seosaw-mass,#2b3038); fill-opacity:.07; stroke:none; }
+  .sp-ico .dot  { fill:var(--seosaw-ink,#2b3038); }
+  .sp-ico .flame{ fill:var(--seosaw-accent,#bf6a27); fill-opacity:.16; stroke:var(--seosaw-accent,#bf6a27); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp-ico .ember{ fill:var(--seosaw-accent,#bf6a27); }
+  .sp-ico.muted .ink, .sp-ico.muted .fine { stroke:var(--seosaw-muted,#aeb4be); }
+  .sp-ico.muted .mass { fill:var(--seosaw-muted,#aeb4be); }
+</style>
+<g transform="translate(60,96) scale(0.8)">
+    <path class="mass" d="M-34,-34 C-42,-58 -22,-78 0,-72 C22,-80 44,-58 34,-34 C40,-20 20,-15 0,-20 C-20,-15 -40,-20 -34,-34 Z"/>
+    <path class="ink"  d="M-34,-34 C-42,-58 -22,-78 0,-72 C22,-80 44,-58 34,-34 C40,-20 20,-15 0,-20 C-20,-15 -40,-20 -34,-34 Z"/>
+    <path class="ink" d="M-12,-22 L-13,0"/>
+    <path class="ink" d="M-4,-20 L-4,0"/>
+    <path class="ink" d="M5,-21 L6,0"/>
+    <path class="ink" d="M12,-23 L13,0"/>
+</g>
+</svg>

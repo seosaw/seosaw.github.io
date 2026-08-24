@@ -1,0 +1,105 @@
+<svg id="seosaw-protocols" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1260 350" width="100%" height="auto"
+     font-family="var(--seosaw-label-font)" role="img"
+     aria-label="SEOSAW measurement protocols">
+  <title>SEOSAW measurement protocols</title>
+  <style>
+    #seosaw-protocols{
+      --seosaw-ink:#2b3038; --seosaw-accent:#bf6a27; --seosaw-muted:#aeb4be;
+      --seosaw-base:#d4d8e0; --seosaw-mass:#2b3038;
+      --seosaw-label-font:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      --seosaw-label-size:17px;
+    }
+    #seosaw-protocols .ink  { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    #seosaw-protocols .fine { fill:none; stroke:var(--seosaw-ink,#2b3038); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+    #seosaw-protocols .mass { fill:var(--seosaw-mass,#2b3038); fill-opacity:.07; stroke:none; }
+    #seosaw-protocols .dot  { fill:var(--seosaw-ink,#2b3038); }
+    #seosaw-protocols .flame{ fill:var(--seosaw-accent,#bf6a27); fill-opacity:.16; stroke:var(--seosaw-accent,#bf6a27); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    #seosaw-protocols .ember{ fill:var(--seosaw-accent,#bf6a27); }
+    #seosaw-protocols .base { fill:none; stroke:var(--seosaw-base,#d4d8e0); stroke-width:1.5; }
+    #seosaw-protocols .tick { fill:none; stroke:var(--seosaw-base,#d4d8e0); stroke-width:1.5; }
+    #seosaw-protocols .label{ fill:var(--seosaw-ink,#2b3038); font-size:var(--seosaw-label-size,17px); text-anchor:middle; letter-spacing:.3px; }
+    #seosaw-protocols .sub  { fill:var(--seosaw-muted,#aeb4be); font-size:13px; font-style:italic; text-anchor:middle; }
+    #seosaw-protocols .wip .ink, #seosaw-protocols .wip .fine { stroke:var(--seosaw-muted,#aeb4be); }
+    #seosaw-protocols .wip .mass { fill:var(--seosaw-muted,#aeb4be); }
+    #seosaw-protocols .wip .label{ fill:var(--seosaw-muted,#aeb4be); }
+  </style>
+  <line class="base" x1="40" y1="250" x2="1220" y2="250"/>
+  <g class="tick">
+    <line x1="90" y1="250" x2="90" y2="258"/>
+    <line x1="270" y1="250" x2="270" y2="258"/>
+    <line x1="450" y1="250" x2="450" y2="258"/>
+    <line x1="630" y1="250" x2="630" y2="258"/>
+    <line x1="810" y1="250" x2="810" y2="258"/>
+    <line x1="990" y1="250" x2="990" y2="258"/>
+    <line x1="1170" y1="250" x2="1170" y2="258"/>
+  </g>
+  <g transform="translate(90,250)">
+    <path class="mass" d="M-66,-94 C-60,-112 -32,-118 0,-116 C32,-118 60,-112 66,-94 C40,-99 -40,-99 -66,-94 Z"/>
+    <path class="ink"  d="M-66,-94 C-60,-112 -32,-118 0,-116 C32,-118 60,-112 66,-94 C40,-99 -40,-99 -66,-94 Z"/>
+    <path class="ink"  d="M0,0 L0,-62"/>
+    <path class="ink"  d="M0,-62 L0,-92"/>
+    <path class="ink"  d="M0,-62 L-30,-90"/>
+    <path class="ink"  d="M0,-62 L30,-90"/>
+    <path class="ink"  d="M0,-72 L-13,-92"/>
+    <path class="ink"  d="M0,-72 L13,-92"/>
+    <text class="label" y="48">Trees</text>
+  </g>
+  <g transform="translate(270,250)">
+    <path class="ink" d="M-12,0 Q0,-5 12,0"/>
+    <path class="ink" d="M-3,-3 C-12,-22 -17,-38 -22,-54"/>
+    <path class="ink" d="M-2,-3 C-6,-24 -8,-42 -10,-62"/>
+    <path class="ink" d="M0,-3 C-1,-30 -1,-52 0,-70"/>
+    <path class="ink" d="M2,-3 C7,-24 9,-40 12,-58"/>
+    <path class="ink" d="M3,-3 C11,-22 16,-34 21,-50"/>
+    <text class="label" y="48">Ground layer</text>
+  </g>
+  <g transform="translate(450,250)">
+    <path class="mass" d="M-34,-34 C-42,-58 -22,-78 0,-72 C22,-80 44,-58 34,-34 C40,-20 20,-15 0,-20 C-20,-15 -40,-20 -34,-34 Z"/>
+    <path class="ink"  d="M-34,-34 C-42,-58 -22,-78 0,-72 C22,-80 44,-58 34,-34 C40,-20 20,-15 0,-20 C-20,-15 -40,-20 -34,-34 Z"/>
+    <path class="ink" d="M-12,-22 L-13,0"/>
+    <path class="ink" d="M-4,-20 L-4,0"/>
+    <path class="ink" d="M5,-21 L6,0"/>
+    <path class="ink" d="M12,-23 L13,0"/>
+    <text class="label" y="48">Small stems</text>
+  </g>
+  <g transform="translate(630,250)">
+    <path class="flame" d="M0,-2 C-22,-22 -26,-52 -8,-80 C-10,-62 3,-60 3,-76 C7,-94 -2,-106 0,-120 C18,-104 28,-74 22,-46 C19,-26 12,-10 0,-2 Z"/>
+    <path class="ember" d="M0,-14 C-9,-28 -9,-46 0,-60 C9,-46 9,-28 0,-14 Z"/>
+    <text class="label" y="48">Disturbance</text>
+  </g>
+  <g transform="translate(810,250)">
+    <path class="mass" d="M-30,1 L30,1 L30,20 Q30,24 26,24 L-26,24 Q-30,24 -30,20 Z"/>
+    <path class="ink"  d="M-30,1 L30,1 L30,20 Q30,24 26,24 L-26,24 Q-30,24 -30,20 Z"/>
+    <path class="fine" d="M-30,9 L30,9"/>
+    <path class="fine" d="M-30,16 L30,16"/>
+    <circle class="dot" cx="-16" cy="5" r="1.5"/>
+    <circle class="dot" cx="6"  cy="5" r="1.5"/>
+    <circle class="dot" cx="18" cy="6" r="1.5"/>
+    <circle class="dot" cx="-8" cy="13" r="1.5"/>
+    <circle class="dot" cx="13" cy="13" r="1.5"/>
+    <circle class="dot" cx="0"  cy="19" r="1.5"/>
+    <text class="label" y="48">Soil</text>
+  </g>
+  <g transform="translate(990,250)">
+    <path class="mass" d="M-36,-26 L46,-24 Q56,-13 46,-2 L-36,0 Z"/>
+    <path class="ink"  d="M-36,-26 L46,-24 Q56,-13 46,-2 L-36,0"/>
+    <ellipse class="mass" cx="-36" cy="-13" rx="9" ry="13"/>
+    <ellipse class="ink"  cx="-36" cy="-13" rx="9" ry="13"/>
+    <ellipse class="fine" cx="-36" cy="-13" rx="4.5" ry="7"/>
+    <path class="fine" d="M-26,-20 Q10,-18 42,-18"/>
+    <path class="fine" d="M-26,-6 Q10,-8 42,-9"/>
+    <text class="label" y="48">Woody debris</text>
+  </g>
+  <g transform="translate(1170,250)" class="wip">
+    <circle class="mass" cx="0" cy="-90" r="11"/>
+    <circle class="ink"  cx="0" cy="-90" r="11"/>
+    <path class="ink" d="M0,-79 L-1,-46"/>
+    <path class="ink" d="M-0.5,-70 L-15,-52"/>
+    <path class="ink" d="M-0.5,-68 L13,-56"/>
+    <path class="ink" d="M-1,-46 L-15,-6 L-19,0"/>
+    <path class="ink" d="M-1,-46 L11,-10 L15,0"/>
+    <text class="label" y="48">Social</text>
+    <text class="sub" y="64">in progress</text>
+  </g>
+</svg>
